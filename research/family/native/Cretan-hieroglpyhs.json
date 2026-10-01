@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "5.2.6",
+  "checked": "2026-10-01",
+  "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
+  "committed_evidence_counts": {
+    "catalogue_identities": 331,
+    "critical_readings": 5,
+    "source_checked_occurrence_objects": 2,
+    "independently_reviewed_objects": 0
+  },
+  "scientific_results": {
+    "structural_analysis": "BLOCKED",
+    "comparative_analysis": "BLOCKED"
+  },
+  "evidence": [
+    {
+      "path": "research/experiment-gates.json",
+      "sha256": "97e7a32284023187c6c0039df917fed4357c8f125baa27343eccfde840f16e83"
+    },
+    {
+      "path": "corpus/manifest.json",
+      "sha256": "26e4fe83d4844425165bd876882fde09f75d4c7fd07229b42d60e3dfd1baacdc"
+    },
+    {
+      "path": "analysis/5.2.1_source-access-audit.json",
+      "sha256": "becb3713b1645d3027346e0d85f5c492f43d54c2afb86290e9d6db7427556b07"
+    },
+    {
+      "path": "corpus/critical-readings.json",
+      "sha256": "f9afc20f153ee5b59743ce174cacbf922ce0db31c6c68abab8fdbcd946466122"
+    },
+    {
+      "path": "analysis/chic-primary-pilot-v1.json",
+      "sha256": "dc21045b6adb2cbf3aede7afe51bc58745a43fab60dfa0f81d654c1f4f382829"
+    },
+    {
+      "path": "bibliography/source-access.json",
+      "sha256": "2652fc00a2afc3765c56387f7ff7cc68e3199c36905680b469cde92bbde4f0ef"
+    },
+    {
+      "path": "scripts/validate_current_state.py",
+      "sha256": "1a2e6f5c182ea367de7898be1762a03acddd54b03ebd64aa6f1060b577a5d613"
+    },
+    {
+      "path": "research/family-readiness-v1.json",
+      "sha256": "e17625716660da70731459252e2b1bbca429d7183640b79f0733162313148b3e"
+    },
+    {
+      "path": "analysis/evidence-index-v1.json",
+      "sha256": "60eabaa831e08c471dbb47b5f84494f7879b5a133622c7b3081b5e5c326274eb"
+    },
+    {
+      "path": "analysis/workbench-acceptance-v1.json",
+      "sha256": "574a03a8f07c07e76afdf48cf736238a175f9d09d9513498757f688d42d528b8"
+    },
+    {
+      "path": "workbench/evidence.html",
+      "sha256": "1ca4b5c7af5b6fa62ac2d655c9e7f6eef356f57d606b2df81e5afc6b3f125655"
+    },
+    {
+      "path": "research/workbench-milestone-v1.json",
+      "sha256": "6e73523259c9131bdda1f2237a120f59a402be8294fb2026076cd0e67c13a44e"
+    },
+    {
+      "path": "scripts/evidence_workbench.py",
+      "sha256": "682a350d9457b1e88ff3a3c4d1263880e4fdf98e1012578580b7d2b9d877c916"
+    },
+    {
+      "path": "scripts/test_evidence_workbench.py",
+      "sha256": "071d52a7996556919876d35182f2fdcc1a4e46a6ad60c97c3508c639b259c1e4"
+    },
+    {
+      "path": "scripts/test_evidence_browser.cjs",
+      "sha256": "8c007db6b2a96d7f686e55d7dd3e59cf05a8a9951d15921509e88c35fd3af091"
+    },
+    {
+      "path": "workbench/evidence-template.html",
+      "sha256": "009519821451a9b8d90eb42e46c12e5c7b5f834d1b2fb5825872d94a1d3f3762"
+    },
+    {
+      "path": "research/workbench-guide.md",
+      "sha256": "fdcca46b614df3eb0f936910cd033944960ab507b128d287e37c3ae03d1ca856"
+    },
+    {
+      "path": "scripts/release_change_ledger.py",
+      "sha256": "e6a5c228421531c00fde3493b8f14606126447f5f561ddf226045395c50b8cee"
+    },
+    {
+      "path": "scripts/test_release_change_ledger.py",
+      "sha256": "268230c02e2555159362e6312563a65904771d57b2c7bb32cfbfc9562acc4c94"
+    },
+    {
+      "path": "research/correction-tracking.md",
+      "sha256": "24d551d7de6d497145ae30670cd8d29cfcc7172c329abd963863ae5dfed49e15"
+    },
+    {
+      "path": ".github/workflows/release-change-ledger.yml",
+      "sha256": "acad59395f7ff8b4353bc6eea69dfec6d8e6b342e08df87617c897dcd27d8a1f"
+    }
+  ],
+  "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
+  "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
+  "summary": "Adds five printed CHIC1996 transnumerations on two Knossos medallions from public publisher pages 91 and 93, with source-image digests and exact locators. Literal X marks, hyphenated groups and numerical notation remain preserved. This H-series convenience pilot has zero independent reviews; representative and comparative experiments remain blocked."
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite the software snapshot and the BBAW edition/source links in NOTICE."
+title: "Eteocypriot: source-attributed components and research toolkit"
+type: software
+version: 1.0.0
+date-released: 2026-10-01
+authors:
+  - name: "Eteocypriot corpus contributors"
+repository-code: "https://github.com/hawkinsnick/Eteocypriot"
+license: MIT
+abstract: "A reproducible bounded snapshot of attributed Eteocypriot source components. Edition data retain CC BY 4.0. Exhaustive coverage, independent epigraphic review and decipherment are not claimed."

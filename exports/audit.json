@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "scope": "26 candidate entries from the frozen IG XV 1 snapshot, not the entire Eteocypriot corpus",
+  "candidate_entries": 26,
+  "parsed_entries": 25,
+  "quarantined_entries": [
+    "IG XV 1, 150"
+  ],
+  "source_attributed_eteocypriot_entries": 17,
+  "source_attributed_eteocypriot_components": 18,
+  "uncertain_components": 8,
+  "greek_parallel_components": 3,
+  "unassigned_components": 0,
+  "component_records": 29,
+  "independently_reviewed_records": 0,
+  "distinct_objects": null,
+  "independent_witnesses": null,
+  "whole_corpus_coverage_fraction": null,
+  "gates": {
+    "source_snapshot": "READY_WITH_QUARANTINE",
+    "source_attributed_component_subset": "READY_SCOPED",
+    "whole_corpus_frequency": "BLOCKED",
+    "translation_or_decipherment": "BLOCKED",
+    "linguistic_gold": "BLOCKED",
+    "cross_script_phonetic_inference": "BLOCKED",
+    "exhaustive_critical_edition": "BLOCKED"
+  }
+}

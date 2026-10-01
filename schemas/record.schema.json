@@ -1,0 +1,399 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Eteocypriot source entry and components 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "source_id",
+    "record_unit",
+    "object_id",
+    "independent_witness_id",
+    "title",
+    "site",
+    "date_source",
+    "date_normalized",
+    "support",
+    "provenance_source",
+    "bibliography_source",
+    "components",
+    "modern_source_translations",
+    "greek_source_interpretations",
+    "source",
+    "review"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "record_unit": {
+      "const": "digital_edition_entry"
+    },
+    "object_id": {
+      "type": "null"
+    },
+    "independent_witness_id": {
+      "type": "null"
+    },
+    "title": {
+      "type": "string"
+    },
+    "site": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date_normalized": {
+      "type": "null"
+    },
+    "support": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "provenance_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "bibliography_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_part",
+          "source_locator",
+          "language",
+          "source_language_evidence",
+          "script",
+          "representation",
+          "text",
+          "xml",
+          "line_labels",
+          "direction_markers",
+          "tokens",
+          "independent_epigraphic_review"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_part": {
+            "type": "string"
+          },
+          "source_locator": {
+            "type": "string"
+          },
+          "language": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "code",
+              "status",
+              "basis",
+              "analysis_eligible"
+            ],
+            "properties": {
+              "code": {
+                "enum": [
+                  "eteocypriot",
+                  "uncertain",
+                  "grc",
+                  "und"
+                ]
+              },
+              "status": {
+                "enum": [
+                  "source_attributed",
+                  "source_attributed_uncertain",
+                  "source_attributed_parallel",
+                  "unassigned"
+                ]
+              },
+              "basis": {
+                "type": "string"
+              },
+              "analysis_eligible": {
+                "type": "boolean"
+              }
+            }
+          },
+          "source_language_evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "locator",
+                "language",
+                "text"
+              ],
+              "properties": {
+                "locator": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "script": {
+            "enum": [
+              "Cprt",
+              "Grek"
+            ]
+          },
+          "representation": {
+            "enum": [
+              "published_alphabetic_greek",
+              "published_syllabic_transliteration"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "xml": {
+            "type": "string"
+          },
+          "line_labels": {
+            "type": "array",
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "direction_markers": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "←",
+                "→"
+              ]
+            }
+          },
+          "tokens": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "raw",
+                "start",
+                "end",
+                "status",
+                "syllabic_labels",
+                "unicode_interop_ids"
+              ],
+              "properties": {
+                "raw": {
+                  "type": "string"
+                },
+                "start": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "end": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "status": {
+                  "enum": [
+                    "conservative_clear",
+                    "excluded_editorial_or_unparsed"
+                  ]
+                },
+                "syllabic_labels": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "unicode_interop_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "independent_epigraphic_review": {
+            "const": false
+          }
+        }
+      }
+    },
+    "modern_source_translations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "language",
+          "responsibility",
+          "text",
+          "xml"
+        ],
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "responsibility": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "xml": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "greek_source_interpretations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "language",
+          "responsibility",
+          "text",
+          "xml"
+        ],
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "responsibility": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "xml": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "authority",
+        "url",
+        "xml_url",
+        "raw_path",
+        "sha256",
+        "accessed",
+        "license",
+        "license_url",
+        "transport_snapshot",
+        "modifications"
+      ],
+      "properties": {
+        "authority": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "xml_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "raw_path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "accessed": {
+          "type": "string",
+          "format": "date"
+        },
+        "license": {
+          "const": "CC-BY-4.0"
+        },
+        "license_url": {
+          "const": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        "transport_snapshot": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "repository",
+            "commit",
+            "path"
+          ],
+          "properties": {
+            "repository": {
+              "type": "string"
+            },
+            "commit": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{40}$"
+            },
+            "path": {
+              "type": "string"
+            }
+          }
+        },
+        "modifications": {
+          "type": "string"
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_fidelity",
+        "independent_epigraphic_review"
+      ],
+      "properties": {
+        "source_fidelity": {
+          "const": "automated_replay"
+        },
+        "independent_epigraphic_review": {
+          "const": false
+        }
+      }
+    }
+  }
+}

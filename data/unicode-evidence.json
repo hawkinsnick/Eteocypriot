@@ -1,0 +1,228 @@
+{
+  "version": "14.0.0",
+  "url": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt",
+  "accessed": "2026-10-01",
+  "download_sha256": "36018e68657fdcb3485f636630ffe8c8532e01c977703d2803f5b89d6c5feafb",
+  "characters": [
+    {
+      "codepoint": "U+10800",
+      "name": "CYPRIOT SYLLABLE A"
+    },
+    {
+      "codepoint": "U+10801",
+      "name": "CYPRIOT SYLLABLE E"
+    },
+    {
+      "codepoint": "U+10802",
+      "name": "CYPRIOT SYLLABLE I"
+    },
+    {
+      "codepoint": "U+10803",
+      "name": "CYPRIOT SYLLABLE O"
+    },
+    {
+      "codepoint": "U+10804",
+      "name": "CYPRIOT SYLLABLE U"
+    },
+    {
+      "codepoint": "U+10805",
+      "name": "CYPRIOT SYLLABLE JA"
+    },
+    {
+      "codepoint": "U+10808",
+      "name": "CYPRIOT SYLLABLE JO"
+    },
+    {
+      "codepoint": "U+1080A",
+      "name": "CYPRIOT SYLLABLE KA"
+    },
+    {
+      "codepoint": "U+1080B",
+      "name": "CYPRIOT SYLLABLE KE"
+    },
+    {
+      "codepoint": "U+1080C",
+      "name": "CYPRIOT SYLLABLE KI"
+    },
+    {
+      "codepoint": "U+1080D",
+      "name": "CYPRIOT SYLLABLE KO"
+    },
+    {
+      "codepoint": "U+1080E",
+      "name": "CYPRIOT SYLLABLE KU"
+    },
+    {
+      "codepoint": "U+1080F",
+      "name": "CYPRIOT SYLLABLE LA"
+    },
+    {
+      "codepoint": "U+10810",
+      "name": "CYPRIOT SYLLABLE LE"
+    },
+    {
+      "codepoint": "U+10811",
+      "name": "CYPRIOT SYLLABLE LI"
+    },
+    {
+      "codepoint": "U+10812",
+      "name": "CYPRIOT SYLLABLE LO"
+    },
+    {
+      "codepoint": "U+10813",
+      "name": "CYPRIOT SYLLABLE LU"
+    },
+    {
+      "codepoint": "U+10814",
+      "name": "CYPRIOT SYLLABLE MA"
+    },
+    {
+      "codepoint": "U+10815",
+      "name": "CYPRIOT SYLLABLE ME"
+    },
+    {
+      "codepoint": "U+10816",
+      "name": "CYPRIOT SYLLABLE MI"
+    },
+    {
+      "codepoint": "U+10817",
+      "name": "CYPRIOT SYLLABLE MO"
+    },
+    {
+      "codepoint": "U+10818",
+      "name": "CYPRIOT SYLLABLE MU"
+    },
+    {
+      "codepoint": "U+10819",
+      "name": "CYPRIOT SYLLABLE NA"
+    },
+    {
+      "codepoint": "U+1081A",
+      "name": "CYPRIOT SYLLABLE NE"
+    },
+    {
+      "codepoint": "U+1081B",
+      "name": "CYPRIOT SYLLABLE NI"
+    },
+    {
+      "codepoint": "U+1081C",
+      "name": "CYPRIOT SYLLABLE NO"
+    },
+    {
+      "codepoint": "U+1081D",
+      "name": "CYPRIOT SYLLABLE NU"
+    },
+    {
+      "codepoint": "U+1081E",
+      "name": "CYPRIOT SYLLABLE PA"
+    },
+    {
+      "codepoint": "U+1081F",
+      "name": "CYPRIOT SYLLABLE PE"
+    },
+    {
+      "codepoint": "U+10820",
+      "name": "CYPRIOT SYLLABLE PI"
+    },
+    {
+      "codepoint": "U+10821",
+      "name": "CYPRIOT SYLLABLE PO"
+    },
+    {
+      "codepoint": "U+10822",
+      "name": "CYPRIOT SYLLABLE PU"
+    },
+    {
+      "codepoint": "U+10823",
+      "name": "CYPRIOT SYLLABLE RA"
+    },
+    {
+      "codepoint": "U+10824",
+      "name": "CYPRIOT SYLLABLE RE"
+    },
+    {
+      "codepoint": "U+10825",
+      "name": "CYPRIOT SYLLABLE RI"
+    },
+    {
+      "codepoint": "U+10826",
+      "name": "CYPRIOT SYLLABLE RO"
+    },
+    {
+      "codepoint": "U+10827",
+      "name": "CYPRIOT SYLLABLE RU"
+    },
+    {
+      "codepoint": "U+10828",
+      "name": "CYPRIOT SYLLABLE SA"
+    },
+    {
+      "codepoint": "U+10829",
+      "name": "CYPRIOT SYLLABLE SE"
+    },
+    {
+      "codepoint": "U+1082A",
+      "name": "CYPRIOT SYLLABLE SI"
+    },
+    {
+      "codepoint": "U+1082B",
+      "name": "CYPRIOT SYLLABLE SO"
+    },
+    {
+      "codepoint": "U+1082C",
+      "name": "CYPRIOT SYLLABLE SU"
+    },
+    {
+      "codepoint": "U+1082D",
+      "name": "CYPRIOT SYLLABLE TA"
+    },
+    {
+      "codepoint": "U+1082E",
+      "name": "CYPRIOT SYLLABLE TE"
+    },
+    {
+      "codepoint": "U+1082F",
+      "name": "CYPRIOT SYLLABLE TI"
+    },
+    {
+      "codepoint": "U+10830",
+      "name": "CYPRIOT SYLLABLE TO"
+    },
+    {
+      "codepoint": "U+10831",
+      "name": "CYPRIOT SYLLABLE TU"
+    },
+    {
+      "codepoint": "U+10832",
+      "name": "CYPRIOT SYLLABLE WA"
+    },
+    {
+      "codepoint": "U+10833",
+      "name": "CYPRIOT SYLLABLE WE"
+    },
+    {
+      "codepoint": "U+10834",
+      "name": "CYPRIOT SYLLABLE WI"
+    },
+    {
+      "codepoint": "U+10835",
+      "name": "CYPRIOT SYLLABLE WO"
+    },
+    {
+      "codepoint": "U+10837",
+      "name": "CYPRIOT SYLLABLE XA"
+    },
+    {
+      "codepoint": "U+10838",
+      "name": "CYPRIOT SYLLABLE XE"
+    },
+    {
+      "codepoint": "U+1083C",
+      "name": "CYPRIOT SYLLABLE ZA"
+    },
+    {
+      "codepoint": "U+1083F",
+      "name": "CYPRIOT SYLLABLE ZO"
+    }
+  ]
+}

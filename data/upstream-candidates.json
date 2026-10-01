@@ -1,0 +1,602 @@
+{
+  "stage": "0.1 acquisition preparation, not an Eteocypriot corpus release",
+  "source_snapshot_commit": "e3d9e027e9c61e742e4a82fee07e2266595e6a69",
+  "scope": "Eteocypriot-labelled and uncertain entries in the frozen IG XV 1 snapshot only",
+  "candidate_entries": 26,
+  "source_labelled_entries": 18,
+  "uncertain_entries": 7,
+  "quarantined_entries": 1,
+  "component_language_assignments_verified": 0,
+  "whole_corpus_coverage": null,
+  "cross_project_identity_rule": "The same authority/source_id in two projects is the same source entry, not an independent witness.",
+  "candidates": [
+    {
+      "candidate_id": "ETEC-IGXV1-1",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 1"
+      },
+      "source_title": "Weihinschrift, eteokyprisch und griechisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%201",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%201",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/1.xml",
+      "raw_sha256": "25c6d73d6285d22a286d06e9e8df17bacc8c3946208dc2c0aa543959b09c4ebb",
+      "license": "CC-BY-4.0",
+      "source_parts": [
+        {
+          "n": "I",
+          "subtype": "fragment",
+          "language_assignment": null
+        },
+        {
+          "n": "II",
+          "subtype": "fragment",
+          "language_assignment": null
+        }
+      ],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-2",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 2"
+      },
+      "source_title": "Weihinschrift, eteokyprisch und griechisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%202",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%202",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/2.xml",
+      "raw_sha256": "8945c6e76279de08ad26cbcb94097359aade3b6e24899ab8f9968fe2edaf63d7",
+      "license": "CC-BY-4.0",
+      "source_parts": [
+        {
+          "n": "I",
+          "subtype": "fragment",
+          "language_assignment": null
+        },
+        {
+          "n": "II",
+          "subtype": "fragment",
+          "language_assignment": null
+        }
+      ],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-3",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 3"
+      },
+      "source_title": "Inschrift, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%203",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%203",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/3.xml",
+      "raw_sha256": "486fb8cdc32b94eb3a7d1c2342ebf10e64beece1a7c4dba788681005905dcb43",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-4",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 4"
+      },
+      "source_title": "Inschrift, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%204",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%204",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/4.xml",
+      "raw_sha256": "3fef3fade82fdbb12212855089619e4410ded0d08c1fdfde9bb2cb2f1bba0dea",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-5",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 5"
+      },
+      "source_title": "Inschrift, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%205",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%205",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/5.xml",
+      "raw_sha256": "2fa4611f1a2cdc6a17a3c0dd75d74e06f9d5648f63d1f515e91ec3973e7409e9",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-6",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 6"
+      },
+      "source_title": "Ehreninschrift?, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%206",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%206",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/6.xml",
+      "raw_sha256": "0b34e1757a464c48ade7b15d824ceacefeb1285835c097a54819fbeb470142d9",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-7",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 7"
+      },
+      "source_title": "Ehreninschrift, eteokyprisch und griechisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%207",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%207",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/7.xml",
+      "raw_sha256": "b1dee888e837838cf7ff8e8cdf95b2669bd433dc57c98289453f3bdf6b64c5a5",
+      "license": "CC-BY-4.0",
+      "source_parts": [
+        {
+          "n": "I",
+          "subtype": "fragment",
+          "language_assignment": null
+        },
+        {
+          "n": "II",
+          "subtype": "fragment",
+          "language_assignment": null
+        }
+      ],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-8",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 8"
+      },
+      "source_title": "Inschrift, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%208",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%208",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/8.xml",
+      "raw_sha256": "745805277ad7729515dbd0b7cfa012a49ff3eb46e6b3ec2906785552ee6bde09",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-9",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 9"
+      },
+      "source_title": "Inschrift, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%209",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%209",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/9.xml",
+      "raw_sha256": "f050a6c81423e6030eecf111b3ad71223d9fe1714cdc020a8d5b2124409aa4f7",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-10",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 10"
+      },
+      "source_title": "Inschrift, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%2010",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2010",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/10.xml",
+      "raw_sha256": "a0a1521659d95350c7fa20ed570310a8fe6ee4f9622543bee99b6cd7ad089b73",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-11",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 11"
+      },
+      "source_title": "Inschrift, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%2011",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2011",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/11.xml",
+      "raw_sha256": "7c38bfdae60f16a69f49d552d9d19950647bbed50c42da74395587161e6f48aa",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-12",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 12"
+      },
+      "source_title": "Inschrift, eteokyprisch?",
+      "admission_status": "uncertain_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%2012",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2012",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/12.xml",
+      "raw_sha256": "388c415afe3d79566331c65398700a1a444d3bdcbc5cc31f1002901254bb3787",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-13",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 13"
+      },
+      "source_title": "Grabinschrift, eteokyprisch?",
+      "admission_status": "uncertain_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%2013",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2013",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/13.xml",
+      "raw_sha256": "318775f42d042e76bf671084678c566f16a10c6fd993bef81204ce2fc9a4ba4c",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-14",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 14"
+      },
+      "source_title": "Grabinschrift, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%2014",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2014",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/14.xml",
+      "raw_sha256": "de2c9c91f54f8d662acf6a110de41758288e53a708b2aba157b751a9733d260b",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-15",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 15"
+      },
+      "source_title": "Inschrift, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%2015",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2015",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/15.xml",
+      "raw_sha256": "4ccd290212390cf4daae400086b1cbaeefb45530e6c2f6c26173e3f67be3545f",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-16",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 16"
+      },
+      "source_title": "Inschrift, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%2016",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2016",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/16.xml",
+      "raw_sha256": "42fff829983c4fd0ebe96fa0751731e4f693e8425c1dc965b7d517f601417125",
+      "license": "CC-BY-4.0",
+      "source_parts": [
+        {
+          "n": "A",
+          "subtype": "fragment",
+          "language_assignment": null
+        },
+        {
+          "n": "B",
+          "subtype": "fragment",
+          "language_assignment": null
+        }
+      ],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-17",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 17"
+      },
+      "source_title": "Grabinschrift, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%2017",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2017",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/17.xml",
+      "raw_sha256": "74fcc474f0764c62b976dfef231bf4e7a6b33a7579e5b509352aae9f36f3f40d",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-18",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 18"
+      },
+      "source_title": "Weihinschrift?, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%2018",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2018",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/18.xml",
+      "raw_sha256": "dfeafb53f1bcf7ac0d6fcd8b10cbdff1d6d2efd56cf1b0090c6c09d937c590a7",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-46",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 46"
+      },
+      "source_title": "Graffito, eteokyprisch?",
+      "admission_status": "uncertain_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%2046",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2046",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/46.xml",
+      "raw_sha256": "ee231faebaca8f1d5d9f4952565aa4d36692902dcc11681608437d192cb8474a",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-99",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 99"
+      },
+      "source_title": "Weihinschrift?, eteokyprisch?",
+      "admission_status": "uncertain_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%2099",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2099",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/99.xml",
+      "raw_sha256": "945a4b994c8eea44e64873edbe9ef8ede6b8b6d3a574ae4a9e7a29e5c5f38e71",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-110",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 110"
+      },
+      "source_title": "Weihinschrift?, eteokyprisch oder syllabisch?",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%20110",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20110",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/110.xml",
+      "raw_sha256": "959d0d6ef8b3b16c6a2084a80c9564d46d89608e64436c1604b071c23529c357",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-152",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 152"
+      },
+      "source_title": "Besitzerinschrift, eteokyprisch?",
+      "admission_status": "uncertain_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%20152",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20152",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/152.xml",
+      "raw_sha256": "89be4c04faa1d4fe46b3963b14bffa07f9660094e06e8c6cdff2e1cbad5e7a42",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-155",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 155"
+      },
+      "source_title": "Besitzerinschrift?, eteokyprisch",
+      "admission_status": "source_labelled_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%20155",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20155",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/155.xml",
+      "raw_sha256": "5f97949986dbc076045bacce17d95d0b469b7a434b216293828dc5c63195fcd9",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-158",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 158"
+      },
+      "source_title": "Besitzerinschrift?, eteokyprisch?",
+      "admission_status": "uncertain_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%20158",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20158",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/158.xml",
+      "raw_sha256": "419a0eb0dfb424a74f250c50c29df7f648d45b52df8a5f596e697ac6801a8928",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-246",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 246"
+      },
+      "source_title": "Inschrift, eteokyprisch?",
+      "admission_status": "uncertain_candidate",
+      "classification_basis": "Whole-entry source title; component-level language assignment pending",
+      "record_unit": "digital_edition_entry",
+      "source_url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%20246",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20246",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/246.xml",
+      "raw_sha256": "e9b1a4a7a4049c4ab38a452280435730148a15480eeb7937897746de22a9af5c",
+      "license": "CC-BY-4.0",
+      "source_parts": [],
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    },
+    {
+      "candidate_id": "ETEC-IGXV1-150",
+      "shared_source_identity": {
+        "authority": "Inscriptiones Graecae, BBAW / TELOTA",
+        "source_id": "IG XV 1, 150"
+      },
+      "admission_status": "quarantined_mixed_language_candidate",
+      "classification_basis": "Source header title and documented malformed body; no parsed component assignment",
+      "record_unit": "digital_edition_entry",
+      "source_xml_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20150",
+      "snapshot_reference": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/e3d9e027e9c61e742e4a82fee07e2266595e6a69/data/raw/ig/150.xml",
+      "raw_sha256": "9cc289042210d8bdc46edccc51d869c186956f40a5b4f3db01e4d8e135d2253f",
+      "license": "CC-BY-4.0",
+      "parse_error": "mismatched tag: line 46, column 351",
+      "object_id": null,
+      "independent_witness_id": null,
+      "analysis_eligible": false,
+      "independent_epigraphic_review": false
+    }
+  ]
+}

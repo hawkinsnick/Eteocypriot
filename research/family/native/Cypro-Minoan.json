@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "5.2.8",
+  "checked": "2026-10-01",
+  "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
+  "committed_evidence_counts": {
+    "rich_records": 21,
+    "source_checked_occurrences": 9
+  },
+  "scientific_results": {
+    "corpus_wide_frequency": "BLOCKED",
+    "cross_script_phonetic_test": "BLOCKED"
+  },
+  "evidence": [
+    {
+      "path": "research/experiment-gates.json",
+      "sha256": "4d76c0650a96efde732c5a1ab50054b687785b7e0ece477ec82e63bb29e6a05b"
+    },
+    {
+      "path": "occurrences/occurrences.json",
+      "sha256": "15413ef7475001b6ed9cd9cfaa5b861da5d67af984621c58342b960298c7e82f"
+    },
+    {
+      "path": "analysis/5.2.3_tiryns-clay-ball-primary-check.json",
+      "sha256": "94de8538973efb19d99a11bc91b99041f08262ab3bd348f0f2c7964590168cf0"
+    },
+    {
+      "path": "analysis/occurrence-coverage-v1.json",
+      "sha256": "1d9b0c276c2428fbd42aa637e09b9ac2435e2928e89a7c55f708c51463bb8470"
+    },
+    {
+      "path": "scripts/occurrence_coverage.py",
+      "sha256": "cb005b5fdbc2ec7c5670ace5630a1187b09dce86913c050783d3025d2decb2e0"
+    },
+    {
+      "path": "scripts/validate_current_state.py",
+      "sha256": "6594f9e4ce566c083257b4fc2ab9fd5f758515d1e5d1bf0da48b03d7e93f8e2e"
+    },
+    {
+      "path": "research/family-readiness-v1.json",
+      "sha256": "e17625716660da70731459252e2b1bbca429d7183640b79f0733162313148b3e"
+    },
+    {
+      "path": "analysis/evidence-index-v1.json",
+      "sha256": "f394439a2a93214fb4974edbf4a3ebe6cc456ed2c507c98b76f799bf22b84455"
+    },
+    {
+      "path": "analysis/workbench-acceptance-v1.json",
+      "sha256": "f626d5811a9ebf5e49684ded8f9498d37c178c7ca9a872c206db13bc53533733"
+    },
+    {
+      "path": "workbench/evidence.html",
+      "sha256": "cd624f198046f68de7f3bf5ac35861751565a1745160f08bdcaf9dd2e714939a"
+    },
+    {
+      "path": "research/workbench-milestone-v1.json",
+      "sha256": "6e73523259c9131bdda1f2237a120f59a402be8294fb2026076cd0e67c13a44e"
+    },
+    {
+      "path": "scripts/evidence_workbench.py",
+      "sha256": "682a350d9457b1e88ff3a3c4d1263880e4fdf98e1012578580b7d2b9d877c916"
+    },
+    {
+      "path": "scripts/test_evidence_workbench.py",
+      "sha256": "071d52a7996556919876d35182f2fdcc1a4e46a6ad60c97c3508c639b259c1e4"
+    },
+    {
+      "path": "scripts/test_evidence_browser.cjs",
+      "sha256": "8c007db6b2a96d7f686e55d7dd3e59cf05a8a9951d15921509e88c35fd3af091"
+    },
+    {
+      "path": "workbench/evidence-template.html",
+      "sha256": "009519821451a9b8d90eb42e46c12e5c7b5f834d1b2fb5825872d94a1d3f3762"
+    },
+    {
+      "path": "research/workbench-guide.md",
+      "sha256": "5fcdf0b3aefab7e5e85a4e95e6780ba1d6eab90ac0d4718d736157c6b86a375f"
+    },
+    {
+      "path": "scripts/release_change_ledger.py",
+      "sha256": "e6a5c228421531c00fde3493b8f14606126447f5f561ddf226045395c50b8cee"
+    },
+    {
+      "path": "scripts/test_release_change_ledger.py",
+      "sha256": "268230c02e2555159362e6312563a65904771d57b2c7bb32cfbfc9562acc4c94"
+    },
+    {
+      "path": "research/correction-tracking.md",
+      "sha256": "24d551d7de6d497145ae30670cd8d29cfcc7172c329abd963863ae5dfed49e15"
+    },
+    {
+      "path": ".github/workflows/release-change-ledger.yml",
+      "sha256": "acad59395f7ff8b4353bc6eea69dfec6d8e6b342e08df87617c897dcd27d8a1f"
+    }
+  ],
+  "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
+  "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
+  "summary": "Adds replayable source-stratified occurrence coverage: 9 encoded occurrences on 3 of 21 rich records, comprising 6 primary-publication and 3 dependent-secondary occurrences. Published labels remain separate. Whole-corpus frequencies and independent-witness claims remain blocked."
+}

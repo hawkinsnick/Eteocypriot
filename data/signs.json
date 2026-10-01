@@ -1,0 +1,501 @@
+{
+  "ucd_version": "14.0.0",
+  "repertoire_kind": "Unicode_interoperability",
+  "signs": [
+    {
+      "id": "Cprt-U10800",
+      "codepoint": "U+10800",
+      "character": "𐠀",
+      "value": "a",
+      "unicode_name": "CYPRIOT SYLLABLE A",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10801",
+      "codepoint": "U+10801",
+      "character": "𐠁",
+      "value": "e",
+      "unicode_name": "CYPRIOT SYLLABLE E",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10802",
+      "codepoint": "U+10802",
+      "character": "𐠂",
+      "value": "i",
+      "unicode_name": "CYPRIOT SYLLABLE I",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10803",
+      "codepoint": "U+10803",
+      "character": "𐠃",
+      "value": "o",
+      "unicode_name": "CYPRIOT SYLLABLE O",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10804",
+      "codepoint": "U+10804",
+      "character": "𐠄",
+      "value": "u",
+      "unicode_name": "CYPRIOT SYLLABLE U",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10805",
+      "codepoint": "U+10805",
+      "character": "𐠅",
+      "value": "ja",
+      "unicode_name": "CYPRIOT SYLLABLE JA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10808",
+      "codepoint": "U+10808",
+      "character": "𐠈",
+      "value": "jo",
+      "unicode_name": "CYPRIOT SYLLABLE JO",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1080A",
+      "codepoint": "U+1080A",
+      "character": "𐠊",
+      "value": "ka",
+      "unicode_name": "CYPRIOT SYLLABLE KA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1080B",
+      "codepoint": "U+1080B",
+      "character": "𐠋",
+      "value": "ke",
+      "unicode_name": "CYPRIOT SYLLABLE KE",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1080C",
+      "codepoint": "U+1080C",
+      "character": "𐠌",
+      "value": "ki",
+      "unicode_name": "CYPRIOT SYLLABLE KI",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1080D",
+      "codepoint": "U+1080D",
+      "character": "𐠍",
+      "value": "ko",
+      "unicode_name": "CYPRIOT SYLLABLE KO",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1080E",
+      "codepoint": "U+1080E",
+      "character": "𐠎",
+      "value": "ku",
+      "unicode_name": "CYPRIOT SYLLABLE KU",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1080F",
+      "codepoint": "U+1080F",
+      "character": "𐠏",
+      "value": "la",
+      "unicode_name": "CYPRIOT SYLLABLE LA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10810",
+      "codepoint": "U+10810",
+      "character": "𐠐",
+      "value": "le",
+      "unicode_name": "CYPRIOT SYLLABLE LE",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10811",
+      "codepoint": "U+10811",
+      "character": "𐠑",
+      "value": "li",
+      "unicode_name": "CYPRIOT SYLLABLE LI",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10812",
+      "codepoint": "U+10812",
+      "character": "𐠒",
+      "value": "lo",
+      "unicode_name": "CYPRIOT SYLLABLE LO",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10813",
+      "codepoint": "U+10813",
+      "character": "𐠓",
+      "value": "lu",
+      "unicode_name": "CYPRIOT SYLLABLE LU",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10814",
+      "codepoint": "U+10814",
+      "character": "𐠔",
+      "value": "ma",
+      "unicode_name": "CYPRIOT SYLLABLE MA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10815",
+      "codepoint": "U+10815",
+      "character": "𐠕",
+      "value": "me",
+      "unicode_name": "CYPRIOT SYLLABLE ME",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10816",
+      "codepoint": "U+10816",
+      "character": "𐠖",
+      "value": "mi",
+      "unicode_name": "CYPRIOT SYLLABLE MI",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10817",
+      "codepoint": "U+10817",
+      "character": "𐠗",
+      "value": "mo",
+      "unicode_name": "CYPRIOT SYLLABLE MO",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10818",
+      "codepoint": "U+10818",
+      "character": "𐠘",
+      "value": "mu",
+      "unicode_name": "CYPRIOT SYLLABLE MU",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10819",
+      "codepoint": "U+10819",
+      "character": "𐠙",
+      "value": "na",
+      "unicode_name": "CYPRIOT SYLLABLE NA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1081A",
+      "codepoint": "U+1081A",
+      "character": "𐠚",
+      "value": "ne",
+      "unicode_name": "CYPRIOT SYLLABLE NE",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1081B",
+      "codepoint": "U+1081B",
+      "character": "𐠛",
+      "value": "ni",
+      "unicode_name": "CYPRIOT SYLLABLE NI",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1081C",
+      "codepoint": "U+1081C",
+      "character": "𐠜",
+      "value": "no",
+      "unicode_name": "CYPRIOT SYLLABLE NO",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1081D",
+      "codepoint": "U+1081D",
+      "character": "𐠝",
+      "value": "nu",
+      "unicode_name": "CYPRIOT SYLLABLE NU",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1081E",
+      "codepoint": "U+1081E",
+      "character": "𐠞",
+      "value": "pa",
+      "unicode_name": "CYPRIOT SYLLABLE PA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1081F",
+      "codepoint": "U+1081F",
+      "character": "𐠟",
+      "value": "pe",
+      "unicode_name": "CYPRIOT SYLLABLE PE",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10820",
+      "codepoint": "U+10820",
+      "character": "𐠠",
+      "value": "pi",
+      "unicode_name": "CYPRIOT SYLLABLE PI",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10821",
+      "codepoint": "U+10821",
+      "character": "𐠡",
+      "value": "po",
+      "unicode_name": "CYPRIOT SYLLABLE PO",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10822",
+      "codepoint": "U+10822",
+      "character": "𐠢",
+      "value": "pu",
+      "unicode_name": "CYPRIOT SYLLABLE PU",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10823",
+      "codepoint": "U+10823",
+      "character": "𐠣",
+      "value": "ra",
+      "unicode_name": "CYPRIOT SYLLABLE RA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10824",
+      "codepoint": "U+10824",
+      "character": "𐠤",
+      "value": "re",
+      "unicode_name": "CYPRIOT SYLLABLE RE",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10825",
+      "codepoint": "U+10825",
+      "character": "𐠥",
+      "value": "ri",
+      "unicode_name": "CYPRIOT SYLLABLE RI",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10826",
+      "codepoint": "U+10826",
+      "character": "𐠦",
+      "value": "ro",
+      "unicode_name": "CYPRIOT SYLLABLE RO",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10827",
+      "codepoint": "U+10827",
+      "character": "𐠧",
+      "value": "ru",
+      "unicode_name": "CYPRIOT SYLLABLE RU",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10828",
+      "codepoint": "U+10828",
+      "character": "𐠨",
+      "value": "sa",
+      "unicode_name": "CYPRIOT SYLLABLE SA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10829",
+      "codepoint": "U+10829",
+      "character": "𐠩",
+      "value": "se",
+      "unicode_name": "CYPRIOT SYLLABLE SE",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1082A",
+      "codepoint": "U+1082A",
+      "character": "𐠪",
+      "value": "si",
+      "unicode_name": "CYPRIOT SYLLABLE SI",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1082B",
+      "codepoint": "U+1082B",
+      "character": "𐠫",
+      "value": "so",
+      "unicode_name": "CYPRIOT SYLLABLE SO",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1082C",
+      "codepoint": "U+1082C",
+      "character": "𐠬",
+      "value": "su",
+      "unicode_name": "CYPRIOT SYLLABLE SU",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1082D",
+      "codepoint": "U+1082D",
+      "character": "𐠭",
+      "value": "ta",
+      "unicode_name": "CYPRIOT SYLLABLE TA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1082E",
+      "codepoint": "U+1082E",
+      "character": "𐠮",
+      "value": "te",
+      "unicode_name": "CYPRIOT SYLLABLE TE",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1082F",
+      "codepoint": "U+1082F",
+      "character": "𐠯",
+      "value": "ti",
+      "unicode_name": "CYPRIOT SYLLABLE TI",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10830",
+      "codepoint": "U+10830",
+      "character": "𐠰",
+      "value": "to",
+      "unicode_name": "CYPRIOT SYLLABLE TO",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10831",
+      "codepoint": "U+10831",
+      "character": "𐠱",
+      "value": "tu",
+      "unicode_name": "CYPRIOT SYLLABLE TU",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10832",
+      "codepoint": "U+10832",
+      "character": "𐠲",
+      "value": "wa",
+      "unicode_name": "CYPRIOT SYLLABLE WA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10833",
+      "codepoint": "U+10833",
+      "character": "𐠳",
+      "value": "we",
+      "unicode_name": "CYPRIOT SYLLABLE WE",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10834",
+      "codepoint": "U+10834",
+      "character": "𐠴",
+      "value": "wi",
+      "unicode_name": "CYPRIOT SYLLABLE WI",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10835",
+      "codepoint": "U+10835",
+      "character": "𐠵",
+      "value": "wo",
+      "unicode_name": "CYPRIOT SYLLABLE WO",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10837",
+      "codepoint": "U+10837",
+      "character": "𐠷",
+      "value": "xa",
+      "unicode_name": "CYPRIOT SYLLABLE XA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U10838",
+      "codepoint": "U+10838",
+      "character": "𐠸",
+      "value": "xe",
+      "unicode_name": "CYPRIOT SYLLABLE XE",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1083C",
+      "codepoint": "U+1083C",
+      "character": "𐠼",
+      "value": "za",
+      "unicode_name": "CYPRIOT SYLLABLE ZA",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    },
+    {
+      "id": "Cprt-U1083F",
+      "codepoint": "U+1083F",
+      "character": "𐠿",
+      "value": "zo",
+      "unicode_name": "CYPRIOT SYLLABLE ZO",
+      "basis": "Unicode Character Database",
+      "source": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt"
+    }
+  ]
+}

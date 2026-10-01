@@ -1,0 +1,12 @@
+[
+  {
+    "id": "IG XV 1, 150",
+    "sha256": "9cc289042210d8bdc46edccc51d869c186956f40a5b4f3db01e4d8e135d2253f",
+    "parse_error": "mismatched tag: line 46, column 351",
+    "status": "quarantined_unchanged",
+    "locator": "translation div xml:lang=DE, second textpart, line 46",
+    "description": "Source response omits the closing div for textpart II before closing ab. Raw response retained; no project repair. This mixed syllabic/Eteocypriot entry is excluded from parsed records and analysis.",
+    "review": "Project source-structure inspection, not epigraphic review",
+    "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20150"
+  }
+]

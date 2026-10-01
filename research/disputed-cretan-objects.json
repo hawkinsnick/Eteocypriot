@@ -1,0 +1,52 @@
+{
+  "record_id": "CRET-DISPUTED-HM-X2416",
+  "object_label": "Inscribed bronze double axe from Arkalochori",
+  "museum_inventory": "X2416 (museum displays Χ2416)",
+  "institution": "Heraklion Archaeological Museum",
+  "reported_signs": 15,
+  "project_transcribed_occurrences": null,
+  "classification_status": "disputed_script_assignment",
+  "language": null,
+  "canonical_research_home": "Cretan-hieroglpyhs/research/disputed-inscriptions",
+  "cross_references": [
+    "Linear-A",
+    "Phaistos-Disc"
+  ],
+  "analysis_eligible": false,
+  "claims": [
+    {
+      "claim": "Museum presents the bronze inscription as Hieroglyphic.",
+      "source": "https://www.heraklionmuseum.gr/en/exhibit/bronze-swords-daggers-and-axes/",
+      "locator": "Arkalochori Cave display description"
+    },
+    {
+      "claim": "Script cannot be securely assigned to Cretan Hieroglyphic or Linear A; comparison with the Disc is discussed.",
+      "source": "Georgia Flouda, SMEA NS 1 (2015), 43–56",
+      "locator": "pp. 50–52"
+    },
+    {
+      "claim": "The small gold and silver axes with Linear A inscriptions are separate objects from the bronze axe.",
+      "source": "https://ca.heraklionmuseum.gr/ca/pawtucket/index.php/Detail/objects/426",
+      "locator": "Museum collection record Χ2416"
+    }
+  ],
+  "source_leads": [
+    {
+      "author": "Georgia Flouda",
+      "year": 2015,
+      "title": "Materiality and script: constructing a narrative on the Minoan inscribed axe from the Arkalochori cave",
+      "journal": "SMEA NS",
+      "volume": 1,
+      "pages": "43–56",
+      "url": "https://www.researchgate.net/publication/284732861",
+      "consultation": "Read relevant classification/object-identification passages",
+      "redistribution": "Bibliographic reference and project paraphrase only; no PDF or drawings imported"
+    }
+  ],
+  "comparison_policy": "Keep proposed sign correspondences as attributed hypotheses. Do not pool with Cretan Hieroglyphic, Linear A or Disc occurrences.",
+  "rights": {
+    "images_imported": 0,
+    "drawings_imported": 0,
+    "source_pdf_imported": false
+  }
+}

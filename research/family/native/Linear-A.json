@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "3.0.15",
+  "checked": "2026-10-01",
+  "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
+  "committed_evidence_counts": {},
+  "scientific_results": {
+    "prospective_outcomes_inspected": false,
+    "calibration_executed": false,
+    "descriptive_sigla_delta_executed": true,
+    "multiverse_2_5": "QUARANTINED",
+    "statistical_repair_v1": "EXECUTED_CONDITIONAL_HISTORICAL_SENSITIVITY"
+  },
+  "evidence": [
+    {
+      "path": "research/prospective-input-gate-3.1.json",
+      "sha256": "d48b99cddaa9f88bd88725ce0829a9e836b0fc6c92b2ed318713b4b239bfb527"
+    },
+    {
+      "path": "analysis/3.0.8_multiverse-2.5-code-audit.json",
+      "sha256": "19644a05c0019cd2f546b00e5a040af6f7b8e45afee9e3252abe17fea76fe2d5"
+    },
+    {
+      "path": "analysis/sigla-v3-v4-descriptive-delta.json",
+      "sha256": "14c5496d79e40a31d1c6357edc286ab2a990c2b9ec6896a67dd1e363d38bd4d8"
+    },
+    {
+      "path": "analysis/3.0.10_historical-decoded-artifact-candidate.json",
+      "sha256": "a11db0c7896c544f3e550cf6b521e9bf3a26604a4885174935fde48cb23e5a67"
+    },
+    {
+      "path": "analysis/sigla-cohort-input-membership.json",
+      "sha256": "17374bb8d3fe0c94b932b4aea7fc8bf46798a5d21426ddbbbcfc315587ae53b1"
+    },
+    {
+      "path": "analysis/3.1.0_milestone-gate.json",
+      "sha256": "d0ebb0b1db7b2a1573497fe427f1209cbf6af35ab7ba4cb5a41b731fa7f47c7d"
+    },
+    {
+      "path": "research/structural-sensitivity-repair-v1.json",
+      "sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3"
+    },
+    {
+      "path": "analysis/structural-sensitivity-repair-v1-result.json",
+      "sha256": "0f154b27388faf3e255b1e8c1dfd694ff235f02ca1e221c598c6a8eab5476a9c"
+    },
+    {
+      "path": "analysis/structural-sensitivity-repair-v1-execution.json",
+      "sha256": "de38160911bf578a2489a53d8dcb9fbd5476e68d191fb544b59a4d2df0aa1eb5"
+    },
+    {
+      "path": "analysis/prospective-independence-audit-v1.json",
+      "sha256": "042a1e9cb2f85fbca8652c7609bcc01686a9ffa5338aafbbcad431ac3db23132"
+    },
+    {
+      "path": "scripts/audit_prospective_independence.py",
+      "sha256": "23454d4c462ffd39a9f7e61a07e5f8c95e0e0793194c6c709269601b4206df40"
+    },
+    {
+      "path": "scripts/validate_current_state.py",
+      "sha256": "90adf7e593c07aa52d551eede4b2a6ce8573ed0b00da506924547c632cfca2a2"
+    },
+    {
+      "path": "research/family-readiness-v1.json",
+      "sha256": "e17625716660da70731459252e2b1bbca429d7183640b79f0733162313148b3e"
+    },
+    {
+      "path": "analysis/evidence-index-v1.json",
+      "sha256": "e609dcd169ecc0e9630e7d7db55a6ce996cdd88182e4b1262b7b59978b71adec"
+    },
+    {
+      "path": "analysis/workbench-acceptance-v1.json",
+      "sha256": "c398fa96f82f1b9fdef140bdbc9933f595c6bd0720fe81992ec9d1af4219f2e9"
+    },
+    {
+      "path": "workbench/evidence.html",
+      "sha256": "a46af9f354a4e558dcbc7a8c81deeec6769a4950ce2f174d83e69f14defef11e"
+    },
+    {
+      "path": "research/workbench-milestone-v1.json",
+      "sha256": "6e73523259c9131bdda1f2237a120f59a402be8294fb2026076cd0e67c13a44e"
+    },
+    {
+      "path": "scripts/evidence_workbench.py",
+      "sha256": "682a350d9457b1e88ff3a3c4d1263880e4fdf98e1012578580b7d2b9d877c916"
+    },
+    {
+      "path": "scripts/test_evidence_workbench.py",
+      "sha256": "071d52a7996556919876d35182f2fdcc1a4e46a6ad60c97c3508c639b259c1e4"
+    },
+    {
+      "path": "scripts/test_evidence_browser.cjs",
+      "sha256": "8c007db6b2a96d7f686e55d7dd3e59cf05a8a9951d15921509e88c35fd3af091"
+    },
+    {
+      "path": "workbench/evidence-template.html",
+      "sha256": "009519821451a9b8d90eb42e46c12e5c7b5f834d1b2fb5825872d94a1d3f3762"
+    },
+    {
+      "path": "research/workbench-guide.md",
+      "sha256": "6914152fb5fd68882d6d9b9306abadc42c415b510945c6e90b4cb91cd61e9984"
+    },
+    {
+      "path": "scripts/release_change_ledger.py",
+      "sha256": "e6a5c228421531c00fde3493b8f14606126447f5f561ddf226045395c50b8cee"
+    },
+    {
+      "path": "scripts/test_release_change_ledger.py",
+      "sha256": "268230c02e2555159362e6312563a65904771d57b2c7bb32cfbfc9562acc4c94"
+    },
+    {
+      "path": "research/correction-tracking.md",
+      "sha256": "24d551d7de6d497145ae30670cd8d29cfcc7172c329abd963863ae5dfed49e15"
+    },
+    {
+      "path": ".github/workflows/release-change-ledger.yml",
+      "sha256": "acad59395f7ff8b4353bc6eea69dfec6d8e6b342e08df87617c897dcd27d8a1f"
+    }
+  ],
+  "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
+  "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
+  "summary": "Adds a reproducible input-membership independence audit: 7 of 24 frozen cohort labels occur in v3; 17 are absent. The conditional statistical repair and the original-input identity gate are distinguished. No prospective outcomes are scored; 3.1 remains sealed."
+}

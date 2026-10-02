@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contract": "hawkinsnick-epigraphic-corpus-interoperability",
+  "version": "1.1.0",
+  "profile": "digital_edition_entry_with_components",
+  "principles": {
+    "source_attribution_required": true,
+    "source_integrity_hash_required": true,
+    "uncertainty_preserved": true,
+    "unknown_physical_object_count_is_null": true,
+    "cross_language_pooling_default": false,
+    "cross_project_links_create_independent_witnesses": false,
+    "language_or_script_identity_inferred_from_links": false,
+    "decipherment_claimed": false
+  },
+  "compatibility": {
+    "profile_specific_records": true,
+    "rule": "Consumers MUST preserve each corpus's native record unit and MUST NOT infer object identity, witness independence, language identity, sign equivalence, or decipherment from cross-project compatibility."
+  }
+}

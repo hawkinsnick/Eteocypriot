@@ -2,11 +2,9 @@
 
 This repository uses component-specific licensing.
 
-- **Project-original software:** PolyForm Noncommercial License 1.0.0. See `LICENSE-CODE`.
-- **Project-original corpus data, metadata, documentation and project-authored research outputs:** CC BY-NC 4.0, to the extent the project contributors own the applicable rights. See `LICENSE-CONTENT.md`.
-- **Third-party/source-derived material:** retains its upstream license and restrictions. See `NOTICE`, rights matrices, source metadata, and `LICENSING.md`.
-- **Public-domain material:** remains public domain.
+- Project-original software: PolyForm Noncommercial License 1.0.0; see `LICENSE-CODE`.
+- Project-original corpus data, metadata, documentation and project-authored research outputs: CC BY-NC 4.0, to the extent contributors own the applicable rights; see `LICENSE-CONTENT.md`.
+- Third-party/source-derived material retains upstream terms; see `NOTICE`, rights metadata, and `LICENSING.md`.
+- Public-domain material remains public domain.
 
-Noncommercial sharing and reuse are encouraged with attribution. The project-original licenses do not grant commercial bundling or use in a commercial product or service; separate permission is required.
-
-See `LICENSING.md` for the plain-language policy and important exceptions.
+Noncommercial sharing and reuse are encouraged with attribution. Project-original licenses do not grant commercial bundling or use in a commercial product or service; separate permission is required.

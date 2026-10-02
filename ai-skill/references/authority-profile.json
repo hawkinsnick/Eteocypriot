@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Eteocypriot",
+  "required_authorities": [
+    {
+      "role": "audit",
+      "path": "exports/audit.json",
+      "required": true
+    },
+    {
+      "role": "components",
+      "path": "exports/eteocypriot-components.json",
+      "required": true
+    },
+    {
+      "role": "notice",
+      "path": "NOTICE",
+      "required": true
+    },
+    {
+      "role": "method",
+      "path": "docs/METHOD.md",
+      "required": true
+    }
+  ],
+  "behavioral_gates": [
+    "A deciphered script does not make the Eteocypriot language deciphered",
+    "Greek parallel components are not Eteocypriot evidence",
+    "Copies shared with the Cypriot Greek project are the same source witness, not independent replication",
+    "Whole-corpus frequency, translation and cross-script phonetic inference remain blocked",
+    "Uncertain and damaged components remain excluded under the canonical policy"
+  ]
+}

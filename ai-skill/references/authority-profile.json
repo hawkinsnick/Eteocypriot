@@ -21,6 +21,11 @@
       "role": "method",
       "path": "docs/METHOD.md",
       "required": true
+    },
+    {
+      "role": "ig_xv1_authority",
+      "path": "research/ig-xv1-authority.json",
+      "required": true
     }
   ],
   "behavioral_gates": [
@@ -28,6 +33,7 @@
     "Greek parallel components are not Eteocypriot evidence",
     "Copies shared with the Cypriot Greek project are the same source witness, not independent replication",
     "Whole-corpus frequency, translation and cross-script phonetic inference remain blocked",
-    "Uncertain and damaged components remain excluded under the canonical policy"
+    "Uncertain and damaged components remain excluded under the canonical policy",
+    "Shared IG XV 1 records across the Cypriot Greek and Eteocypriot repositories are the same source evidence, not independent replication."
   ]
 }

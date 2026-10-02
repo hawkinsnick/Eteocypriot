@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Eteocypriot",
+  "target": "PRE_EXPERT_MAXIMUM",
+  "checked": "2026-10-02",
+  "established": [
+    {
+      "gate": "licensed_candidate_snapshot",
+      "status": "PASS",
+      "candidate_source_responses": 26
+    },
+    {
+      "gate": "component_language_assertions",
+      "status": "PASS"
+    },
+    {
+      "gate": "source_defect_quarantine",
+      "status": "PASS"
+    },
+    {
+      "gate": "family_identity_reconciliation",
+      "status": "PASS"
+    }
+  ],
+  "remaining_nonexpert_work": [
+    {
+      "id": "ECY-PRE-001",
+      "scope": "coverage beyond current fascicle",
+      "action": "Discover and register authoritative Eteocypriot inscriptions and editions beyond the frozen source set.",
+      "blocked_by": "source_discovery_and_access"
+    },
+    {
+      "id": "ECY-PRE-002",
+      "scope": "object concordance",
+      "action": "Link shared Cypriot inscription identities and museum or catalogue IDs without duplicating witnesses.",
+      "blocked_by": "catalogue_access"
+    },
+    {
+      "id": "ECY-PRE-003",
+      "scope": "alternative editions",
+      "action": "Encode source-attributed alternative readings and edition lineage.",
+      "blocked_by": "edition_access"
+    }
+  ],
+  "human_only_boundary": [
+    {
+      "id": "ECY-HUM-001",
+      "decision": "adjudicate Eteocypriot versus Greek component or language attribution where disputed"
+    },
+    {
+      "id": "ECY-HUM-002",
+      "decision": "adjudicate damaged or restored readings and segmentation"
+    },
+    {
+      "id": "ECY-HUM-003",
+      "decision": "independent epigraphic review and linguistic interpretation"
+    }
+  ],
+  "completion_rule": "All machine and source-discoverable expansion work must be completed or explicitly access-blocked; language attribution, disputed readings and interpretation remain human decisions."
+}

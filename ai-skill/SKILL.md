@@ -1,7 +1,7 @@
 ---
 name: eteocypriot-research
 description: Evidence-first AI research skill for the Eteocypriot corpus.
-version: 0.1.0
+version: 0.3.1
 ---
 
 # Eteocypriot Research Skill
@@ -26,3 +26,10 @@ Give the direct answer, followed as relevant by Evidence; Evidentiary status; Un
 
 ## Synchronization
 Read `ai-skill/generated/source-state.json` before substantive work. It records the corpus commit from which the AI-facing package was synchronized. Generated files are rebuildable views; canonical corpus files govern if a discrepancy is found.
+
+## Academic-scrutiny gates
+- A deciphered script does not make the Eteocypriot language deciphered
+- Greek parallel components are not Eteocypriot evidence
+- Copies shared with the Cypriot Greek project are the same source witness, not independent replication
+- Whole-corpus frequency, translation and cross-script phonetic inference remain blocked
+- Uncertain and damaged components remain excluded under the canonical policy

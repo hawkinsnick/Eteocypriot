@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Eteocypriot",
+  "checked": "2026-10-02",
+  "target": "PRE_EXPERT_SOURCE_EXHAUSTION",
+  "dispositions": [
+    {
+      "id": "ECY-PRE-001",
+      "scope": "current IG XV 1 source set",
+      "status": "LICENSED_DIGITAL_EDITION_ACQUIRED",
+      "evidence": "CC-BY-4.0 IG XV 1 XML snapshot is replayable with source-attributed Eteocypriot/Greek component separation."
+    },
+    {
+      "id": "ECY-PRE-002",
+      "scope": "shared Cypriot identities",
+      "status": "SOURCE_DEPENDENCE_RECONCILED",
+      "evidence": "Shared IG XV 1 records with Cypriot Syllabic Greek are explicitly the same witness, not independent replication."
+    },
+    {
+      "id": "ECY-PRE-003",
+      "scope": "coverage beyond current fascicle",
+      "status": "DISCOVERY_OPEN",
+      "evidence": "No exhaustive-world-corpus claim is made; additional authoritative editions require source-specific discovery and rights review."
+    },
+    {
+      "id": "ECY-PRE-004",
+      "scope": "language and damaged readings",
+      "status": "HUMAN_ONLY",
+      "evidence": "Source language labels are preserved; project does not independently adjudicate Eteocypriot linguistic interpretation or damaged/restored readings."
+    }
+  ],
+  "completion_assessment": "PRE_EXPERT_MAXIMUM_REACHED_FOR_CURRENT_LAWFUL_SOURCE_ROUTES",
+  "qualification": "Open-world discovery remains active; newly available authoritative lawful evidence reopens acquisition. Expert-only decisions remain unasserted."
+}

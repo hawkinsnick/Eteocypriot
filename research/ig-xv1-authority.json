@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-01",
+  "authority": {
+    "name": "Inscriptiones Graecae XV 1 digital edition",
+    "institution": "Berlin-Brandenburg Academy of Sciences and Humanities",
+    "edition": "IG XV 1,1 (Amathous, Kourion, Marion)",
+    "editors": [
+      "Artemis Karnava",
+      "Massimo Perna"
+    ],
+    "assistant": "Markus Egetmeyer",
+    "publication_year": 2020,
+    "digital_license": "CC BY 4.0"
+  },
+  "coverage_context": {
+    "published_fascicle_range": "IG XV 1, 1-410",
+    "historical_project_database_count": 1397,
+    "planned_scope_note": "The larger Cypriot syllabic corpus extends beyond the first published fascicle; current repo snapshot must not be called whole-corpus exhaustive."
+  },
+  "verification_method": "Use authoritative IG record metadata/transliteration and stable IG identifiers; keep photographs/drawings subject to their own rights and do not infer independent witnesses from duplicate repo representations.",
+  "shared_source_dependency": "Cypriot-syllabic-Greek and Eteocypriot may encode the same IG object/components; cross-repo duplication is never independent evidence.",
+  "project": "Eteocypriot"
+}

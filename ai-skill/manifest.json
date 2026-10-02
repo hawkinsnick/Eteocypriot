@@ -1,11 +1,14 @@
 {
   "schema_version": "1.0",
-  "skill_version": "0.1.0",
+  "skill_version": "0.3.1",
   "corpus": "Eteocypriot",
   "repository": "hawkinsnick/Eteocypriot",
   "canonical_data": "repository",
   "governing_instructions": "ai-skill/SKILL.md",
   "generated_state": "ai-skill/generated/source-state.json",
   "sync_policy": "regenerate on every push to main except generated-state-only commits",
-  "vendor_neutral": true
+  "vendor_neutral": true,
+  "version": "0.3.1",
+  "authority_profile": "ai-skill/references/authority-profile.json",
+  "bundle_schema": "0.3.1"
 }

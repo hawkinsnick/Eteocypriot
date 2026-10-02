@@ -1,7 +1,9 @@
-Component-specific licences apply:
+# License by material
 
-Original code and project-authored documentation/schemas: MIT, LICENSE-CODE.
-BBAW / TELOTA raw XML and adapted edition content: CC BY 4.0; see NOTICE.
-Unicode character data: docs/LICENSE-UNICODE.txt.
+Project-original software: PolyForm Noncommercial 1.0.0 (`LICENSE-CODE`).
 
-No licence is granted for third-party material absent from this repository.
+Project-original corpus data, metadata, documentation and project-authored research outputs: CC BY-NC 4.0 (`LICENSE-CONTENT.md`), to the extent contributors own the applicable rights.
+
+Third-party/source-derived material retains upstream terms. Public-domain material remains public domain. See `LICENSING.md` and `NOTICE`.
+
+Noncommercial sharing/reuse with attribution is encouraged. Project-original licenses do not grant commercial bundling or use in commercial products/services.

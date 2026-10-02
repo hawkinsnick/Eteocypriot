@@ -1,0 +1,34 @@
+name: Sync AI skill
+on:
+  push:
+    branches: [main, ai-skill-v0.1]
+  pull_request:
+    branches: [main]
+    paths-ignore:
+      - 'ai-skill/generated/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Build AI research bundle
+        env:
+          SOURCE_COMMIT: ${{ github.sha }}
+        run: python ai-skill/scripts/build_bundle.py
+      - name: Validate generated bundle
+        run: python ai-skill/scripts/validate_bundle.py
+      - name: Commit synchronized AI bundle
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          if git diff --quiet -- ai-skill/generated; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ai-skill/generated
+          git commit -m "chore(ai-skill): sync bundle to corpus ${GITHUB_SHA::12}"
+          git push

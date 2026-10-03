@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.3.1",
+  "skill_version": "0.3.1",
+  "source_commit": "46996e652a442aae045247fc4e02e977ec224b3d",
+  "canonical_repository": true,
+  "generated_at_utc": "2026-10-03T17:39:51+00:00",
+  "contract": {
+    "corpus_is_authoritative": true,
+    "missing_means_unknown": true,
+    "cross_corpus_equivalence_requires_explicit_evidence": true,
+    "preserve_uncertainty": true,
+    "preserve_source_independence": true,
+    "preserve_rights": true
+  },
+  "artifacts": [
+    {
+      "role": "audit",
+      "path": "exports/audit.json",
+      "sha256": "b80801d9b00c9e11092092cb3814dcb1e065137fac60bfe9a4ab54d1f325db89",
+      "bytes": 929
+    },
+    {
+      "role": "corpus_json",
+      "path": "exports/corpus.json",
+      "sha256": "6e435383c70f136892658feabc47161d75d61c4533692a905d70ad789aede819",
+      "bytes": 150748
+    },
+    {
+      "role": "eteocypriot_components",
+      "path": "exports/eteocypriot-components.json",
+      "sha256": "5d23b8563c2a19f4f5fc3bdbee22a94ff46c497675643cff5c5c58877b0781d4",
+      "bytes": 85765
+    },
+    {
+      "role": "notice",
+      "path": "NOTICE",
+      "sha256": "076a32cdbaa2a426d700e1a615873068e828685718a0745f8235dd567e4ebc5e",
+      "bytes": 2125
+    },
+    {
+      "role": "method",
+      "path": "docs/METHOD.md",
+      "sha256": "6a15d780be84d96f1f88d381c9f196f421bcdd3dd8ae5e89efcd86225ed97a90",
+      "bytes": 4257
+    },
+    {
+      "role": "ig_xv1_authority",
+      "path": "research/ig-xv1-authority.json",
+      "sha256": "ea299c2026f65f5ef27e78a41d86150f4bb676da9f9959a598aa616d6450cad9",
+      "bytes": 1176
+    },
+    {
+      "role": "pre_expert_maximum",
+      "path": "research/pre-expert-maximum.json",
+      "sha256": "f20cc35f2d6a06c47da803ee533fac82feb01b4aae366ee14b92b03bcb6b8830",
+      "bytes": 1865
+    },
+    {
+      "role": "pre_expert_source_exhaustion",
+      "path": "research/pre-expert-source-exhaustion.json",
+      "sha256": "dbc277417815227659a827d7599163f6a8281a7f98ca271a158e2e8b078710e1",
+      "bytes": 1500
+    }
+  ]
+}

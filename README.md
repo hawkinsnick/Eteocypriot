@@ -94,3 +94,8 @@ uncertain script classification. It is not an Eteocypriot inscription.
 The next dedicated repositories are [Eteocretan](https://github.com/hawkinsnick/Eteocretan)
 and [Lycian/Carian](https://github.com/hawkinsnick/Lycian-and-Carian), in that order.
 See [the roadmap](docs/ROADMAP.md) and [contribution rules](CONTRIBUTING.md).
+
+
+## Fleet admission
+
+This corpus participates in the Combined Corpus Research AI fleet. Fleet admission requires the repository's component-specific licensing architecture, its individual `ai-skill` research contract and generated bundle, explicit master-registry membership, and passing member/master validation. Third-party material retains its upstream rights.

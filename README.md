@@ -77,8 +77,7 @@ Primary source: **Inscriptiones Graecae, BBAW / TELOTA**. Scholarly editors:
 source translation responsibility is retained, including Klaus Hallof where
 supplied. Blank source credit remains unknown.
 
-Raw XML and adapted edition content retain **CC BY 4.0**, with a link to every
-original page. Original code/docs are **MIT**; Unicode data have their own terms.
+Raw XML and adapted IG edition content retain upstream **CC BY 4.0**, with a link to every original page. Current project-original software is **PolyForm Noncommercial 1.0.0** and project-owned documentation/annotations are **CC BY-NC 4.0**; Unicode data retain their own terms.
 See [NOTICE](NOTICE). No source images, plate drawings or printed-volume scans
 are bundled. Greek parallels and modern source glosses are not project-proposed
 translations of Eteocypriot.

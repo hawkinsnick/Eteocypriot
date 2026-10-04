@@ -1,38 +1,4 @@
 {
-  "schema_version": "1.0",
-  "corpus": "Eteocypriot",
-  "required_authorities": [
-    {
-      "role": "audit",
-      "path": "exports/audit.json",
-      "required": true
-    },
-    {
-      "role": "components",
-      "path": "exports/eteocypriot-components.json",
-      "required": true
-    },
-    {
-      "role": "notice",
-      "path": "NOTICE",
-      "required": true
-    },
-    {
-      "role": "method",
-      "path": "docs/METHOD.md",
-      "required": true
-    },
-    {
-      "role": "ig_xv1_authority",
-      "path": "research/ig-xv1-authority.json",
-      "required": true
-    },
-    {
-      "role": "pre_expert_source_exhaustion",
-      "path": "research/pre-expert-source-exhaustion.json",
-      "required": true
-    }
-  ],
   "behavioral_gates": [
     "A deciphered script does not make the Eteocypriot language deciphered",
     "Greek parallel components are not Eteocypriot evidence",
@@ -41,5 +7,49 @@
     "Uncertain and damaged components remain excluded under the canonical policy",
     "Shared IG XV 1 records across the Cypriot Greek and Eteocypriot repositories are the same source evidence, not independent replication.",
     "Pre-Expert Maximum dispositions current lawful source routes; it does not convert source labels into independent linguistic validation."
-  ]
+  ],
+  "corpus": "Eteocypriot",
+  "required_authorities": [
+    {
+      "path": "exports/audit.json",
+      "required": true,
+      "role": "audit"
+    },
+    {
+      "path": "exports/eteocypriot-components.json",
+      "required": true,
+      "role": "components"
+    },
+    {
+      "path": "NOTICE",
+      "required": true,
+      "role": "notice"
+    },
+    {
+      "path": "docs/METHOD.md",
+      "required": true,
+      "role": "method"
+    },
+    {
+      "path": "research/ig-xv1-authority.json",
+      "required": true,
+      "role": "ig_xv1_authority"
+    },
+    {
+      "path": "research/pre-expert-source-exhaustion.json",
+      "required": true,
+      "role": "pre_expert_source_exhaustion"
+    },
+    {
+      "path": "research/collection-work-ledger.json",
+      "required": true,
+      "role": "collection_work_ledger"
+    },
+    {
+      "path": "review/collection-packet.json",
+      "required": true,
+      "role": "collection_review_packet"
+    }
+  ],
+  "schema_version": "1.0"
 }

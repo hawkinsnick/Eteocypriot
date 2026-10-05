@@ -99,3 +99,7 @@ See [the roadmap](docs/ROADMAP.md) and [contribution rules](CONTRIBUTING.md).
 ## Fleet admission
 
 This corpus participates in the Combined Corpus Research AI fleet. Fleet admission requires the repository's component-specific licensing architecture, its individual `ai-skill` research contract and generated bundle, explicit master-registry membership, and passing member/master validation. Third-party material retains its upstream rights.
+
+## Source-route recheck — 5 October 2026 UTC
+
+The [initial route recheck](research/source-route-recheck-2026-10-05.json) confirms that entry 150 still returns the byte-identical malformed XML; its official HTML returns a formatting-error page, not an alternative reading. The official project lists the next syllabic fascicle in preparation, which does not establish publication or additional Eteocypriot entries. Whole-corpus discovery and physical identity reconciliation remain open.

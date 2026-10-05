@@ -32,6 +32,4 @@ https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt
 Copyright Unicode, Inc. See docs/LICENSE-UNICODE.txt. These characters provide
 interoperability, not a palaeographic sign inventory or proposed meanings.
 
-Original project code/documentation and code adapted from the MIT-licensed
-Cypriot syllabic Greek toolkit retain the MIT licence in LICENSE-CODE.
-The MIT licence does not override CC BY 4.0 edition content or Unicode terms.
+Project-original software is governed by PolyForm Noncommercial 1.0.0 as stated in LICENSE and LICENSE-CODE. Code adapted from the MIT-licensed Cypriot syllabic Greek toolkit retains the applicable upstream MIT copyright and permission notice; the project license does not remove those previously granted upstream rights. Neither software license overrides CC BY 4.0 edition content or Unicode terms.

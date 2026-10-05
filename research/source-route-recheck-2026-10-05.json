@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-05",
+  "date_basis": "UTC",
+  "scope": "Initial source-route recheck after Byblos scoped pause; not exhaustive Eteocypriot discovery.",
+  "acquisitions": [
+    {
+      "id": "ig150-xml",
+      "url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20150",
+      "http_status": 200,
+      "bytes": 3422,
+      "sha256": "9cc289042210d8bdc46edccc51d869c186956f40a5b4f3db01e4d8e135d2253f",
+      "source_bytes_redistributed": false
+    },
+    {
+      "id": "ig150-html",
+      "url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20XV%201%2C%20150",
+      "http_status": 200,
+      "bytes": 8046,
+      "sha256": "d4140f73d5acca71b21b1033042605fb3fd501323aa677c7f36884cc784661e6",
+      "source_bytes_redistributed": false
+    },
+    {
+      "id": "ig-progress",
+      "url": "https://ig.bbaw.de/de/projekt/forschung-aktuell",
+      "http_status": 200,
+      "bytes": 39414,
+      "sha256": "2480ea7c4bfb9e475d97e2a0d0c6a026566392f1a286c02ffd59de1e79291abe",
+      "source_bytes_redistributed": false
+    }
+  ],
+  "entry_150": {
+    "source_id": "IG XV 1, 150",
+    "xml_identical_to_quarantined_snapshot": true,
+    "xml_parse_error": "mismatched tag: line 46, column 351",
+    "html_disposition": "PUBLISHER_ERROR_PAGE_NOT_AN_ALTERNATIVE_READING",
+    "html_observation": "Official HTML reports a translation-formatting problem for entry 150; HTTP 200 does not mean a rendered inscription is available.",
+    "raw_repaired": false,
+    "parsed_record_added": false,
+    "language_adjudicated": false
+  },
+  "edition_route": {
+    "source_url": "https://ig.bbaw.de/de/projekt/forschung-aktuell",
+    "locator": "IG XV / volumes in different stages of preparation",
+    "reported_work_in_preparation": "IG XV Pars I, syllabic inscriptions, fascicle 2: Paphos and Rantidi",
+    "editor_reported": "Artemis Karnava",
+    "disposition": "PREPARATION_LISTING_NOT_ACQUIRED_PUBLISHED_FASCICLE",
+    "eteocypriot_records_added": 0,
+    "not_established": "The preparation listing does not establish release timing, XML availability or Eteocypriot membership of any future entry."
+  },
+  "baseline_validation": {
+    "valid": true,
+    "regression_tests_passed": 26,
+    "new_native_records": 0,
+    "independent_reviews_added": 0
+  },
+  "next_source_work": [
+    "Discover authoritative editions beyond the frozen fascicle, with item-level language attribution and source-specific rights.",
+    "Reconcile source catalogue/museum references for the existing 25 parsed digital entries; do not turn provenance strings into verified physical IDs.",
+    "Recheck entry 150 after a corrected upstream response becomes available; preserve the historical malformed snapshot and attribution."
+  ],
+  "completion_assessment": "INITIAL_PIVOT_AUDIT_COMPLETE_DISCOVERY_AND_IDENTITY_WORK_OPEN"
+}

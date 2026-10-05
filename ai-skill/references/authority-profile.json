@@ -31,6 +31,11 @@
       "role": "pre_expert_source_exhaustion",
       "path": "research/pre-expert-source-exhaustion.json",
       "required": true
+    },
+    {
+      "role": "source_route_recheck",
+      "path": "research/source-route-recheck-2026-10-05.json",
+      "required": true
     }
   ],
   "behavioral_gates": [
@@ -40,6 +45,7 @@
     "Whole-corpus frequency, translation and cross-script phonetic inference remain blocked",
     "Uncertain and damaged components remain excluded under the canonical policy",
     "Shared IG XV 1 records across the Cypriot Greek and Eteocypriot repositories are the same source evidence, not independent replication.",
-    "Pre-Expert Maximum dispositions current lawful source routes; it does not convert source labels into independent linguistic validation."
+    "Pre-Expert Maximum dispositions current lawful source routes; it does not convert source labels into independent linguistic validation.",
+    "Entry 150 remains quarantined after live source recheck; HTTP-200 HTML is a publisher error page. A fascicle in preparation is not an acquired edition or evidence of additional Eteocypriot membership."
   ]
 }

@@ -30,5 +30,11 @@
     }
   ],
   "completion_assessment": "PRE_EXPERT_MAXIMUM_REACHED_FOR_CURRENT_LAWFUL_SOURCE_ROUTES",
-  "qualification": "Open-world discovery remains active; newly available authoritative lawful evidence reopens acquisition. Expert-only decisions remain unasserted."
+  "qualification": "Open-world discovery remains active; newly available authoritative lawful evidence reopens acquisition. Expert-only decisions remain unasserted.",
+  "latest_route_recheck": {
+    "checked": "2026-10-05",
+    "evidence": "research/source-route-recheck-2026-10-05.json",
+    "entry_150": "Live XML remains malformed and byte-identical; official HTML is a formatting-error page.",
+    "coverage_beyond_fascicle": "Discovery remains open; official fascicle-2 preparation listing is not an acquired edition."
+  }
 }

@@ -33,3 +33,5 @@ Copyright Unicode, Inc. See docs/LICENSE-UNICODE.txt. These characters provide
 interoperability, not a palaeographic sign inventory or proposed meanings.
 
 Project-original software is governed by PolyForm Noncommercial 1.0.0 as stated in LICENSE and LICENSE-CODE. Code adapted from the MIT-licensed Cypriot syllabic Greek toolkit retains the applicable upstream MIT copyright and permission notice; the project license does not remove those previously granted upstream rights. Neither software license overrides CC BY 4.0 edition content or Unicode terms.
+
+Additional comparison sources: research/coin-source-xml/85.xml through 92.xml are unchanged IG XV 1 publisher XML, retained under CC BY 4.0. Original page URLs, source hashes, acquisition dates and source-specific licence links are recorded in research/coin-source-comparison.json. These comparison entries are outside the native Eteocypriot candidate set.

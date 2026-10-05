@@ -1,0 +1,901 @@
+{
+  "format": "eteocypriot-source-concordance-v1",
+  "checked": "2026-10-05",
+  "date_basis": "UTC",
+  "scope": "All 25 parsed entries in the frozen 26-candidate IG XV 1 snapshot; excluded malformed 150 stays quarantined.",
+  "entries": [
+    {
+      "record_id": "ETEC-IGXV1-1",
+      "source_id": "IG XV 1, 1",
+      "source_xml_path": "data/raw/1.xml",
+      "source_xml_sha256": "25c6d73d6285d22a286d06e9e8df17bacc8c3946208dc2c0aa543959b09c4ebb",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%201",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Weihinschrift, eteokyprisch und griechisch",
+        "site": "Amathus",
+        "date_source": "330-310",
+        "support": "Basis (Marmor)",
+        "provenance_source": "Akropolis, jetzt Mus. Limassol",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-1-I",
+          "source_part": "I",
+          "source_locator": "div[@type='edition']//div[@type='textpart'][@n='I']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1"
+          ]
+        },
+        {
+          "component_id": "ETEC-IGXV1-1-II",
+          "source_part": "II",
+          "source_locator": "div[@type='edition']//div[@type='textpart'][@n='II']",
+          "source_language_code": "grc",
+          "source_language_status": "source_attributed_parallel",
+          "line_labels": [
+            "1",
+            "2"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-2",
+      "source_id": "IG XV 1, 2",
+      "source_xml_path": "data/raw/2.xml",
+      "source_xml_sha256": "8945c6e76279de08ad26cbcb94097359aade3b6e24899ab8f9968fe2edaf63d7",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%202",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Weihinschrift, eteokyprisch und griechisch",
+        "site": "Amathus",
+        "date_source": "330-310",
+        "support": "Basis (Marmor)",
+        "provenance_source": "Akropolis, jetzt Mus. Limassol",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-2-I",
+          "source_part": "I",
+          "source_locator": "div[@type='edition']//div[@type='textpart'][@n='I']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1"
+          ]
+        },
+        {
+          "component_id": "ETEC-IGXV1-2-II",
+          "source_part": "II",
+          "source_locator": "div[@type='edition']//div[@type='textpart'][@n='II']",
+          "source_language_code": "grc",
+          "source_language_status": "source_attributed_parallel",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-3",
+      "source_id": "IG XV 1, 3",
+      "source_xml_path": "data/raw/3.xml",
+      "source_xml_sha256": "486fb8cdc32b94eb3a7d1c2342ebf10e64beece1a7c4dba788681005905dcb43",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%203",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Inschrift, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "Platte (Kalkstein)",
+        "provenance_source": "Dorf Polemídia bei Limassol, jetzt Mus. Oxford",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-3-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-4",
+      "source_id": "IG XV 1, 4",
+      "source_xml_path": "data/raw/4.xml",
+      "source_xml_sha256": "3fef3fade82fdbb12212855089619e4410ded0d08c1fdfde9bb2cb2f1bba0dea",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%204",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Inschrift, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "Platte (Kalkstein)",
+        "provenance_source": "Dorf Polemídia bei Limassol, jetzt Mus. Oxford",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-4-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-5",
+      "source_id": "IG XV 1, 5",
+      "source_xml_path": "data/raw/5.xml",
+      "source_xml_sha256": "2fa4611f1a2cdc6a17a3c0dd75d74e06f9d5648f63d1f515e91ec3973e7409e9",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%205",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Inschrift, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "Platte (Kalkstein)",
+        "provenance_source": "Limassol, jetzt Mus. Paris",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-5-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-6",
+      "source_id": "IG XV 1, 6",
+      "source_xml_path": "data/raw/6.xml",
+      "source_xml_sha256": "0b34e1757a464c48ade7b15d824ceacefeb1285835c097a54819fbeb470142d9",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%206",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Ehreninschrift?, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "Platte (Kalkstein)",
+        "provenance_source": "Limassol, jetzt Mus. Paris",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-6-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-7",
+      "source_id": "IG XV 1, 7",
+      "source_xml_path": "data/raw/7.xml",
+      "source_xml_sha256": "b1dee888e837838cf7ff8e8cdf95b2669bd433dc57c98289453f3bdf6b64c5a5",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%207",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Ehreninschrift, eteokyprisch und griechisch",
+        "site": "Amathus",
+        "date_source": "330-310",
+        "support": "Platte (Kalkstein)",
+        "provenance_source": "Akropolis",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-7-I",
+          "source_part": "I",
+          "source_locator": "div[@type='edition']//div[@type='textpart'][@n='I']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1",
+            "2",
+            null
+          ]
+        },
+        {
+          "component_id": "ETEC-IGXV1-7-II",
+          "source_part": "II",
+          "source_locator": "div[@type='edition']//div[@type='textpart'][@n='II']",
+          "source_language_code": "grc",
+          "source_language_status": "source_attributed_parallel",
+          "line_labels": [
+            "1",
+            "2"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-8",
+      "source_id": "IG XV 1, 8",
+      "source_xml_path": "data/raw/8.xml",
+      "source_xml_sha256": "745805277ad7729515dbd0b7cfa012a49ff3eb46e6b3ec2906785552ee6bde09",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%208",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Inschrift, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "dicke Platte (Kalkstein)",
+        "provenance_source": "Akropolis, jetzt Mus. Limassol",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-8-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-9",
+      "source_id": "IG XV 1, 9",
+      "source_xml_path": "data/raw/9.xml",
+      "source_xml_sha256": "f050a6c81423e6030eecf111b3ad71223d9fe1714cdc020a8d5b2124409aa4f7",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%209",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Inschrift, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "Block (Sandstein)",
+        "provenance_source": "Nekropole, jetzt Mus. Limassol",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-9-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-10",
+      "source_id": "IG XV 1, 10",
+      "source_xml_path": "data/raw/10.xml",
+      "source_xml_sha256": "a0a1521659d95350c7fa20ed570310a8fe6ee4f9622543bee99b6cd7ad089b73",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2010",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Inschrift, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "Stele (Kalkstein)",
+        "provenance_source": "Nekropole, jetzt Mus. Limassol",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-10-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-11",
+      "source_id": "IG XV 1, 11",
+      "source_xml_path": "data/raw/11.xml",
+      "source_xml_sha256": "7c38bfdae60f16a69f49d552d9d19950647bbed50c42da74395587161e6f48aa",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2011",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Inschrift, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "Stele (Kalkstein)",
+        "provenance_source": "Dorf Ágios Týchonas, jetzt Mus. Paris",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-11-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-12",
+      "source_id": "IG XV 1, 12",
+      "source_xml_path": "data/raw/12.xml",
+      "source_xml_sha256": "388c415afe3d79566331c65398700a1a444d3bdcbc5cc31f1002901254bb3787",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2012",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Inschrift, eteokyprisch?",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "Stele (Kalkstein)",
+        "provenance_source": "Nekropole, jetzt Mus. Limassol",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-12-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "uncertain",
+          "source_language_status": "source_attributed_uncertain",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-13",
+      "source_id": "IG XV 1, 13",
+      "source_xml_path": "data/raw/13.xml",
+      "source_xml_sha256": "318775f42d042e76bf671084678c566f16a10c6fd993bef81204ce2fc9a4ba4c",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2013",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Grabinschrift, eteokyprisch?",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "Stele (Kalkstein)",
+        "provenance_source": "Nekropole, jetzt Mus. Limassol",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-13-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "uncertain",
+          "source_language_status": "source_attributed_uncertain",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-14",
+      "source_id": "IG XV 1, 14",
+      "source_xml_path": "data/raw/14.xml",
+      "source_xml_sha256": "de2c9c91f54f8d662acf6a110de41758288e53a708b2aba157b751a9733d260b",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2014",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Grabinschrift, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "Stele (Kalkstein)",
+        "provenance_source": "Nekropole, jetzt Mus. Limassol",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-14-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1",
+            "2"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-15",
+      "source_id": "IG XV 1, 15",
+      "source_xml_path": "data/raw/15.xml",
+      "source_xml_sha256": "4ccd290212390cf4daae400086b1cbaeefb45530e6c2f6c26173e3f67be3545f",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2015",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Inschrift, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "4.Jh.",
+        "support": "Stele (Kalkstein)",
+        "provenance_source": "Dorf Ágios Týchonas, jetzt Mus. Paris",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-15-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-16",
+      "source_id": "IG XV 1, 16",
+      "source_xml_path": "data/raw/16.xml",
+      "source_xml_sha256": "42fff829983c4fd0ebe96fa0751731e4f693e8425c1dc965b7d517f601417125",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2016",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Inschrift, eteokyprisch",
+        "site": "unbekannt",
+        "date_source": "4.Jh.",
+        "support": "Stele, opisthograph (Kalkstein)",
+        "provenance_source": "Amathus?, jetzt Mus. Paris",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-16-A",
+          "source_part": "A",
+          "source_locator": "div[@type='edition']//div[@type='textpart'][@n='A']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1",
+            "2",
+            "3",
+            null
+          ]
+        },
+        {
+          "component_id": "ETEC-IGXV1-16-B",
+          "source_part": "B",
+          "source_locator": "div[@type='edition']//div[@type='textpart'][@n='B']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            null,
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-17",
+      "source_id": "IG XV 1, 17",
+      "source_xml_path": "data/raw/17.xml",
+      "source_xml_sha256": "74fcc474f0764c62b976dfef231bf4e7a6b33a7579e5b509352aae9f36f3f40d",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2017",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Grabinschrift, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "Zeit?",
+        "support": "Block (Kalkstein)",
+        "provenance_source": "Nekropole",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-17-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-18",
+      "source_id": "IG XV 1, 18",
+      "source_xml_path": "data/raw/18.xml",
+      "source_xml_sha256": "dfeafb53f1bcf7ac0d6fcd8b10cbdff1d6d2efd56cf1b0090c6c09d937c590a7",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2018",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Weihinschrift?, eteokyprisch",
+        "site": "Amathus",
+        "date_source": "650-500",
+        "support": "Gefäß (Kalkstein)",
+        "provenance_source": "Akropolis",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-18-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-46",
+      "source_id": "IG XV 1, 46",
+      "source_xml_path": "data/raw/46.xml",
+      "source_xml_sha256": "ee231faebaca8f1d5d9f4952565aa4d36692902dcc11681608437d192cb8474a",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2046",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Graffito, eteokyprisch?",
+        "site": "Amathus",
+        "date_source": "475-323",
+        "support": "Eimer (Ton)",
+        "provenance_source": "Akropolis, jetzt Mus. Nikosia",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-46-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "uncertain",
+          "source_language_status": "source_attributed_uncertain",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-99",
+      "source_id": "IG XV 1, 99",
+      "source_xml_path": "data/raw/99.xml",
+      "source_xml_sha256": "945a4b994c8eea44e64873edbe9ef8ede6b8b6d3a574ae4a9e7a29e5c5f38e71",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2099",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Weihinschrift?, eteokyprisch?",
+        "site": "Kurion",
+        "date_source": "4.Jh.",
+        "support": "Weihwasserbecken (Kalkstein)",
+        "provenance_source": "Apollon-Heiligtum, jetzt Mus. Episkopí",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-99-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "uncertain",
+          "source_language_status": "source_attributed_uncertain",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-110",
+      "source_id": "IG XV 1, 110",
+      "source_xml_path": "data/raw/110.xml",
+      "source_xml_sha256": "959d0d6ef8b3b16c6a2084a80c9564d46d89608e64436c1604b071c23529c357",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20110",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Weihinschrift?, eteokyprisch oder syllabisch?",
+        "site": "Kurion",
+        "date_source": "1.Hälfte 3.Jh.",
+        "support": "Statue (Kalkstein)",
+        "provenance_source": "Apollon-Heiligtum, jetzt Mus. New York",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-110-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "uncertain",
+          "source_language_status": "source_attributed_uncertain",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-152",
+      "source_id": "IG XV 1, 152",
+      "source_xml_path": "data/raw/152.xml",
+      "source_xml_sha256": "89be4c04faa1d4fe46b3963b14bffa07f9660094e06e8c6cdff2e1cbad5e7a42",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20152",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Besitzerinschrift, eteokyprisch?",
+        "site": "Kurion",
+        "date_source": "600-475",
+        "support": "Gefäß (Ton)",
+        "provenance_source": "Apollon-Heiligtum, jetzt Mus. Episkopí",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-152-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "uncertain",
+          "source_language_status": "source_attributed_uncertain",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-155",
+      "source_id": "IG XV 1, 155",
+      "source_xml_path": "data/raw/155.xml",
+      "source_xml_sha256": "5f97949986dbc076045bacce17d95d0b469b7a434b216293828dc5c63195fcd9",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20155",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Besitzerinschrift?, eteokyprisch",
+        "site": "Kurion",
+        "date_source": "750-475",
+        "support": "Siegel in Form eines Skarabäus (Chalzedon)",
+        "provenance_source": "unbekannt",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-155-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "eteocypriot",
+          "source_language_status": "source_attributed",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-158",
+      "source_id": "IG XV 1, 158",
+      "source_xml_path": "data/raw/158.xml",
+      "source_xml_sha256": "419a0eb0dfb424a74f250c50c29df7f648d45b52df8a5f596e697ac6801a8928",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20158",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Besitzerinschrift?, eteokyprisch?",
+        "site": "Kurion",
+        "date_source": "um 500",
+        "support": "Siegel in Form eines Skarabäus (Quarz)",
+        "provenance_source": "Nekropole Ag. Hermogenes, jetzt Mus. London",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-158-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "uncertain",
+          "source_language_status": "source_attributed_uncertain",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    },
+    {
+      "record_id": "ETEC-IGXV1-246",
+      "source_id": "IG XV 1, 246",
+      "source_xml_path": "data/raw/246.xml",
+      "source_xml_sha256": "e9b1a4a7a4049c4ab38a452280435730148a15480eeb7937897746de22a9af5c",
+      "source_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20246",
+      "source_license": "CC-BY-4.0",
+      "record_unit": "digital_edition_entry",
+      "reported_metadata": {
+        "title": "Inschrift, eteokyprisch?",
+        "site": "Marion",
+        "date_source": "9.Jh.",
+        "support": "Kultmesser (Eisen)",
+        "provenance_source": "Bergwerke bei Polis, dann Mus. Berlin",
+        "bibliography_source": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+      },
+      "component_targets": [
+        {
+          "component_id": "ETEC-IGXV1-246-body",
+          "source_part": "body",
+          "source_locator": "div[@type='edition']",
+          "source_language_code": "uncertain",
+          "source_language_status": "source_attributed_uncertain",
+          "line_labels": [
+            "1"
+          ]
+        }
+      ],
+      "physical_object_id": null,
+      "museum_identity_certified": false,
+      "independent_witness_id": null,
+      "review_status": "SOURCE_METADATA_REPLAYED_OBJECT_CONCORDANCE_PENDING"
+    }
+  ],
+  "rights": "IG-derived metadata retains CC BY 4.0, with source URLs. Project-original comparisons have separate project-original terms. Historical scans and museum source bytes are not redistributed.",
+  "boundary": "Source descriptions, component IDs and line labels are source namespaces. Provenance strings are not modern verified inventory IDs; digital entries and fragments are not independent physical objects."
+}

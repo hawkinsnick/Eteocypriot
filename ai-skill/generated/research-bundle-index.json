@@ -1,9 +1,9 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "f37dd5f6666b2dee712b1469e965d4be4347f061",
+  "source_commit": "9aa7cb114aec6be4ce6fc36b9dcf363475ac38d2",
   "canonical_repository": true,
-  "generated_at_utc": "2026-10-05T01:24:29+00:00",
+  "generated_at_utc": "2026-10-05T01:48:43+00:00",
   "contract": {
     "corpus_is_authoritative": true,
     "missing_means_unknown": true,
@@ -14,6 +14,42 @@
   },
   "artifacts": [
     {
+      "role": "coin_source_comparison",
+      "path": "research/coin-source-comparison.json",
+      "sha256": "f7b67551f836796f4f8af096356c545dd8741021b609aed80471cc43bfa1513a",
+      "bytes": 8067
+    },
+    {
+      "role": "source_concordance_register",
+      "path": "research/source-concordance-register.json",
+      "sha256": "b542b727cd3839aa03cf909c447e885f3dc79bc9906e477a3135fe2685916eef",
+      "bytes": 37732
+    },
+    {
+      "role": "historical_concordance",
+      "path": "research/historical-concordance.json",
+      "sha256": "d139b8abe544d91702d12efdda579b51b476f470ef09f5a5ae1f401a196d59e9",
+      "bytes": 14501
+    },
+    {
+      "role": "historical_acquisition",
+      "path": "research/historical-source-acquisition.json",
+      "sha256": "a9dcba34a73b9986c6466265e562e053e9d4f688f7bb149979cd4e23aaf35da1",
+      "bytes": 21513
+    },
+    {
+      "role": "source_concordance_audit",
+      "path": "research/source-concordance-audit.json",
+      "sha256": "e4d1e77a188909a44db417ea5cdc5cf600f62674e56b27cf8e0a5ebe97714c01",
+      "bytes": 2467
+    },
+    {
+      "role": "source_reconciliation_handoff",
+      "path": "docs/SOURCE-RECONCILIATION.md",
+      "sha256": "bf8cdef32a6417ee7527b9ab55a1b85b837b0b1d2e31eb2036093fd6db05d8b6",
+      "bytes": 8514
+    },
+    {
       "role": "source_route_recheck",
       "path": "research/source-route-recheck-2026-10-05.json",
       "sha256": "fdc29eadb13f86f3e67318c3a8ac20a5a6bf800b153d0d60ee995eba2d261bf8",
@@ -22,13 +58,13 @@
     {
       "role": "audit",
       "path": "exports/audit.json",
-      "sha256": "b80801d9b00c9e11092092cb3814dcb1e065137fac60bfe9a4ab54d1f325db89",
+      "sha256": "47263bf0b416c98fcd3a545af814690cf901abfd78b1217016ba9112a7170a08",
       "bytes": 929
     },
     {
       "role": "corpus_json",
       "path": "exports/corpus.json",
-      "sha256": "6e435383c70f136892658feabc47161d75d61c4533692a905d70ad789aede819",
+      "sha256": "34334f27193977029219d92779353f6fffaf069bc7917148561b89f1822c7495",
       "bytes": 150748
     },
     {
@@ -40,8 +76,8 @@
     {
       "role": "notice",
       "path": "NOTICE",
-      "sha256": "2072bed239560d619d8cf0d034d107f3f62b0d90abf99c5a5ec7eb39ace0d189",
-      "bytes": 2302
+      "sha256": "b911212958897c77085bdaef0f69796f59a83ef797447c951cac98d99224dbb1",
+      "bytes": 2660
     },
     {
       "role": "method",
@@ -58,14 +94,62 @@
     {
       "role": "pre_expert_maximum",
       "path": "research/pre-expert-maximum.json",
-      "sha256": "f20cc35f2d6a06c47da803ee533fac82feb01b4aae366ee14b92b03bcb6b8830",
-      "bytes": 1865
+      "sha256": "de1bc2806d6fbbabeb95cdea6dd19042c9f2b8178cc5d8a180594059f2661625",
+      "bytes": 2367
     },
     {
       "role": "pre_expert_source_exhaustion",
       "path": "research/pre-expert-source-exhaustion.json",
-      "sha256": "74ccd4e7c504359c696c110f3c907a9e1dc22605cf427a9ecab2f9b82d08e57e",
-      "bytes": 1862
+      "sha256": "78df45ef5196fc4d4f194008e0cff36469c7783b23b8a52d1645260f3390578f",
+      "bytes": 2035
+    },
+    {
+      "role": "coin_source_xml",
+      "path": "research/coin-source-xml/85.xml",
+      "sha256": "488b2c768d61c842922e7baf852e98b2a4b12a39c18598c9aa7817bd75798383",
+      "bytes": 2903
+    },
+    {
+      "role": "coin_source_xml",
+      "path": "research/coin-source-xml/86.xml",
+      "sha256": "4c514c20d88b574a70795ddb6d5578cd2890263a18d3c00537d1a12ef638eaf3",
+      "bytes": 3485
+    },
+    {
+      "role": "coin_source_xml",
+      "path": "research/coin-source-xml/87.xml",
+      "sha256": "5102a954711592fc1be865eb5b1f6297d9779891b559e7238bf740bb961fbf16",
+      "bytes": 6976
+    },
+    {
+      "role": "coin_source_xml",
+      "path": "research/coin-source-xml/88.xml",
+      "sha256": "fd9c529076790fd6e6439cda3162ccc9f38f4a3c13a6160881ae7224f9fd3e8c",
+      "bytes": 4242
+    },
+    {
+      "role": "coin_source_xml",
+      "path": "research/coin-source-xml/89.xml",
+      "sha256": "02fa2f6491466431fa16a9c26b1848f6d5569183c6d6c47bfd150332a4184460",
+      "bytes": 5711
+    },
+    {
+      "role": "coin_source_xml",
+      "path": "research/coin-source-xml/90.xml",
+      "sha256": "ed938092dcd01a13823f0deaeed8ce8939d2136df2a8b801d62eb7b364c677c3",
+      "bytes": 5573
+    },
+    {
+      "role": "coin_source_xml",
+      "path": "research/coin-source-xml/91.xml",
+      "sha256": "80b35ae2b218224cc68baf634d7dd6aed80f6846bfea3d4fd39a85bca6c85a2e",
+      "bytes": 5851
+    },
+    {
+      "role": "coin_source_xml",
+      "path": "research/coin-source-xml/92.xml",
+      "sha256": "6e067732d8ca8aa889705db83717c147e2ee5bca6b86261630c336175a897687",
+      "bytes": 4347
     }
   ]
 }

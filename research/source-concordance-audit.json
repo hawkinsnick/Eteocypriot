@@ -1,0 +1,36 @@
+{
+  "format": "eteocypriot-source-concordance-audit-v1",
+  "input_hashes": {
+    "research/source-concordance-register.json": "b542b727cd3839aa03cf909c447e885f3dc79bc9906e477a3135fe2685916eef",
+    "research/historical-concordance.json": "d139b8abe544d91702d12efdda579b51b476f470ef09f5a5ae1f401a196d59e9",
+    "research/historical-source-acquisition.json": "a9dcba34a73b9986c6466265e562e053e9d4f688f7bb149979cd4e23aaf35da1",
+    "data/records.json": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+    "data/acquisition.json": "d828bc7dfe024ec76d474fee2f3e152682cddc4c80fd48c91660b0be2a3b9a46",
+    "data/signs.json": "d9ae0a047892b10ff8efa144480d7f4c984f95ad47a560607a71ba5c9f0d30da",
+    "research/coin-source-comparison.json": "f7b67551f836796f4f8af096356c545dd8741021b609aed80471cc43bfa1513a"
+  },
+  "additional_comparison_xml_hashes": {
+    "research/coin-source-xml/85.xml": "488b2c768d61c842922e7baf852e98b2a4b12a39c18598c9aa7817bd75798383",
+    "research/coin-source-xml/86.xml": "4c514c20d88b574a70795ddb6d5578cd2890263a18d3c00537d1a12ef638eaf3",
+    "research/coin-source-xml/87.xml": "5102a954711592fc1be865eb5b1f6297d9779891b559e7238bf740bb961fbf16",
+    "research/coin-source-xml/88.xml": "fd9c529076790fd6e6439cda3162ccc9f38f4a3c13a6160881ae7224f9fd3e8c",
+    "research/coin-source-xml/89.xml": "02fa2f6491466431fa16a9c26b1848f6d5569183c6d6c47bfd150332a4184460",
+    "research/coin-source-xml/90.xml": "ed938092dcd01a13823f0deaeed8ce8939d2136df2a8b801d62eb7b364c677c3",
+    "research/coin-source-xml/91.xml": "80b35ae2b218224cc68baf634d7dd6aed80f6846bfea3d4fd39a85bca6c85a2e",
+    "research/coin-source-xml/92.xml": "6e067732d8ca8aa889705db83717c147e2ee5bca6b86261630c336175a897687"
+  },
+  "parsed_source_entries_replayed": 25,
+  "component_targets": 29,
+  "historical_candidate_joins": 7,
+  "source_disagreement_targets": 4,
+  "selected_critical_assertions": 6,
+  "discovery_leads": 8,
+  "museum_metadata_anchors": 2,
+  "historical_page_views_acquired": 32,
+  "historical_text_pages_visually_inspected": 13,
+  "licensed_coin_comparison_sources": 8,
+  "canonical_readings_changed": 0,
+  "physical_objects_certified": 0,
+  "independent_reviews_added": 0,
+  "boundary": "Seven source-correspondence candidates and eight leads do not add seven objects or eight inscriptions. IG, Friedrich/Masson, museum inventories, inscription labels and coin specimens remain distinct namespaces. Native count and language gates remain unchanged."
+}

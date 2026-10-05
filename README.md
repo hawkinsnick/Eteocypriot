@@ -1,6 +1,6 @@
 # Eteocypriot research corpus
 
-**1.0.0 — source-attributed components and an offline research toolkit.**
+**1.1.0 — source-attributed components, historical concordance and an offline research toolkit.**
 
 A reproducible, licensed starting corpus for Eteocypriot inscriptions, with
 explicit uncertainty and bilingual component boundaries. It is **not an
@@ -103,3 +103,7 @@ This corpus participates in the Combined Corpus Research AI fleet. Fleet admissi
 ## Source-route recheck — 5 October 2026 UTC
 
 The [initial route recheck](research/source-route-recheck-2026-10-05.json) confirms that entry 150 still returns the byte-identical malformed XML; its official HTML returns a formatting-error page, not an alternative reading. The official project lists the next syllabic fascicle in preparation, which does not establish publication or additional Eteocypriot entries. Whole-corpus discovery and physical identity reconciliation remain open.
+
+## Historical concordance checkpoint
+
+The [source-reconciliation guide](docs/SOURCE-RECONCILIATION.md) covers all 25 parsed IG entries and 29 components, with seven qualified historical correspondence candidates, two Louvre inventory anchors, six selected critical-reading questions and eight discovery leads. Thirteen selected historical text pages were visually inspected. These additions do not change the native readings, certify physical objects or admit disputed language labels. Run `python scripts/audit_source_concordance.py --check` to replay the source and boundary checks. The downloadable 1.0.0 package above remains the earlier baseline; this checkpoint is available from the main repository.

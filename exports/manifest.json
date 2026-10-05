@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "files": {
-    "ATTRIBUTION.md": "2072bed239560d619d8cf0d034d107f3f62b0d90abf99c5a5ec7eb39ace0d189",
-    "audit.json": "b80801d9b00c9e11092092cb3814dcb1e065137fac60bfe9a4ab54d1f325db89",
+    "ATTRIBUTION.md": "b911212958897c77085bdaef0f69796f59a83ef797447c951cac98d99224dbb1",
+    "audit.json": "47263bf0b416c98fcd3a545af814690cf901abfd78b1217016ba9112a7170a08",
     "components.csv": "0db37f65b475524c00dca714d7b7970c0cbc7556770c2d1f6fe3022f2ee2adfb",
-    "corpus.json": "6e435383c70f136892658feabc47161d75d61c4533692a905d70ad789aede819",
+    "corpus.json": "34334f27193977029219d92779353f6fffaf069bc7917148561b89f1822c7495",
     "eteocypriot-components.json": "5d23b8563c2a19f4f5fc3bdbee22a94ff46c497675643cff5c5c58877b0781d4",
     "frequency.json": "135c61ffecef4a620433442161bfe7bc3f14fbabd280d4d6f0351c4a865fc75d",
     "quarantine/150.xml": "9cc289042210d8bdc46edccc51d869c186956f40a5b4f3db01e4d8e135d2253f",

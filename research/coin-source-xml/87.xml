@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Münzlegende des Königs Rhoikos II., syllabisch</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Inscriptiones Graecae</authority>
+                <idno type="URI">https://telota.bbaw.de/ig/digitale-edition/inschrift/IG XV 1, 87</idno>
+                <idno type="localId">IG XV 1, 87 </idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/legalcode). All reuse or distribution of this work must contain somewhere a link back to this page.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <msName>IG XV 1, 87</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType>Münzen</objectType> (<material>Silber</material>)</support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Amathus</origPlace>
+                            <origDate>400-380</origDate>
+                        </origin>
+                        <provenance type="found">jetzt Mus. Berlin, Paris, Kopenhagen, Wien, Oxford, New York, London, Nikosia</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+        <text>
+            <body>
+            <div type="edition" xml:space="preserve">
+                <ab xmlns="http://www.tei-c.org/ns/1.0"><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(a)"><lb n="1"/>ro</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(b)"><lb n="1"/>ro</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(c)"><lb n="1"/>ro</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(d)"><lb n="1"/>ro</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(e)"><lb n="1"/>ro</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(f)"><lb n="1"/>ro</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(g)"><lb n="1"/>ro</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(h)"><lb n="1"/>ro</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(i)"><lb n="1"/>ro</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(j)"><lb n="1"/>ro</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(k)"><lb n="1"/>ro</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(l)"><lb n="1"/>ro</div></ab>
+            </div>
+            <div type="translation" xml:lang="DE" resp="Klaus Hallof"><ab xmlns="http://www.tei-c.org/ns/1.0"><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(a)"><lb n="1"/>(Münze) des Ro(ikos).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(b)"><lb n="1"/>(Münze) des Ro(ikos).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(c)"><lb n="1"/>(Münze) des Ro(ikos).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(d)"><lb n="1"/>(Münze) des Ro(ikos).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(e)"><lb n="1"/>(Münze) des Ro(ikos).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(f)"><lb n="1"/>(Münze) des Ro(ikos).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(g)"><lb n="1"/>(Münze) des Ro(ikos).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(h)"><lb n="1"/>(Münze) des Ro(ikos).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(i)"><lb n="1"/>(Münze) des Ro(ikos).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(j)"><lb n="1"/>(Münze) des Ro(ikos).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(k)"><lb n="1"/>(Münze) des Ro(ikos).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(l)"><lb n="1"/>(Münze) des Ro(ikos).</div></ab></div><div type="translation" xml:lang="GRC" resp=" "><ab xmlns="http://www.tei-c.org/ns/1.0"><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(a)"><lb n="1"/>Ῥο(ίκω).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(b)"><lb n="1"/>Ῥο(ίκω).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(c)"><lb n="1"/>Ῥο(ίκω).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(d)"><lb n="1"/>Ῥο(ίκω).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(e)"><lb n="1"/>Ῥο(ίκω).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(f)"><lb n="1"/>Ῥο(ίκω).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(g)"><lb n="1"/>Ῥο(ίκω).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(h)"><lb n="1"/>Ῥο(ίκω).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(i)"><lb n="1"/>Ῥο(ίκω).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(j)"><lb n="1"/>Ῥο(ίκω).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(k)"><lb n="1"/>Ῥο(ίκω).</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(l)"><lb n="1"/>Ῥο(ίκω).</div></ab></div>
+            <div type="bibliography">
+                <p>Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020</p>
+            </div>
+            </body>
+        </text>
+</TEI>

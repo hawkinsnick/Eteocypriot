@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "corpus": "Eteocypriot",
-  "checked": "2026-10-02",
+  "checked": "2026-10-05",
   "target": "PRE_EXPERT_SOURCE_EXHAUSTION",
   "dispositions": [
     {
@@ -29,12 +29,13 @@
       "evidence": "Source language labels are preserved; project does not independently adjudicate Eteocypriot linguistic interpretation or damaged/restored readings."
     }
   ],
-  "completion_assessment": "PRE_EXPERT_MAXIMUM_REACHED_FOR_CURRENT_LAWFUL_SOURCE_ROUTES",
-  "qualification": "Open-world discovery remains active; newly available authoritative lawful evidence reopens acquisition. Expert-only decisions remain unasserted.",
+  "completion_assessment": "SOURCE_CONCORDANCE_CHECKPOINT_COMPLETE_EXPANSION_AND_IDENTITY_WORK_OPEN",
+  "qualification": "All 25 parsed IG entries replayed at metadata/component level. Seven historical correspondences remain qualified candidates; eight leads reopen item-level acquisition. No whole-corpus exhaustion or independent epigraphic review granted.",
   "latest_route_recheck": {
     "checked": "2026-10-05",
     "evidence": "research/source-route-recheck-2026-10-05.json",
     "entry_150": "Live XML remains malformed and byte-identical; official HTML is a formatting-error page.",
     "coverage_beyond_fascicle": "Discovery remains open; official fascicle-2 preparation listing is not an acquired edition."
-  }
+  },
+  "historical_checkpoint": "research/source-concordance-audit.json"
 }

@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "corpus": "Eteocypriot",
   "target": "PRE_EXPERT_MAXIMUM",
-  "checked": "2026-10-02",
+  "checked": "2026-10-05",
   "established": [
     {
       "gate": "licensed_candidate_snapshot",
@@ -56,5 +56,14 @@
       "decision": "independent epigraphic review and linguistic interpretation"
     }
   ],
-  "completion_rule": "All machine and source-discoverable expansion work must be completed or explicitly access-blocked; language attribution, disputed readings and interpretation remain human decisions."
+  "completion_rule": "All machine and source-discoverable expansion work must be completed or explicitly access-blocked; language attribution, disputed readings and interpretation remain human decisions.",
+  "historical_concordance_checkpoint": {
+    "evidence": "research/source-concordance-audit.json",
+    "source_entries_replayed": 25,
+    "historical_correspondence_candidates": 7,
+    "selected_critical_assertions": 6,
+    "discovery_leads": 8,
+    "physical_objects_certified": 0,
+    "remaining": "Inspect further primary editions, resolve historical/modern identity and attribution differences, and acquire item-level sources for discovery leads. This is not terminal whole-corpus readiness."
+  }
 }

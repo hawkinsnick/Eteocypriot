@@ -36,6 +36,36 @@
       "role": "source_route_recheck",
       "path": "research/source-route-recheck-2026-10-05.json",
       "required": true
+    },
+    {
+      "role": "source_concordance_register",
+      "path": "research/source-concordance-register.json",
+      "required": true
+    },
+    {
+      "role": "historical_concordance",
+      "path": "research/historical-concordance.json",
+      "required": true
+    },
+    {
+      "role": "historical_acquisition",
+      "path": "research/historical-source-acquisition.json",
+      "required": true
+    },
+    {
+      "role": "source_concordance_audit",
+      "path": "research/source-concordance-audit.json",
+      "required": true
+    },
+    {
+      "role": "source_reconciliation_handoff",
+      "path": "docs/SOURCE-RECONCILIATION.md",
+      "required": true
+    },
+    {
+      "role": "coin_source_comparison",
+      "path": "research/coin-source-comparison.json",
+      "required": true
     }
   ],
   "behavioral_gates": [
@@ -46,6 +76,10 @@
     "Uncertain and damaged components remain excluded under the canonical policy",
     "Shared IG XV 1 records across the Cypriot Greek and Eteocypriot repositories are the same source evidence, not independent replication.",
     "Pre-Expert Maximum dispositions current lawful source routes; it does not convert source labels into independent linguistic validation.",
-    "Entry 150 remains quarantined after live source recheck; HTTP-200 HTML is a publisher error page. A fascicle in preparation is not an acquired edition or evidence of additional Eteocypriot membership."
+    "Entry 150 remains quarantined after live source recheck; HTTP-200 HTML is a publisher error page. A fascicle in preparation is not an acquired edition or evidence of additional Eteocypriot membership.",
+    "Historical Friedrich/Masson labels are not IG entry numbers. Seven source correspondences are candidates, not certified physical objects or full sequence agreement.",
+    "AM 799 groups two inscription labels; do not infer two independent monuments from two digital IG entries. Historical inventory/provenance claims and modern museum date fields remain source-specific.",
+    "Eight discovery leads are not eight new inscriptions. Preserve uncertain language attribution, possible native overlap, coin type/specimen denominators and item-free announcements. Historical critical assertions are not new canonical readings.",
+    "IG 85\u201392 are licensed comparison sources outside native candidates. A historical Eteocypriot claim, syllabic script title, Greek rendering or legend match cannot create a modern Eteocypriot admission; four parts are not four certified specimens."
   ]
 }

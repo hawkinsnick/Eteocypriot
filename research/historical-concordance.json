@@ -1,0 +1,363 @@
+{
+  "format": "eteocypriot-historical-concordance-v1",
+  "checked": "2026-10-05",
+  "date_basis": "UTC",
+  "candidate_joins": [
+    {
+      "id": "ECY-HIST-1",
+      "historical_source_id": "masson1957",
+      "historical_number": "1",
+      "number_namespace": "FRIEDRICH_1932_AS_EXTENDED_BY_MASSON_1957",
+      "article_page": 61,
+      "candidate_native_record_id": "ETEC-IGXV1-3",
+      "inventory_reported": "Ashmolean inscription inventory 119",
+      "join_basis": "Four source lines and distinctive initial sequence; IG Oxford provenance matches at institution level.",
+      "status": "SOURCE_CORRESPONDENCE_CANDIDATE_NOT_CERTIFIED_OBJECT",
+      "full_sequence_agreement_claimed": false,
+      "physical_identity_certified": false,
+      "independent_confirmation": false,
+      "native_object_id_changed": false
+    },
+    {
+      "id": "ECY-HIST-2",
+      "historical_source_id": "masson1957",
+      "historical_number": "2",
+      "number_namespace": "FRIEDRICH_1932_AS_EXTENDED_BY_MASSON_1957",
+      "article_page": 62,
+      "candidate_native_record_id": "ETEC-IGXV1-4",
+      "inventory_reported": "Ashmolean inscription inventory 118",
+      "join_basis": "Four source lines and distinctive initial sequence; IG Oxford provenance matches at institution level.",
+      "status": "SOURCE_CORRESPONDENCE_CANDIDATE_NOT_CERTIFIED_OBJECT",
+      "full_sequence_agreement_claimed": false,
+      "physical_identity_certified": false,
+      "independent_confirmation": false,
+      "native_object_id_changed": false
+    },
+    {
+      "id": "ECY-HIST-3",
+      "historical_source_id": "masson1957",
+      "historical_number": "3",
+      "number_namespace": "FRIEDRICH_1932_AS_EXTENDED_BY_MASSON_1957",
+      "article_page": 62,
+      "candidate_native_record_id": "ETEC-IGXV1-5",
+      "inventory_reported": "Louvre AM 799",
+      "join_basis": "Five-line smaller/left inscription, distinctive opening and grouped Louvre inventory; physical segmentation not certified.",
+      "status": "SOURCE_CORRESPONDENCE_CANDIDATE_NOT_CERTIFIED_OBJECT",
+      "full_sequence_agreement_claimed": false,
+      "physical_identity_certified": false,
+      "independent_confirmation": false,
+      "native_object_id_changed": false
+    },
+    {
+      "id": "ECY-HIST-4",
+      "historical_source_id": "masson1957",
+      "historical_number": "4",
+      "number_namespace": "FRIEDRICH_1932_AS_EXTENDED_BY_MASSON_1957",
+      "article_page": 62,
+      "candidate_native_record_id": "ETEC-IGXV1-6",
+      "inventory_reported": "Louvre AM 799",
+      "join_basis": "Six-line larger inscription, distinctive initial names/form sequence and grouped Louvre inventory; differences remain unadjudicated.",
+      "status": "SOURCE_CORRESPONDENCE_CANDIDATE_NOT_CERTIFIED_OBJECT",
+      "full_sequence_agreement_claimed": false,
+      "physical_identity_certified": false,
+      "independent_confirmation": false,
+      "native_object_id_changed": false
+    },
+    {
+      "id": "ECY-HIST-5",
+      "historical_source_id": "masson1957",
+      "historical_number": "5",
+      "number_namespace": "FRIEDRICH_1932_AS_EXTENDED_BY_MASSON_1957",
+      "article_page": 63,
+      "candidate_native_record_id": "ETEC-IGXV1-7",
+      "inventory_reported": null,
+      "join_basis": "Two-part bilingual and matching Greek Ariston/Aristonax parallel; historical possible loss is a source claim, not modern custodian verification.",
+      "status": "SOURCE_CORRESPONDENCE_CANDIDATE_NOT_CERTIFIED_OBJECT",
+      "full_sequence_agreement_claimed": false,
+      "physical_identity_certified": false,
+      "independent_confirmation": false,
+      "native_object_id_changed": false
+    },
+    {
+      "id": "ECY-HIST-8",
+      "historical_source_id": "masson1957",
+      "historical_number": "8",
+      "number_namespace": "FRIEDRICH_1932_AS_EXTENDED_BY_MASSON_1957",
+      "article_page": 63,
+      "candidate_native_record_id": "ETEC-IGXV1-11",
+      "inventory_reported": "Louvre AM 1857",
+      "join_basis": "Three-syllable published reading matches IG 11; Louvre inventory/ICS 190 and historical heading explicitly agree.",
+      "status": "SOURCE_CORRESPONDENCE_CANDIDATE_NOT_CERTIFIED_OBJECT",
+      "full_sequence_agreement_claimed": false,
+      "physical_identity_certified": false,
+      "independent_confirmation": false,
+      "native_object_id_changed": false
+    },
+    {
+      "id": "ECY-HIST-9-bis",
+      "historical_source_id": "masson1957",
+      "historical_number": "9 bis",
+      "number_namespace": "FRIEDRICH_1932_AS_EXTENDED_BY_MASSON_1957",
+      "article_page": 68,
+      "candidate_native_record_id": "ETEC-IGXV1-158",
+      "inventory_reported": "British Museum 96.2-1.157",
+      "join_basis": "Five-syllable historical reading matches IG 158; Kourion seal provenance and quartz material compatible. Modern museum page not directly inspected.",
+      "status": "SOURCE_CORRESPONDENCE_CANDIDATE_NOT_CERTIFIED_OBJECT",
+      "full_sequence_agreement_claimed": false,
+      "physical_identity_certified": false,
+      "independent_confirmation": false,
+      "native_object_id_changed": false
+    }
+  ],
+  "source_disagreement_targets": [
+    {
+      "id": "ECY-HIST-PROV-OXFORD",
+      "source_id": "masson1953",
+      "page": 83,
+      "historical_numbers": [
+        "1",
+        "2"
+      ],
+      "candidate_native_record_ids": [
+        "ETEC-IGXV1-3",
+        "ETEC-IGXV1-4"
+      ],
+      "kind": "PROVENANCE_DISAGREEMENT_TARGET",
+      "summary": "Masson treats Amathus origin as unassured and reports no museum provenance, contrasting with the modern IG Amathus/Polemidhia fields. Source dates and namespaces remain separate.",
+      "adjudicated": false
+    },
+    {
+      "id": "ECY-HIST-AM799-GROUP",
+      "source_id": "masson1953",
+      "page": 84,
+      "historical_numbers": [
+        "3",
+        "4"
+      ],
+      "candidate_native_record_ids": [
+        "ETEC-IGXV1-5",
+        "ETEC-IGXV1-6"
+      ],
+      "kind": "GROUPED_INVENTORY_NOT_OBJECT_DENOMINATOR",
+      "summary": "Historical AM 799 a/b supports two inscription labels; current Louvre notice groups ICS 194–195 under AM 799. No two-independent-object conclusion follows.",
+      "adjudicated": false
+    },
+    {
+      "id": "ECY-HIST-LOST-BILINGUAL",
+      "source_id": "masson1953",
+      "page": 84,
+      "historical_numbers": [
+        "5"
+      ],
+      "candidate_native_record_ids": [
+        "ETEC-IGXV1-7"
+      ],
+      "kind": "HISTORICAL_CONDITION_CLAIM",
+      "summary": "Masson reports possible disappearance after discovery in 1914; quoted travel/loss circumstances remain tentative and are not a verified present-day status.",
+      "adjudicated": false
+    },
+    {
+      "id": "ECY-HIST-LOST7-LAYOUT",
+      "source_id": "masson1953",
+      "page": 87,
+      "historical_numbers": [
+        "7"
+      ],
+      "candidate_native_record_ids": [],
+      "kind": "UNMATCHED_HISTORICAL_LAYOUT_CONFLICT",
+      "summary": "Historical text 7 has three versus five lines in different copies; no native IG-7 equality is inferred from equal numbering.",
+      "adjudicated": false
+    }
+  ],
+  "selected_critical_assertions": [
+    {
+      "id": "ECY-VAR-01",
+      "source_id": "masson1957",
+      "page": 62,
+      "historical_number": "1",
+      "source_locator": "critical notes (1), sign 3",
+      "summary": "Probable reading with doubts in another edition; candidate native entry 3 retains its IG underdot.",
+      "canonical_change_applied": false
+    },
+    {
+      "id": "ECY-VAR-02",
+      "source_id": "masson1957",
+      "page": 62,
+      "historical_number": "1",
+      "source_locator": "critical notes (2), sign 9",
+      "summary": "Two editions disagree on the syllabic reading. Do not align historical sign ordinal 9 automatically to modern tokens.",
+      "canonical_change_applied": false
+    },
+    {
+      "id": "ECY-VAR-03",
+      "source_id": "masson1957",
+      "page": 62,
+      "historical_number": "1",
+      "source_locator": "critical notes (3)",
+      "summary": "Divider presence inside the final line-three group is disputed; segmentation is an edition assertion.",
+      "canonical_change_applied": false
+    },
+    {
+      "id": "ECY-VAR-04",
+      "source_id": "masson1957",
+      "page": 62,
+      "historical_number": "2",
+      "source_locator": "critical notes (4), line 4 first sign",
+      "summary": "Historical first sign described as completely disappeared; proposed restoration rejected by Masson. No native reconstruction added.",
+      "canonical_change_applied": false
+    },
+    {
+      "id": "ECY-VAR-05",
+      "source_id": "masson1957",
+      "page": 63,
+      "historical_number": "4",
+      "source_locator": "critical notes (4), sign 27",
+      "summary": "Author distinguishes an observed extra stroke from a proposed engraver error. Do not promote proposed intended reading.",
+      "canonical_change_applied": false
+    },
+    {
+      "id": "ECY-VAR-06",
+      "source_id": "masson1957",
+      "page": 63,
+      "historical_number": "5",
+      "source_locator": "critical notes (1)",
+      "summary": "A supplement from another author is excluded at the stone break. No continuous historical reading is adopted.",
+      "canonical_change_applied": false
+    }
+  ],
+  "discovery_leads": [
+    {
+      "id": "ECY-DISC-01",
+      "source_id": "masson1957",
+      "historical_label": "6",
+      "article_page": 64,
+      "description": "Abydos temple graffito",
+      "disposition": "HISTORICALLY_ATTRIBUTED_REQUIRES_MODERN_REVIEW",
+      "summary": "Devéria drawing, Euting copy, Sayce recopy; p. 65 says 1955 inspection did not relocate inscription.",
+      "native_record_added": false,
+      "language_adjudicated": false
+    },
+    {
+      "id": "ECY-DISC-02",
+      "source_id": "masson1957",
+      "historical_label": "11",
+      "article_page": 66,
+      "description": "Buhen graffito",
+      "disposition": "AUTHOR_QUESTIONS_LANGUAGE_ATTRIBUTION",
+      "summary": "Direction and possible Greek-name interpretation differ; no Eteocypriot admission.",
+      "native_record_added": false,
+      "language_adjudicated": false
+    },
+    {
+      "id": "ECY-DISC-03",
+      "source_id": "masson1957",
+      "historical_label": "9",
+      "article_page": 66,
+      "description": "Amathus coin legend type",
+      "disposition": "COIN_TYPE_WITH_FOUR_REPORTED_SPECIMENS",
+      "summary": "Historical single type includes four specimens in London, Berlin and Paris; no four new native entries inferred. Official IG 85–92 inspected; historical coin type 9 corresponds at legend level to IG 88, without an explicit Eteocypriot source label or certified specimen crosswalk.",
+      "native_record_added": false,
+      "language_adjudicated": false,
+      "modern_route_evidence": "research/coin-source-comparison.json"
+    },
+    {
+      "id": "ECY-DISC-04",
+      "source_id": "masson1957",
+      "historical_label": "9 bis",
+      "article_page": 67,
+      "description": "Kourion intaglio",
+      "disposition": "POSSIBLE_OVERLAP_WITH_NATIVE_158",
+      "summary": "Follow the qualified historical-to-IG candidate; do not count as a new inscription.",
+      "native_record_added": false,
+      "language_adjudicated": false
+    },
+    {
+      "id": "ECY-DISC-05",
+      "source_id": "masson1957",
+      "historical_label": "10",
+      "article_page": 69,
+      "description": "Cesnola terracotta statuette",
+      "disposition": "AUTHOR_REGARDS_LANGUAGE_AS_VERY_DOUBTFUL",
+      "summary": "Historical source could not trace the object; competing directions/readings remain source-attributed.",
+      "native_record_added": false,
+      "language_adjudicated": false
+    },
+    {
+      "id": "ECY-DISC-06",
+      "source_id": "masson1957",
+      "historical_label": "10 bis",
+      "article_page": 70,
+      "description": "Second Cesnola terracotta statuette",
+      "disposition": "QUALIFIED_HISTORICAL_ATTRIBUTION",
+      "summary": "Origin/current location unknown to the historical author; identification and present scholarship remain open.",
+      "native_record_added": false,
+      "language_adjudicated": false
+    },
+    {
+      "id": "ECY-DISC-07",
+      "source_id": "masson1957",
+      "historical_label": "12",
+      "article_page": 70,
+      "description": "Oxford gem attributed by Sayce",
+      "disposition": "AUTHOR_REGARDS_LANGUAGE_AS_DOUBTFUL",
+      "summary": "Historical author reports failed relocation and inadequate drawing; no certified museum identity.",
+      "native_record_added": false,
+      "language_adjudicated": false
+    },
+    {
+      "id": "ECY-DISC-08",
+      "source_id": "masson1953",
+      "historical_label": "Kouklia announcement",
+      "article_page": 83,
+      "description": "Kouklia/Palaepaphos finds",
+      "disposition": "ANNOUNCEMENT_WITHOUT_ITEM_LEVEL_IDENTITIES",
+      "summary": "1953 footnote reports apparently Eteocypriot finds announced in 1952; count and item IDs not supplied.",
+      "native_record_added": false,
+      "language_adjudicated": false
+    }
+  ],
+  "museum_anchors": [
+    {
+      "source_id": "cl010130777",
+      "url": "https://collections.louvre.fr/ark:/53355/cl010130777",
+      "inventory": "AM 1857",
+      "catalogue_labels": [
+        "ICS 190"
+      ],
+      "historical_numbers": [
+        "8"
+      ],
+      "candidate_native_record_ids": [
+        "ETEC-IGXV1-11"
+      ],
+      "museum_json_modified_field": "2025-11-16",
+      "catalogue_html_last_updated": "not_extracted",
+      "native_identity_certified": false
+    },
+    {
+      "source_id": "cl010134473",
+      "url": "https://collections.louvre.fr/ark:/53355/cl010134473",
+      "inventory": "AM 799",
+      "catalogue_labels": [
+        "ICS 194",
+        "ICS 195"
+      ],
+      "historical_numbers": [
+        "3",
+        "4"
+      ],
+      "candidate_native_record_ids": [
+        "ETEC-IGXV1-5",
+        "ETEC-IGXV1-6"
+      ],
+      "museum_json_modified_field": "2025-11-16",
+      "catalogue_html_last_updated": "2024-06-21",
+      "native_identity_certified": false,
+      "date_field_semantics": "JSON modified and displayed notice-update dates differ; neither is an archaeological date."
+    }
+  ],
+  "canonical_readings_changed": 0,
+  "physical_objects_certified": 0,
+  "independent_reviews_added": 0,
+  "rights_boundary": "Original factual summaries and catalogue identifiers only. No historical continuous readings, scans, drawings or museum JSON/images are redistributed. Historical catalogue dates and specimen counts are source claims, not current certified inventories."
+}

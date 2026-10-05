@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Münzlegende des Königs Eutimos, syllabisch</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Inscriptiones Graecae</authority>
+                <idno type="URI">https://telota.bbaw.de/ig/digitale-edition/inschrift/IG XV 1, 90</idno>
+                <idno type="localId">IG XV 1, 90 </idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/legalcode). All reuse or distribution of this work must contain somewhere a link back to this page.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <msName>IG XV 1, 90</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType>Münzen</objectType> (<material>Silber</material>)</support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Amathus</origPlace>
+                            <origDate>385-380</origDate>
+                        </origin>
+                        <provenance type="found">jetzt Mus. Paris, Boston, Berlin, London</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+        <text>
+            <body>
+            <div type="edition" xml:space="preserve">
+                <ab xmlns="http://www.tei-c.org/ns/1.0"><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(a)"><lb n="1"/>e-wi-ti-mo ←</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(b)"><lb n="1"/>e]-ẉị-ti-mo ←</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(c)"><lb/><hi rend="smallit">in area oblonga expressa</hi><lb n="1"/>e-wi-ti-mo ←</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(d)"><lb n="1"/>zo-ti-mo  ←</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(e)"><lb n="1"/>e-we-ti-  →<lb n="2"/>mo</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(f)"><lb n="1"/>zo-ti-mo ←</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(g)"><lb n="1"/>e-we-ti-mo ←</div></ab>
+            </div>
+            <div type="translation" xml:lang="DE" resp="Klaus Hallof"><ab xmlns="http://www.tei-c.org/ns/1.0"><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(a)"><lb n="1"/>(Münze) des Ewitimos.</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(b)"><lb n="1"/>(Münze) des Ewitimos.</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(c)"><lb/><hi rend="smallit">in einer Kartusche</hi><lb n="1"/>(Münze) des Ewitimos.</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(d)"><lb n="1"/>(Münze) des Zotimos.</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(e)"><lb n="1"/>(Münze) des Eweti-<lb n="2"/>mos.</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(f)"><lb n="1"/>(Münze) des Zotimos.</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(g)"><lb n="1"/>(Münze) des Ewetimos.</div></ab></div><div type="translation" xml:lang="GRC" resp=" "><ab xmlns="http://www.tei-c.org/ns/1.0"><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(a)"><lb n="1"/>Ἐϝιτίμω. ←</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(b)"><lb n="1"/>[Ἐ]ϝ̣ι̣τίμω. ←</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(c)"><lb/><hi rend="smallit">in area oblonga expressa</hi><lb n="1"/>Ἐϝιτίμω. ←</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(d)"><lb n="1"/>Ζωτίμω. ←</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(e)"><lb n="1"/>Ἐϝιτί‒  →<lb n="2"/>μω.</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(f)"><lb n="1"/>Ζωτίμω. ←</div><div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="fragment" n="(g)"><lb n="1"/>Ἐϝετίμω. ←</div></ab></div>
+            <div type="bibliography">
+                <p>Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020</p>
+            </div>
+            </body>
+        </text>
+</TEI>

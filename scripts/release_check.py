@@ -27,6 +27,7 @@ if contract.get('principles') != required or not contract.get('profile'):
 
 def main():
     commands = [
+        ["scripts/audit_source_concordance.py", "--check"],
         ['-c', 'from etec.family import validate_family; errors=validate_family(); print(errors); assert not errors'],
         ['-m', 'etec', 'validate'],
         ['-m', 'unittest', 'discover', '-s', 'tests', '-v'],

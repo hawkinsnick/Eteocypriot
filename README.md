@@ -111,3 +111,7 @@ The [source-reconciliation guide](docs/SOURCE-RECONCILIATION.md) covers all 25 p
 
 ## Offline corpus browser
 Run `python scripts/build_corpus_browser.py` to generate `workbench/corpus-browser.html`. It searches only files explicitly admitted by `research/browser-sources.json`. Browser admission requires rights/provenance review; never recursively ingest restricted or raw upstream material. Display does not establish decipherment, source independence, or expert validation.
+
+
+## Linear A method-parity gate
+Eteocypriot now has explicit source lineage, language/object disagreement controls, component rights, browser/API/export/validation and review boundaries around its licensed IG XV 1 layer. Digital entries are not certified physical objects; historical and modern language classifications remain source-specific. See `docs/RIGHTS-ONLY-READINESS.md` and `research/residual-blocker-ledger.json`.

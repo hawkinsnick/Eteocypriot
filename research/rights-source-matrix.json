@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Eteocypriot",
+  "sources": [
+    {
+      "id": "IG-XV-1-digital",
+      "rights": "CC-BY-4.0",
+      "use": "structured digital edition text/metadata under license with attribution; component image rights checked separately"
+    },
+    {
+      "id": "Masson-ICS-and-articles",
+      "rights": "COPYRIGHT/PROVIDER_TERMS_SOURCE_SPECIFIC",
+      "use": "bibliography, historical assertions and lawful targeted comparison; systematic protected extraction only with rights basis"
+    },
+    {
+      "id": "Perna-2019",
+      "rights": "PUBLICATION_SPECIFIC",
+      "use": "bibliographic/revision lineage and lawfully reusable assertions; figures/images separate"
+    },
+    {
+      "id": "museum/catalogue evidence",
+      "rights": "INSTITUTION_SPECIFIC",
+      "use": "object identity/provenance metadata where lawful; images not assumed reusable"
+    }
+  ],
+  "rule": "The CC BY license on IG digital data does not automatically relicense underlying photographs or unrelated editions."
+}

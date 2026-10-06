@@ -3,7 +3,7 @@
   "corpus": "Eteocypriot",
   "target": "LINEAR_A_METHOD_PARITY_PRE_EXPERT_MAXIMUM",
   "checked": "2026-10-06",
-  "assessment": "OPEN_ENGINEERING_AND_SOURCE_ACCESS_FRONTIER",
+  "assessment": "SOURCE_ACCESS_OBJECT_CONCORDANCE_DOMINANT_PRE_EXPERT_ENGINEERING_COMPLETE",
   "blockers": [
     {
       "id": "ECY-BLK-001",
@@ -26,7 +26,7 @@
     {
       "id": "ECY-BLK-004",
       "class": "ENGINEERING",
-      "status": "OPEN",
+      "status": "COMPLETE",
       "needed": "method-parity API, exports, explicit lineage/disagreement/rights interfaces and CI"
     },
     {

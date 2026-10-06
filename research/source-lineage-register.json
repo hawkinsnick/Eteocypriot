@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Eteocypriot",
+  "lineages": [
+    {
+      "id": "ECY-LIN-IG",
+      "sources": [
+        "IG XV 1,1 digital edition"
+      ],
+      "rights": "CC-BY-4.0",
+      "role": "current licensed candidate/reference layer",
+      "boundary": "Digital edition entries/components are not automatically distinct physical objects or independent witnesses."
+    },
+    {
+      "id": "ECY-LIN-MASSON",
+      "sources": [
+        "Masson ICS",
+        "Masson later Eteocypriot publications"
+      ],
+      "role": "historical edition/classification lineage",
+      "boundary": "Historical Eteocypriot attribution can disagree with modern source labels; preserve both."
+    },
+    {
+      "id": "ECY-LIN-PERNA",
+      "sources": [
+        "Perna 2019",
+        "IG XV 1"
+      ],
+      "role": "modern re-edition/autopsy lineage",
+      "boundary": "Improved readings are edition assertions; project does not claim independent autopsy."
+    }
+  ],
+  "rules": [
+    "Language attribution is component/source-specific.",
+    "Shared IG data across Eteocypriot and Cypriot-syllabic-Greek repos are one source, not independent confirmation.",
+    "Coin type/specimen/edition-part counts are distinct units."
+  ]
+}

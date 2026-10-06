@@ -33,3 +33,7 @@ Read `ai-skill/generated/source-state.json` before substantive work. It records 
 - Copies shared with the Cypriot Greek project are the same source witness, not independent replication
 - Whole-corpus frequency, translation and cross-script phonetic inference remain blocked
 - Uncertain and damaged components remain excluded under the canonical policy
+
+
+## Offline corpus browser
+Run `python scripts/build_corpus_browser.py` to generate `workbench/corpus-browser.html`. It searches only files explicitly admitted by `research/browser-sources.json`. Browser admission requires rights/provenance review; never recursively ingest restricted or raw upstream material. Display does not establish decipherment, source independence, or expert validation.

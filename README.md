@@ -107,3 +107,7 @@ The [initial route recheck](research/source-route-recheck-2026-10-05.json) confi
 ## Historical concordance checkpoint
 
 The [source-reconciliation guide](docs/SOURCE-RECONCILIATION.md) covers all 25 parsed IG entries and 29 components, with seven qualified historical correspondence candidates, two Louvre inventory anchors, six selected critical-reading questions and eight discovery leads. Thirteen selected historical text pages were visually inspected. These additions do not change the native readings, certify physical objects or admit disputed language labels. Run `python scripts/audit_source_concordance.py --check` to replay the source and boundary checks. The downloadable 1.0.0 package above remains the earlier baseline; this checkpoint is available from the main repository.
+
+
+## Offline corpus browser
+Run `python scripts/build_corpus_browser.py` to generate `workbench/corpus-browser.html`. It searches only files explicitly admitted by `research/browser-sources.json`. Browser admission requires rights/provenance review; never recursively ingest restricted or raw upstream material. Display does not establish decipherment, source independence, or expert validation.

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Eteocypriot",
+  "checked": "2026-10-06",
+  "target": "DEFENSIBLE_SCORE_GT_9",
+  "sources": [
+    {
+      "id": "ECY-OA-PESTARINO-2024",
+      "citation": "B. Pestarino, An Eteocypriot-Greek bilingual inscription and the meaning of Cypriot eupatridai, Kadmos 63 (2024), 19-38",
+      "rights": "CC BY (author accepted manuscript repository)",
+      "scope": "IG XV 1.1 no. 7 and comparative social/epigraphic interpretation",
+      "admission": "SCHOLARLY_COMPARISON_LAYER",
+      "boundary": "Interpretive scholarship is not an independent physical-object collation."
+    },
+    {
+      "id": "ECY-OA-OUTLINE-2025",
+      "citation": "Wikimedia Commons Amathous Eteocypriot inscription outline",
+      "rights": "CC BY-SA 3.0",
+      "scope": "modern independently uploaded outline",
+      "admission": "VISUAL_COMPARISON_LEAD",
+      "boundary": "Modern outline is not an authoritative epigraphic edition and must not override IG/primary readings."
+    }
+  ],
+  "next_actions": [
+    "Map the open 2024 scholarship to the existing IG record and disagreement lineage.",
+    "Use rights-clear visual material only as a comparison layer, not canonical reading authority.",
+    "Continue object/catalogue concordance and edition-revision mapping."
+  ]
+}

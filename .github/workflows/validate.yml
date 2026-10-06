@@ -21,3 +21,9 @@ jobs:
           python -m etec build
           python -m etec export --output exports
           git diff --exit-code -- data/records.json data/signs.json exports
+      - name: Validate method-parity interfaces
+        run: |
+          python scripts/test_preexpert_parity.py
+          python scripts/build_corpus_browser.py
+          python scripts/research_api.py records --limit 2 > /tmp/ecy-api.json
+          python scripts/export_research_layer.py /tmp/ecy.json

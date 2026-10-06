@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Eteocypriot",
+  "items": [
+    {
+      "id": "ECY-DIS-001",
+      "scope": "IG candidate set",
+      "kind": "language_attribution",
+      "status": "SOURCE_SPECIFIC",
+      "boundary": "Question-mark and whole-entry labels remain uncertain; no project adjudication."
+    },
+    {
+      "id": "ECY-DIS-002",
+      "scope": "Masson coin type vs IG XV 1,88",
+      "kind": "historical_modern_classification",
+      "status": "UNRESOLVED",
+      "boundary": "Masson Eteocypriot attribution versus modern 'syllabic' title retained; four historical specimens are not equated to four modern parts."
+    },
+    {
+      "id": "ECY-DIS-003",
+      "scope": "ICS 194/195 and modern re-edition",
+      "kind": "reading_revision",
+      "status": "MODERN_REEDITION_EXISTS",
+      "boundary": "Perna autopsy improvements should be source-attributed; no silent overwrite of historical readings."
+    },
+    {
+      "id": "ECY-DIS-004",
+      "scope": "physical objects",
+      "kind": "identity",
+      "status": "UNCERTIFIED",
+      "boundary": "Digital edition entry count cannot be reported as certified physical-object count."
+    }
+  ]
+}

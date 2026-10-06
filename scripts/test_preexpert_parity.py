@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+import json,pathlib
+R=pathlib.Path(__file__).resolve().parents[1];req=["research/source-lineage-register.json","research/disagreement-register.json","research/rights-source-matrix.json","research/residual-blocker-ledger.json","research/source-concordance-register.json"];assert all((R/p).exists() for p in req);c=json.loads((R/"research/source-concordance-register.json").read_text());assert len(c["entries"])==25;pre=json.loads((R/"research/pre-expert-maximum.json").read_text());assert pre["established"][0]["candidate_source_responses"]==26;assert pre["historical_concordance_checkpoint"]["physical_objects_certified"]==0;print(json.dumps({"status":"PASS","candidate_responses":26,"parsed_concordance_entries":25,"physical_objects_certified":0}))

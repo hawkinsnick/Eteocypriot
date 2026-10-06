@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Eteocypriot",
+  "target": "LINEAR_A_METHOD_PARITY_PRE_EXPERT_MAXIMUM",
+  "checked": "2026-10-06",
+  "assessment": "OPEN_ENGINEERING_AND_SOURCE_ACCESS_FRONTIER",
+  "blockers": [
+    {
+      "id": "ECY-BLK-001",
+      "class": "SOURCE_ACCESS",
+      "status": "PARTIAL",
+      "needed": "coverage beyond current IG XV 1 fascicle and additional authoritative Eteocypriot publications"
+    },
+    {
+      "id": "ECY-BLK-002",
+      "class": "OBJECT_CONCORDANCE",
+      "status": "ACCESS_BOUND",
+      "needed": "museum/catalogue identities sufficient to map digital entries to physical objects without duplication"
+    },
+    {
+      "id": "ECY-BLK-003",
+      "class": "EDITION_ACCESS",
+      "status": "PARTIAL",
+      "needed": "alternative/historical edition comparison including exact locators and revision lineage"
+    },
+    {
+      "id": "ECY-BLK-004",
+      "class": "ENGINEERING",
+      "status": "OPEN",
+      "needed": "method-parity API, exports, explicit lineage/disagreement/rights interfaces and CI"
+    },
+    {
+      "id": "ECY-BLK-005",
+      "class": "SCIENTIFIC_REVIEW",
+      "status": "DOWNSTREAM",
+      "needed": "language attribution, damaged/restored readings, segmentation and independent epigraphic review"
+    }
+  ]
+}

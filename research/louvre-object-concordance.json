@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Eteocypriot",
+  "checked": "2026-10-07",
+  "scope": "Louvre public object identities for Amathus Eteocypriot / candidate inscriptions",
+  "records": [
+    {
+      "ics": "ICS 194-195",
+      "museum": "Musée du Louvre",
+      "inventory": "AM 799",
+      "object_type": "inscribed tomb lintel / funerary object",
+      "material": "limestone",
+      "findspot": "Amathus",
+      "date": "600-475 BCE",
+      "script": "Cypro-syllabic",
+      "language": "Eteocypriot",
+      "lines": 6,
+      "identity_note": "One museum object carries the compound catalogue identifier ICS 194-195; do not count as two physical objects.",
+      "source": "Louvre collection notice"
+    },
+    {
+      "ics": "ICS 191",
+      "museum": "Musée du Louvre",
+      "inventory": "AM 2813",
+      "object_type": "block/stele",
+      "material": "crystalline limestone",
+      "findspot": "Amathus",
+      "discovery_year": 1862,
+      "script": "Cypro-syllabic",
+      "language": "Eteocypriot (?)",
+      "lines": 3,
+      "identity_note": "Museum language attribution is explicitly uncertain and remains so.",
+      "source": "Louvre collection notice"
+    },
+    {
+      "ics": "ICS 190",
+      "museum": "Musée du Louvre",
+      "inventory": "AM 1857",
+      "object_type": "inscribed block",
+      "material": "crystalline limestone",
+      "findspot": "Amathus",
+      "discovery_year": 1862,
+      "script": "Cypro-syllabic",
+      "language": "Eteocypriot",
+      "museum_reading": "pu-nu-to-so",
+      "text_type": "epitaph (?)",
+      "identity_note": "Text type uncertainty preserved.",
+      "source": "Louvre collection notice"
+    }
+  ],
+  "boundaries": [
+    "Museum catalogue attributions are evidence, not final language adjudication.",
+    "Catalogue metadata and textual descriptions are distinct from image reuse rights.",
+    "Compound ICS identifiers and museum objects must remain separate count dimensions."
+  ],
+  "next_actions": [
+    "Crosswalk ICS 190/191/194-195 to the frozen IG candidate records.",
+    "Attach modern-autopsy scholarship to ICS 194-195 lineage without overwriting historical readings.",
+    "Search additional public museum catalogues for remaining Amathus candidates."
+  ]
+}

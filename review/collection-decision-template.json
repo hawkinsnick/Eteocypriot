@@ -1,0 +1,37 @@
+{
+  "automatic_admission": false,
+  "decisions": {
+    "language_or_script_classification": {
+      "rationale": null,
+      "status": "UNREVIEWED"
+    },
+    "object_identity": {
+      "rationale": null,
+      "status": "UNREVIEWED"
+    },
+    "reading_and_layout": {
+      "rationale": null,
+      "status": "UNREVIEWED"
+    },
+    "reuse_rights": {
+      "rationale": null,
+      "status": "UNREVIEWED"
+    },
+    "source_independence": {
+      "rationale": null,
+      "status": "UNREVIEWED"
+    },
+    "uncertainty": {
+      "rationale": null,
+      "status": "UNREVIEWED"
+    }
+  },
+  "evidence_fingerprint": "85b6036756e1efc96c2f86ab60aec25d46ff8623538a5bd415481d4171ad4c47",
+  "inspected_evidence": [],
+  "record_key": null,
+  "repository": "hawkinsnick/Eteocypriot",
+  "reviewed_on": null,
+  "reviewer": null,
+  "schema_version": "1.0",
+  "source_record_sha256": null
+}

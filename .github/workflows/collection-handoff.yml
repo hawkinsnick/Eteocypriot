@@ -1,7 +1,7 @@
 name: Collection source work and review handoff
 on: [push, pull_request]
 permissions:
-  contents: write
+  contents: read
 jobs:
   replay:
     runs-on: ubuntu-latest
@@ -10,14 +10,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Regenerate stale handoff artifacts on recovery branch
-        if: github.event_name == 'push' && github.ref == 'refs/heads/recovery/collection-handoff-2026-10-09'
-        run: |
-          python scripts/build_collection_handoff.py --write
-          git add research/collection-work-ledger.json review/collection-packet.json review/collection-decision-template.json
-          if ! git diff --cached --quiet; then
-            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: regenerate collection handoff against current corpus inputs'
-            git push origin HEAD:recovery/collection-handoff-2026-10-09
-          fi
       - run: python scripts/build_collection_handoff.py
       - run: python -m unittest discover -s tests -p 'test_collection_handoff.py'

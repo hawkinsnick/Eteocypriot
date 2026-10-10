@@ -115,3 +115,7 @@ Run `python scripts/build_corpus_browser.py` to generate `workbench/corpus-brows
 
 ## Linear A method-parity gate
 Eteocypriot now has explicit source lineage, language/object disagreement controls, component rights, browser/API/export/validation and review boundaries around its licensed IG XV 1 layer. Digital entries are not certified physical objects; historical and modern language classifications remain source-specific. See `docs/RIGHTS-ONLY-READINESS.md` and `research/residual-blocker-ledger.json`.
+
+## Evidence-count interpretation
+
+The coverage table reports **digital source entries and editorial components**, not a census of surviving inscriptions, archaeological objects, or independently collated witnesses. In particular, the 17 source-attributed Eteocypriot entries must not be presented as 17 independently verified physical inscriptions. Before comparing coverage with another corpus, record the unit counted, the source edition and version, language-admission rules, treatment of bilingual parts, and whether records share a source witness. Expert verification and corpus completeness remain open gates; a successful software validation does not close them.

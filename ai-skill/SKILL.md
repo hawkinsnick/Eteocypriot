@@ -41,3 +41,6 @@ Run `python scripts/build_corpus_browser.py` to generate `workbench/corpus-brows
 
 ## Linear A method-parity gate
 Eteocypriot now has explicit source lineage, language/object disagreement controls, component rights, browser/API/export/validation and review boundaries around its licensed IG XV 1 layer. Digital entries are not certified physical objects; historical and modern language classifications remain source-specific. See `docs/RIGHTS-ONLY-READINESS.md` and `research/residual-blocker-ledger.json`.
+
+## Validation and AI-use guide
+Consult `docs/VALIDATION-AND-AI-USE.md` before asserting reproducibility, corpus completeness, expert acceptance or cross-corpus comparability. Record the source commit and actual validation outputs. Keep scientific review gates separate from passing software checks.

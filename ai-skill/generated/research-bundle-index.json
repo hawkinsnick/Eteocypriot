@@ -1,9 +1,9 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "ab269b95157b3b70b3fe99e07cf8a7200e950752",
+  "source_commit": "6dde271403dac772ce32b1f442f9a7847c9cbab6",
   "canonical_repository": true,
-  "generated_at_utc": "2026-10-10T16:52:33+00:00",
+  "generated_at_utc": "2026-10-11T23:25:29+00:00",
   "contract": {
     "corpus_is_authoritative": true,
     "missing_means_unknown": true,
@@ -150,6 +150,24 @@
       "path": "research/coin-source-xml/92.xml",
       "sha256": "6e067732d8ca8aa889705db83717c147e2ee5bca6b86261630c336175a897687",
       "bytes": 4347
+    },
+    {
+      "role": "cross_corpus_dependencies",
+      "path": "research/cross-corpus-dependencies.json",
+      "sha256": "cb7ca1a95c848797a438d59df2d69854295c077f62321fcb53545588e42965b0",
+      "bytes": 452
+    },
+    {
+      "role": "sync_publication_guard",
+      "path": "ai-skill/scripts/publish_sync.py",
+      "sha256": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+      "bytes": 2836
+    },
+    {
+      "role": "ai_integrity_guide",
+      "path": "docs/AI-INTEGRITY.md",
+      "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+      "bytes": 1766
     }
   ]
 }

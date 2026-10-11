@@ -66,6 +66,21 @@
       "role": "coin_source_comparison",
       "path": "research/coin-source-comparison.json",
       "required": true
+    },
+    {
+      "role": "cross_corpus_dependencies",
+      "path": "research/cross-corpus-dependencies.json",
+      "required": true
+    },
+    {
+      "role": "sync_publication_guard",
+      "path": "ai-skill/scripts/publish_sync.py",
+      "required": true
+    },
+    {
+      "role": "ai_integrity_guide",
+      "path": "docs/AI-INTEGRITY.md",
+      "required": true
     }
   ],
   "behavioral_gates": [
@@ -80,6 +95,6 @@
     "Historical Friedrich/Masson labels are not IG entry numbers. Seven source correspondences are candidates, not certified physical objects or full sequence agreement.",
     "AM 799 groups two inscription labels; do not infer two independent monuments from two digital IG entries. Historical inventory/provenance claims and modern museum date fields remain source-specific.",
     "Eight discovery leads are not eight new inscriptions. Preserve uncertain language attribution, possible native overlap, coin type/specimen denominators and item-free announcements. Historical critical assertions are not new canonical readings.",
-    "IG 85\u201392 are licensed comparison sources outside native candidates. A historical Eteocypriot claim, syllabic script title, Greek rendering or legend match cannot create a modern Eteocypriot admission; four parts are not four certified specimens."
+    "IG 85–92 are licensed comparison sources outside native candidates. A historical Eteocypriot claim, syllabic script title, Greek rendering or legend match cannot create a modern Eteocypriot admission; four parts are not four certified specimens."
   ]
 }

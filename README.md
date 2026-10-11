@@ -119,3 +119,7 @@ Eteocypriot now has explicit source lineage, language/object disagreement contro
 ## Evidence-count interpretation
 
 The coverage table reports **digital source entries and editorial components**, not a census of surviving inscriptions, archaeological objects, or independently collated witnesses. In particular, the 17 source-attributed Eteocypriot entries must not be presented as 17 independently verified physical inscriptions. Before comparing coverage with another corpus, record the unit counted, the source edition and version, language-admission rules, treatment of bilingual parts, and whether records share a source witness. Expert verification and corpus completeness remain open gates; a successful software validation does not close them.
+
+## AI integrity checkpoint — 2026-10-11
+
+[AI integrity controls](docs/AI-INTEGRITY.md) document source-bound bundle publication and checked cross-corpus dependency safeguards. Reading coverage and scholarly acceptance are unchanged.

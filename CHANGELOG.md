@@ -29,3 +29,7 @@ Component admission, source labels and conservative offline tools.
 ## 0.1.0 — foundation
 
 26 licensed candidate responses admitted from the immutable raw-source snapshot.
+
+## Unreleased — AI integrity checkpoint
+
+Require checked native dependency projections, preserve corpus-native bundle schemas, and publish synchronized bundles only on their validated source parent. Add Git race and hostile dependency tests; no new readings or expert acceptance.

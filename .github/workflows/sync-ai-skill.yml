@@ -1,34 +1,41 @@
 name: Sync AI skill
 on:
   push:
-    branches: [main, ai-skill-v0.1]
-  pull_request:
     branches: [main]
+  pull_request:
     paths-ignore:
       - 'ai-skill/generated/**'
   workflow_dispatch:
+concurrency:
+  group: sync-ai-skill-${{ github.ref }}
+  cancel-in-progress: true
 permissions:
-  contents: write
+  contents: read
 jobs:
   sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-      - name: Build AI research bundle
+          python-version: '3.12'
+      - name: Test source-parent publication and dependency gates
+        run: |
+          python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py
+          python -m unittest discover -s scripts -p test_cross_corpus_dependencies.py
+      - name: Build native AI bundle at checked source revision
         env:
           SOURCE_COMMIT: ${{ github.sha }}
         run: python ai-skill/scripts/build_bundle.py
-      - name: Validate generated bundle
+      - name: Validate native bundle and dependency evidence
         run: python ai-skill/scripts/validate_bundle.py
-      - name: Commit synchronized AI bundle
+      - name: Publish only on the exact validated source parent
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          SOURCE_COMMIT: ${{ github.sha }}
         run: |
-          git add ai-skill/generated
-          if git diff --cached --quiet -- ai-skill/generated; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore(ai-skill): sync bundle to corpus ${GITHUB_SHA::12}"
-          git push
+          python ai-skill/scripts/publish_sync.py

@@ -14,3 +14,8 @@ for q in p.get("required_authorities",[]):
  elif a.get("sha256")!=hashlib.sha256(f.read_bytes()).hexdigest():e.append("authority hash mismatch "+q["path"])
 if e:print("\n".join(e));sys.exit(1)
 print(p["corpus"]+" AI integration validation PASS")
+
+# Native dependency policies are checked as part of every AI bundle validation.
+import pathlib as _guard_pathlib, runpy as _guard_runpy
+_guard_root=_guard_pathlib.Path(__file__).resolve().parents[2]
+_guard_runpy.run_path(str(_guard_root/'scripts/check_cross_corpus_dependencies.py'))['validate'](_guard_root)

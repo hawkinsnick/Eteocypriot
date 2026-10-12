@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "repository": "hawkinsnick/Eteocypriot",
+  "master_repository": "hawkinsnick/Linear-A",
+  "master_registry_path": "corpus-factory/cross-corpus-dependencies.json",
+  "scope": "Known source-supported cross-repository dependencies only. Absence from this register is not proof of independence or physical uniqueness.",
+  "dependency_groups": [],
+  "physical_identity_certified": false,
+  "independence_established": false
+}

@@ -1,0 +1,117 @@
+{
+  "format": "corpus-attribution-review-v1",
+  "repository": "hawkinsnick/Eteocypriot",
+  "checked": "2026-10-15",
+  "scope": "All four controls; Masson’s Eteocypriot coin-type attribution and IG’s syllabic-only title are not equivalent opposite language claims. Parts and specimens remain distinct.",
+  "consultation_this_pass": "PINNED_REPOSITORY_EVIDENCE_ONLY",
+  "consultation_boundary": "Existing source consultation receipts and limits are inherited exactly from the referenced native packets. This pass inspects those packets, not the underlying publications afresh. No exhaustive literature search, new autopsy or independent review is claimed.",
+  "rights": "Original project review and bibliographic/source pointers only. Native attribution and rights remain attached to evidence; no new source files, figures or full protected editions are redistributed. Linear A GORILA refusal is not relaxed.",
+  "inputs": [
+    {
+      "path": "research/coin-source-comparison.json",
+      "sha256": "f7b67551f836796f4f8af096356c545dd8741021b609aed80471cc43bfa1513a",
+      "source_snapshot_commit": "e38ff1a8760bfca2a5af321e5312ddf03437d160"
+    },
+    {
+      "path": "research/disagreement-register.json",
+      "sha256": "4d5b04b7fab3c7ac4fda70629cc0b76176ae1994195f6537733e8e6ab1c3c29d",
+      "source_snapshot_commit": "e38ff1a8760bfca2a5af321e5312ddf03437d160"
+    },
+    {
+      "path": "research/source-lineage-register.json",
+      "sha256": "bd206242027f2a3ed083ff47233c423cd6c8a62b7b0299a9b2afbbca825d57de",
+      "source_snapshot_commit": "e38ff1a8760bfca2a5af321e5312ddf03437d160"
+    }
+  ],
+  "complete_selections": [
+    {
+      "path": "research/disagreement-register.json",
+      "pointer": "/items",
+      "expected_rows": 4
+    }
+  ],
+  "cases": [
+    {
+      "review_id": "ECY-DIS-001",
+      "case_class": "CLASSIFICATION",
+      "finding": "Whole-entry labels and question-mark language assertions are not adjudicated component readings.",
+      "remaining_gap": "Inspect component-specific source labels; Greek parallel text does not supply an Eteocypriot translation.",
+      "evidence": [
+        {
+          "path": "research/disagreement-register.json",
+          "pointer": "/items/0"
+        },
+        {
+          "path": "research/source-lineage-register.json",
+          "pointer": "/lineages/0"
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "ECY-DIS-002",
+      "case_class": "CLASSIFICATION",
+      "finding": "Masson attributes the coin type to Eteocypriot; IG XV1,88 is titled syllabic. This is not a direct contradiction between explicit Eteocypriot and explicit Greek labels.",
+      "remaining_gap": "Retain Masson1957 pp.66–67 and exact IG XML; four reported specimens are not certified as the four modern parts.",
+      "evidence": [
+        {
+          "path": "research/disagreement-register.json",
+          "pointer": "/items/1"
+        },
+        {
+          "path": "research/coin-source-comparison.json",
+          "pointer": "/historical_type_candidate"
+        },
+        {
+          "path": "research/coin-source-comparison.json",
+          "pointer": "/entries/3"
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "ECY-DIS-003",
+      "case_class": "COVERAGE_GAP",
+      "finding": "A re-edition/autopsy lineage is named, but this control does not encode a complete historical/modern same-locus pair.",
+      "remaining_gap": "Inspect Perna and historical editions at exact pages/lines before reading comparison.",
+      "evidence": [
+        {
+          "path": "research/disagreement-register.json",
+          "pointer": "/items/2"
+        },
+        {
+          "path": "research/source-lineage-register.json",
+          "pointer": "/lineages/1"
+        },
+        {
+          "path": "research/source-lineage-register.json",
+          "pointer": "/lineages/2"
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "ECY-DIS-004",
+      "case_class": "COUNT_OR_IDENTITY",
+      "finding": "Digital entries are not certified physical objects.",
+      "remaining_gap": "Inventory/face joins and specimen identities remain source-specific.",
+      "evidence": [
+        {
+          "path": "research/disagreement-register.json",
+          "pointer": "/items/3"
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    }
+  ],
+  "new_readings_admitted": 0,
+  "independent_reviews_added": 0
+}

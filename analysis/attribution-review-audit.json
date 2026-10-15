@@ -1,0 +1,30 @@
+{
+  "format": "corpus-attribution-review-audit-v1",
+  "repository": "hawkinsnick/Eteocypriot",
+  "status": "PASS_PINNED_DOCUMENTARY_REVIEW_NOT_SCHOLARLY_ACCEPTANCE",
+  "manifest_sha256": "c856b5ee573f302f2485f2ae587b339124c780bdadc8bd78617ee9563ac6aba2",
+  "implementation_sha256": "29fd40045d96e9ee0d1d8f692b856a1b8a0631b9a5fa4fc86080d951c1236dbf",
+  "input_count": 3,
+  "review_case_count": 4,
+  "case_classes": {
+    "CLASSIFICATION": 2,
+    "COUNT_OR_IDENTITY": 1,
+    "COVERAGE_GAP": 1
+  },
+  "pair_attribution_states": {
+    "NOT_APPLICABLE": 4
+  },
+  "complete_selections": [
+    {
+      "path": "research/disagreement-register.json",
+      "pointer": "/items",
+      "expected_rows": 4
+    }
+  ],
+  "literature_exhaustive": false,
+  "alternative_pair_count": null,
+  "independent_witness_count": null,
+  "new_readings_admitted": 0,
+  "independent_reviews_added": 0,
+  "consultation_this_pass": "PINNED_REPOSITORY_EVIDENCE_ONLY"
+}

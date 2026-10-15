@@ -17,6 +17,14 @@
       "id_pointer": "/id",
       "unit": "research disagreement/control item",
       "scope": "Broad scopes are not automatically assigned to individual records."
+    },
+    {
+      "name": "attribution-review",
+      "path": "research/attribution-review.json",
+      "pointer": "/cases",
+      "id_pointer": "/review_id",
+      "unit": "bounded documentary attribution review task",
+      "scope": "All four controls; Masson’s Eteocypriot coin-type attribution and IG’s syllabic-only title are not equivalent opposite language claims. Parts and specimens remain distinct."
     }
   ],
   "relations": [],
@@ -25,59 +33,77 @@
       "path": "data/records.json",
       "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
       "encoding": "json",
-      "role": "digital-entries"
+      "role": "digital-entries",
+      "source_snapshot_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b"
     },
     {
       "path": "research/disagreement-register.json",
       "sha256": "4d5b04b7fab3c7ac4fda70629cc0b76176ae1994195f6537733e8e6ab1c3c29d",
       "encoding": "json",
-      "role": "disagreement-register"
+      "role": "disagreement-register",
+      "source_snapshot_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b"
     },
     {
       "path": "research/source-lineage-register.json",
       "sha256": "bd206242027f2a3ed083ff47233c423cd6c8a62b7b0299a9b2afbbca825d57de",
       "encoding": "json",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b"
     },
     {
       "path": "research/rights-source-matrix.json",
       "sha256": "4a9107445ebaa0eda49a70bd7efbfeb3b80c28963df6b08b7f69bddd3f46c36b",
       "encoding": "json",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b"
     },
     {
       "path": "data/source-defects.json",
       "sha256": "4144d494832d0668efd44b1a1c3c7b361bd97ec7a6c7fdb080bf5d6051d79b8d",
       "encoding": "json",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b"
     },
     {
       "path": "research/source-concordance-register.json",
       "sha256": "b542b727cd3839aa03cf909c447e885f3dc79bc9906e477a3135fe2685916eef",
       "encoding": "json",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b"
     },
     {
       "path": "research/coin-source-comparison.json",
       "sha256": "f7b67551f836796f4f8af096356c545dd8741021b609aed80471cc43bfa1513a",
       "encoding": "json",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b"
     },
     {
       "path": "LICENSE-CONTENT.md",
       "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
       "encoding": "text",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b"
     },
     {
       "path": "NOTICE",
       "sha256": "b911212958897c77085bdaef0f69796f59a83ef797447c951cac98d99224dbb1",
       "encoding": "text",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b"
+    },
+    {
+      "path": "research/attribution-review.json",
+      "sha256": "c856b5ee573f302f2485f2ae587b339124c780bdadc8bd78617ee9563ac6aba2",
+      "encoding": "json",
+      "role": "bounded attribution review",
+      "source_snapshot_commit": null
     }
   ],
   "scholarly_limits": [
-    "Shared IG material is not independent across the two projects. Greek, Eteocypriot and uncertain components must not be conflated. Source editorial marks, translation responsibility and source URLs remain unaltered."
+    "Shared IG material is not independent across the two projects. Greek, Eteocypriot and uncertain components must not be conflated. Source editorial marks, translation responsibility and source URLs remain unaltered.",
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
   ],
-  "native_artifacts_snapshot_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b"
+  "native_artifacts_snapshot_commit": null,
+  "snapshot_commit_scope": "Mixed inputs retain their per-artifact anchors. New original review artifacts are byte-pinned and identified by published repository history, not assigned to an earlier commit."
 }

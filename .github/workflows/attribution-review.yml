@@ -1,0 +1,15 @@
+name: Attribution review integrity
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  attribution-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/attribution_review.py --check
+      - run: python -m unittest discover -s scripts -p test_attribution_review.py
+      - run: python scripts/evidence_query.py --check

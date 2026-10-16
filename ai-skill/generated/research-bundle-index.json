@@ -1,9 +1,9 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "550bf01fa0d92084efcb1a2601db46adb56cb278",
+  "source_commit": "4b1e45dadd2924b980379a98487ff5a133e20ce1",
   "canonical_repository": true,
-  "generated_at_utc": "2026-10-15T02:37:30+00:00",
+  "generated_at_utc": "2026-10-16T18:55:12+00:00",
   "contract": {
     "corpus_is_authoritative": true,
     "missing_means_unknown": true,
@@ -46,14 +46,14 @@
     {
       "role": "native_evidence_profile",
       "path": "research/evidence-query-profile.json",
-      "sha256": "2af8cbcd14a78c49b915448291b8c51e9443aebb54e287ff814439550d159341",
-      "bytes": 4766
+      "sha256": "4be5ba995fc04abbb5b6e986edda4e155fa8c45d7b0bf74fea9698ae8c81355a",
+      "bytes": 5382
     },
     {
       "role": "native_evidence_coverage",
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "169670616687512a91f68632d50b565a30f1f32b00dba1ea77d3b18262579581",
-      "bytes": 6168
+      "sha256": "3e182157948595568acaee7306b80235a361b1030756c47edca623cb3ed355d7",
+      "bytes": 7119
     },
     {
       "role": "native_evidence_query",
@@ -162,6 +162,30 @@
       "path": "research/pre-expert-source-exhaustion.json",
       "sha256": "78df45ef5196fc4d4f194008e0cff36469c7783b23b8a52d1645260f3390578f",
       "bytes": 2035
+    },
+    {
+      "role": "p1_source_followup",
+      "path": "research/p1-source-followup-2026-10-16.json",
+      "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+      "bytes": 2426
+    },
+    {
+      "role": "p1_source_followup_guide",
+      "path": "docs/P1-SOURCE-FOLLOWUP-2026-10-16.md",
+      "sha256": "45b6f032a0a704b63fc95089b5bb0e3b87c5cb68a5031e0d64f05708c48ef2ef",
+      "bytes": 864
+    },
+    {
+      "role": "p1_source_followup_validator",
+      "path": "scripts/p1_source_followup.py",
+      "sha256": "87db7fa8d9e02f6b17868dae735b929e517c8323ca629e17fcbd1b8736231425",
+      "bytes": 4080
+    },
+    {
+      "role": "p1_source_followup_tests",
+      "path": "tests/test_p1_source_followup.py",
+      "sha256": "c8acb26c91ec8eeed2b4d578145f15d034f8e7d86ff7234a30d14ee2a29b5738",
+      "bytes": 3331
     },
     {
       "role": "coin_source_xml",

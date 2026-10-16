@@ -129,3 +129,7 @@ The coverage table reports **digital source entries and editorial components**, 
 [Query source evidence and unresolved alternatives](docs/EVIDENCE-AND-ALTERNATIVES.md) using exact native IDs, full source records, pinned artifact locators and explicit corpus-specific scope. [Coverage by native view](analysis/evidence-query-coverage.json) keeps catalogue entries, reading versions, assertions and research issues distinct. This interface adds no source collation, canonical reading or expert acceptance.
 
 Bounded attribution and comparison review: [source qualifications and remaining gaps](docs/ATTRIBUTION-REVIEW.md).
+
+## 2026-10-16 source reconciliation follow-up
+
+Added a [bounded P1 source/identity follow-up](docs/P1-SOURCE-FOLLOWUP-2026-10-16.md), exact query linkage, input/hash checks and rejection tests. Native readings, admission and independent-review gates are unchanged.

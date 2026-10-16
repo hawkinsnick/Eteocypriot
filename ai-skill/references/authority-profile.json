@@ -81,6 +81,26 @@
       "role": "ai_integrity_guide",
       "path": "docs/AI-INTEGRITY.md",
       "required": true
+    },
+    {
+      "path": "research/p1-source-followup-2026-10-16.json",
+      "role": "p1_source_followup",
+      "required": true
+    },
+    {
+      "path": "docs/P1-SOURCE-FOLLOWUP-2026-10-16.md",
+      "role": "p1_source_followup_guide",
+      "required": true
+    },
+    {
+      "path": "scripts/p1_source_followup.py",
+      "role": "p1_source_followup_validator",
+      "required": true
+    },
+    {
+      "path": "tests/test_p1_source_followup.py",
+      "role": "p1_source_followup_tests",
+      "required": true
     }
   ],
   "behavioral_gates": [

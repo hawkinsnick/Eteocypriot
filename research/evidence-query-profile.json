@@ -25,6 +25,14 @@
       "id_pointer": "/review_id",
       "unit": "bounded documentary attribution review task",
       "scope": "All four controls; Masson’s Eteocypriot coin-type attribution and IG’s syllabic-only title are not equivalent opposite language claims. Parts and specimens remain distinct."
+    },
+    {
+      "name": "p1-source-followup",
+      "path": "research/p1-source-followup-2026-10-16.json",
+      "pointer": "/cases",
+      "id_pointer": "/id",
+      "unit": "bounded source/identity follow-up disposition",
+      "scope": "Bounded documentary source/identity follow-up; not complete corpus collation or independent epigraphic acceptance."
     }
   ],
   "relations": [],
@@ -97,6 +105,13 @@
       "sha256": "c856b5ee573f302f2485f2ae587b339124c780bdadc8bd78617ee9563ac6aba2",
       "encoding": "json",
       "role": "bounded attribution review",
+      "source_snapshot_commit": null
+    },
+    {
+      "path": "research/p1-source-followup-2026-10-16.json",
+      "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+      "encoding": "json",
+      "role": "p1-source-followup",
       "source_snapshot_commit": null
     }
   ],

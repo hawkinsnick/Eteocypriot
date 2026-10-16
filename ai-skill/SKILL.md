@@ -61,3 +61,7 @@ Read `docs/EVIDENCE-AND-ALTERNATIVES.md`, `research/evidence-query-profile.json`
 Read `docs/ATTRIBUTION-REVIEW.md` and `research/attribution-review.json` before describing a dispute or source comparison. Run `python scripts/attribution_review.py --case ID` with the referenced evidence available. Preserve complete native evidence and distinguish reading, interpretation, classification, count, identity and representation questions. This checkpoint reviews pinned repository packets; it does not repeat their primary consultation or grant independent review. Inherit the exact author/publication, locator, consultation limits and dependence from each pointer; missing fields remain unknown. Use the case-specific remaining work. Do not count register entries or apparatus notes as fully attributed pairs, physical objects or independent witnesses.
 
 All four controls; Masson’s Eteocypriot coin-type attribution and IG’s syllabic-only title are not equivalent opposite language claims. Parts and specimens remain distinct.
+
+## P1 source follow-up
+
+Read `research/p1-source-followup-2026-10-16.json` and `docs/P1-SOURCE-FOLLOWUP-2026-10-16.md` for current qualified dispositions. Retrieve the `p1-source-followup` native-query collection. Keep source-specific notations, failed routes, quarantine, unresolved identity and reading alternatives with every relevant result; no passing documentary check grants admission or independent acceptance.

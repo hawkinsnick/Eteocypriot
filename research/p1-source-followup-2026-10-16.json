@@ -1,0 +1,67 @@
+{
+  "format": "corpus-p1-source-followup-v1",
+  "repository": "hawkinsnick/Eteocypriot",
+  "checked_local_date": "2026-10-16",
+  "date_basis": "America/Chicago",
+  "scope": "Bounded documentary source/identity follow-up; not complete corpus collation or independent epigraphic acceptance.",
+  "inputs": [
+    {
+      "path": "data/records.json",
+      "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013"
+    },
+    {
+      "path": "data/raw/150.xml",
+      "sha256": "9cc289042210d8bdc46edccc51d869c186956f40a5b4f3db01e4d8e135d2253f"
+    },
+    {
+      "path": "research/source-route-recheck-2026-10-05.json",
+      "sha256": "fdc29eadb13f86f3e67318c3a8ac20a5a6bf800b153d0d60ee995eba2d261bf8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ig150",
+      "url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20150",
+      "final_url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20150",
+      "http_status": 200,
+      "bytes": 3422,
+      "sha256": "9cc289042210d8bdc46edccc51d869c186956f40a5b4f3db01e4d8e135d2253f",
+      "content_type": "text/xml; charset=utf-8",
+      "consultation": "XML_REACQUIRED_AND_PARSE_ATTEMPTED",
+      "source_files_redistributed": false,
+      "page_inspections": []
+    }
+  ],
+  "cases": [
+    {
+      "id": "ETE-IG150-QUARANTINE",
+      "source_id": "IG XV 1, 150",
+      "source_ids": [
+        "ig150"
+      ],
+      "disposition": "UNCHANGED_MALFORMED_UPSTREAM_XML_QUARANTINE_RETAINED",
+      "source_sha256": "9cc289042210d8bdc46edccc51d869c186956f40a5b4f3db01e4d8e135d2253f",
+      "identical_to_prior_route_receipt": true,
+      "parse_error": "mismatched tag: line 46, column 351",
+      "observations": [
+        "HTTP200 supplies the same malformed source, not an admissible parsed inscription. The historical raw bytes stay intact."
+      ],
+      "remaining_work": [
+        "Corrected source-issued XML or a separately inspected authoritative edition with explicit entry identity and language evidence."
+      ],
+      "parsed_record_added": false,
+      "raw_repaired": false,
+      "canonical_admission": false,
+      "physical_identity_certified": false,
+      "independent_review": false
+    }
+  ],
+  "limits": {
+    "canonical_readings_added": 0,
+    "physical_identities_certified": 0,
+    "independent_reviews_added": 0,
+    "frozen_readings_changed": false,
+    "source_files_redistributed": false,
+    "literature_exhaustive": false
+  }
+}

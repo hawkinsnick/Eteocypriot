@@ -37,3 +37,7 @@ Require checked native dependency projections, preserve corpus-native bundle sch
 ## 2026-10-15 — Native evidence and alternative-reading queries
 
 Added pinned native evidence profiles, exact-ID/JSON-pointer queries, coverage replay, loss/corruption/identity/path tests and CI. Updated researcher documentation, AI instructions and evidence bundle indexing. Existing source data and scientific acceptance states are unchanged.
+
+## 2026-10-16 source reconciliation follow-up
+
+Added a [bounded P1 source/identity follow-up](docs/P1-SOURCE-FOLLOWUP-2026-10-16.md), exact query linkage, input/hash checks and rejection tests. Native readings, admission and independent-review gates are unchanged.

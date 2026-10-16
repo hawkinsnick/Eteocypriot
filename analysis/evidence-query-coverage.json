@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Eteocypriot",
-  "profile_sha256": "2af8cbcd14a78c49b915448291b8c51e9443aebb54e287ff814439550d159341",
+  "profile_sha256": "4be5ba995fc04abbb5b6e986edda4e155fa8c45d7b0bf74fea9698ae8c81355a",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -58,6 +58,23 @@
         "pointer": "/cases",
         "native_artifacts_snapshot_commit": null,
         "role": "bounded attribution review",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "p1-source-followup",
+      "native_unit": "bounded source/identity follow-up disposition",
+      "record_count": 1,
+      "scope": "Bounded documentary source/identity follow-up; not complete corpus collation or independent epigraphic acceptance.",
+      "example_ids": [
+        "ETE-IG150-QUARANTINE"
+      ],
+      "provenance": {
+        "path": "research/p1-source-followup-2026-10-16.json",
+        "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+        "pointer": "/cases",
+        "native_artifacts_snapshot_commit": null,
+        "role": "p1-source-followup",
         "encoding": "json"
       }
     }
@@ -141,6 +158,14 @@
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "bounded attribution review",
+      "encoding": "json"
+    },
+    {
+      "path": "research/p1-source-followup-2026-10-16.json",
+      "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "p1-source-followup",
       "encoding": "json"
     }
   ],

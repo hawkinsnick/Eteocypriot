@@ -1,9 +1,9 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "4b1e45dadd2924b980379a98487ff5a133e20ce1",
+  "source_commit": "88fa7b8492a722a6a7637bbf475bdf208d0f8c0e",
   "canonical_repository": true,
-  "generated_at_utc": "2026-10-16T18:55:12+00:00",
+  "generated_at_utc": "2026-10-17T00:48:05+00:00",
   "contract": {
     "corpus_is_authoritative": true,
     "missing_means_unknown": true,
@@ -162,6 +162,30 @@
       "path": "research/pre-expert-source-exhaustion.json",
       "sha256": "78df45ef5196fc4d4f194008e0cff36469c7783b23b8a52d1645260f3390578f",
       "bytes": 2035
+    },
+    {
+      "role": "p1_human_request",
+      "path": "review/p1-human-request.json",
+      "sha256": "c7b37c4eaf9012776b00cc37c2e901a67942bb6b8a661b27c4433c2fc315a54b",
+      "bytes": 1709
+    },
+    {
+      "role": "p1_human_request",
+      "path": "docs/P1-HUMAN-VALIDATION.md",
+      "sha256": "dbbbfbf5fd7822de04d1deb94bf54ea3cd07070a37f51acff2f61f76cc7665e5",
+      "bytes": 1135
+    },
+    {
+      "role": "p1_human_request",
+      "path": "scripts/p1_human_request.py",
+      "sha256": "591bd170ba009f2975d3d72caf9acd8e94c01ef05ac4f34bc8777d9470eb23d3",
+      "bytes": 2292
+    },
+    {
+      "role": "p1_human_request",
+      "path": "tests/test_p1_human_request.py",
+      "sha256": "f0f287bdad90da54b98d6c951a1326263ce7224cccf585eb3f841b54d4c53e1c",
+      "bytes": 1587
     },
     {
       "role": "p1_source_followup",

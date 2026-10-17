@@ -1,0 +1,41 @@
+{
+  "format": "corpus-p1-human-request-v1",
+  "repository": "hawkinsnick/Eteocypriot",
+  "status": "PREPARED_NOT_REVIEWED",
+  "scope": "Scoped human/source-maintainer questions only; does not certify the whole corpus ready for final acceptance.",
+  "inputs": [
+    {
+      "path": "research/p1-source-followup-2026-10-16.json",
+      "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad"
+    }
+  ],
+  "questions": [
+    {
+      "id": "ETE-IG150-QUARANTINE",
+      "role_required": "source_edition_editor",
+      "stage": "CORRECTED_SOURCE_PENDING",
+      "question": "Supply a source-issued well-formed record or authoritative edition with exact IG150 identity and language evidence. Do not silently repair the preserved malformed XML.",
+      "source_packet_pointer": "/cases/0",
+      "evidence_prerequisites": [
+        "Corrected source-issued XML or a separately inspected authoritative edition with explicit entry identity and language evidence."
+      ],
+      "decision_requested": [
+        "supported_with_scope",
+        "rejected_with_counterevidence",
+        "inconclusive",
+        "additional_source_required"
+      ],
+      "effect_of_no_decision": "Retain existing quarantine, alternatives and non-admission."
+    }
+  ],
+  "reviewer": null,
+  "affiliation": null,
+  "review_date": null,
+  "expertise_evidence": null,
+  "conflicts_and_source_dependence": null,
+  "signed_or_attributed_review_evidence": null,
+  "decisions": [],
+  "scientific_approval_granted": false,
+  "automatic_admission": false,
+  "acceptance_route": "Use native independent-review and human-maintainer verification requirements. Filling or validating this prepared request grants no admission."
+}

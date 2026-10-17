@@ -101,6 +101,26 @@
       "path": "tests/test_p1_source_followup.py",
       "role": "p1_source_followup_tests",
       "required": true
+    },
+    {
+      "path": "review/p1-human-request.json",
+      "role": "p1_human_request",
+      "required": true
+    },
+    {
+      "path": "docs/P1-HUMAN-VALIDATION.md",
+      "role": "p1_human_request",
+      "required": true
+    },
+    {
+      "path": "scripts/p1_human_request.py",
+      "role": "p1_human_request",
+      "required": true
+    },
+    {
+      "path": "tests/test_p1_human_request.py",
+      "role": "p1_human_request",
+      "required": true
     }
   ],
   "behavioral_gates": [

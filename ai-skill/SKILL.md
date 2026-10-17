@@ -65,3 +65,7 @@ All four controls; Masson’s Eteocypriot coin-type attribution and IG’s sylla
 ## P1 source follow-up
 
 Read `research/p1-source-followup-2026-10-16.json` and `docs/P1-SOURCE-FOLLOWUP-2026-10-16.md` for current qualified dispositions. Retrieve the `p1-source-followup` native-query collection. Keep source-specific notations, failed routes, quarantine, unresolved identity and reading alternatives with every relevant result; no passing documentary check grants admission or independent acceptance.
+
+## Human/source-maintainer decision routing
+
+Read `review/p1-human-request.json` and `docs/P1-HUMAN-VALIDATION.md`. Distinguish source acquisition/editor clarification from epigraphic adjudication and policy controls. Keep the input hash, native case pointer and prerequisites with each question. Prepared requests, software checks and AI responses are never independent human validation; native human-maintainer acceptance remains required.

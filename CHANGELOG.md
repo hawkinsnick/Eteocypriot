@@ -41,3 +41,7 @@ Added pinned native evidence profiles, exact-ID/JSON-pointer queries, coverage r
 ## 2026-10-16 source reconciliation follow-up
 
 Added a [bounded P1 source/identity follow-up](docs/P1-SOURCE-FOLLOWUP-2026-10-16.md), exact query linkage, input/hash checks and rejection tests. Native readings, admission and independent-review gates are unchanged.
+
+## 2026-10-16 scoped human-validation preparation
+
+Added exact evidence-bound decision routing and preserved acquisition/maintainer prerequisites. See [P1 human-validation guidance](docs/P1-HUMAN-VALIDATION.md) and the prepared, unreviewed native request.

@@ -1,9 +1,9 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "88fa7b8492a722a6a7637bbf475bdf208d0f8c0e",
+  "source_commit": "c55a52fa0ac680e56d9758b3d90b23b68184a88c",
   "canonical_repository": true,
-  "generated_at_utc": "2026-10-17T00:48:05+00:00",
+  "generated_at_utc": "2026-10-17T01:07:10+00:00",
   "contract": {
     "corpus_is_authoritative": true,
     "missing_means_unknown": true,
@@ -276,6 +276,30 @@
       "path": "docs/AI-INTEGRITY.md",
       "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
       "bytes": 1766
+    },
+    {
+      "role": "research_delivery",
+      "path": "scripts/research_delivery.py",
+      "sha256": "2c113043ed51a459b82dc3959b7f56849bf1aa8c2223719ef3fdaa1321decf8d",
+      "bytes": 10075
+    },
+    {
+      "role": "research_delivery",
+      "path": "scripts/test_research_delivery.py",
+      "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+      "bytes": 5678
+    },
+    {
+      "role": "research_delivery",
+      "path": "docs/RESEARCH-DELIVERY.md",
+      "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+      "bytes": 4065
+    },
+    {
+      "role": "research_delivery",
+      "path": "analysis/research-delivery.json",
+      "sha256": "48024193e8f4c4f16e7b60dace04b0bd6beb8df5cc1a4c06191486360468245e",
+      "bytes": 7390
     }
   ]
 }

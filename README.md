@@ -137,3 +137,9 @@ Added a [bounded P1 source/identity follow-up](docs/P1-SOURCE-FOLLOWUP-2026-10-1
 ## 2026-10-16 scoped human-validation preparation
 
 Added exact evidence-bound decision routing and preserved acquisition/maintainer prerequisites. See [P1 human-validation guidance](docs/P1-HUMAN-VALIDATION.md) and the prepared, unreviewed native request.
+
+## Research delivery and feedback
+
+[Search, reproducible local packages, evidence-bound answers and review submissions](docs/RESEARCH-DELIVERY.md).
+[Measured delivery scope](analysis/research-delivery.json) retains native evidence
+units and all scholarly, rights and expert-review dependencies.

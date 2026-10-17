@@ -45,3 +45,10 @@ Added a [bounded P1 source/identity follow-up](docs/P1-SOURCE-FOLLOWUP-2026-10-1
 ## 2026-10-16 scoped human-validation preparation
 
 Added exact evidence-bound decision routing and preserved acquisition/maintainer prerequisites. See [P1 human-validation guidance](docs/P1-HUMAN-VALIDATION.md) and the prepared, unreviewed native request.
+
+## 2026-10-17 — Research delivery controls
+
+Add checksum-bound native search/evidence responses, deterministic local research
+packaging and offline replay, revision-bound review submission forms and rejection
+tests. Update individual AI instructions and documentation. No source record,
+reading, expert acceptance or redistribution permission is added by this change.

@@ -9,6 +9,7 @@ c += [('p1_human_request', 'review/p1-human-request.json'), ('p1_human_request',
 c += [("p1_source_followup","research/p1-source-followup-2026-10-16.json"),("p1_source_followup_guide","docs/P1-SOURCE-FOLLOWUP-2026-10-16.md"),("p1_source_followup_validator","scripts/p1_source_followup.py"),("p1_source_followup_tests","tests/test_p1_source_followup.py")]
 c += [("coin_source_xml", f"research/coin-source-xml/{n}.xml") for n in range(85,93)]
 c += [("cross_corpus_dependencies","research/cross-corpus-dependencies.json"),("sync_publication_guard","ai-skill/scripts/publish_sync.py"),("ai_integrity_guide","docs/AI-INTEGRITY.md")]
+c += [("research_delivery", p) for p in ['scripts/research_delivery.py','scripts/test_research_delivery.py','docs/RESEARCH-DELIVERY.md','analysis/research-delivery.json']]
 a=[]
 for role,rel in c:
  p=R/rel

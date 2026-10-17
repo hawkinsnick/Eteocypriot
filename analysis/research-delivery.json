@@ -1,0 +1,203 @@
+{
+  "format": "native-research-delivery-v1",
+  "repository": "hawkinsnick/Eteocypriot",
+  "status": "PASS_DELIVERY_CONTROLS_ONLY",
+  "source_attribution_completeness": "NOT_CERTIFIED_BY_FILE_POINTERS",
+  "facts_hypotheses_policy": "PRESERVE_NATIVE_CATEGORIES_NO_AUTOMATIC_PROMOTION",
+  "scholarly_completeness": false,
+  "expert_acceptance_added": false,
+  "model_behavior_empirically_validated": false,
+  "collections": [
+    {
+      "name": "digital-entries",
+      "native_unit": "digital edition entry",
+      "record_count": 25,
+      "scope": "Entry membership, source language classification and component partitions remain literal.",
+      "example_ids": [
+        "ETEC-IGXV1-1",
+        "ETEC-IGXV1-2",
+        "ETEC-IGXV1-3"
+      ],
+      "provenance": {
+        "path": "data/records.json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "disagreement-register",
+      "native_unit": "research disagreement/control item",
+      "record_count": 4,
+      "scope": "Broad scopes are not automatically assigned to individual records.",
+      "example_ids": [
+        "ECY-DIS-001",
+        "ECY-DIS-002",
+        "ECY-DIS-003"
+      ],
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "4d5b04b7fab3c7ac4fda70629cc0b76176ae1994195f6537733e8e6ab1c3c29d",
+        "pointer": "/items",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "attribution-review",
+      "native_unit": "bounded documentary attribution review task",
+      "record_count": 4,
+      "scope": "All four controls; Masson’s Eteocypriot coin-type attribution and IG’s syllabic-only title are not equivalent opposite language claims. Parts and specimens remain distinct.",
+      "example_ids": [
+        "ECY-DIS-001",
+        "ECY-DIS-002",
+        "ECY-DIS-003"
+      ],
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "c856b5ee573f302f2485f2ae587b339124c780bdadc8bd78617ee9563ac6aba2",
+        "pointer": "/cases",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "p1-source-followup",
+      "native_unit": "bounded source/identity follow-up disposition",
+      "record_count": 1,
+      "scope": "Bounded documentary source/identity follow-up; not complete corpus collation or independent epigraphic acceptance.",
+      "example_ids": [
+        "ETE-IG150-QUARANTINE"
+      ],
+      "provenance": {
+        "path": "research/p1-source-followup-2026-10-16.json",
+        "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+        "pointer": "/cases",
+        "native_artifacts_snapshot_commit": null,
+        "role": "p1-source-followup",
+        "encoding": "json"
+      }
+    }
+  ],
+  "scholarly_limits": [
+    "Shared IG material is not independent across the two projects. Greek, Eteocypriot and uncertain components must not be conflated. Source editorial marks, translation responsibility and source URLs remain unaltered.",
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+  ],
+  "inputs": [
+    {
+      "path": "LICENSE",
+      "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+      "bytes": 582
+    },
+    {
+      "path": "LICENSE-CODE",
+      "sha256": "5abeed8801e0a4a528efb27f35cc14998789d6f0f7f851ca38fa28283372b2a4",
+      "bytes": 386
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+      "bytes": 762
+    },
+    {
+      "path": "LICENSING.md",
+      "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+      "bytes": 2487
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "b911212958897c77085bdaef0f69796f59a83ef797447c951cac98d99224dbb1",
+      "bytes": 2660
+    },
+    {
+      "path": "ai-skill/SKILL.md",
+      "sha256": "7ce3cf4a310fdd50c0deb7ff6b5b46874eba08690e607a37ce8ca98c82a720ec",
+      "bytes": 8868
+    },
+    {
+      "path": "data/records.json",
+      "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+      "bytes": 142613
+    },
+    {
+      "path": "data/source-defects.json",
+      "sha256": "4144d494832d0668efd44b1a1c3c7b361bd97ec7a6c7fdb080bf5d6051d79b8d",
+      "bytes": 661
+    },
+    {
+      "path": "docs/RESEARCH-DELIVERY.md",
+      "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+      "bytes": 4065
+    },
+    {
+      "path": "research/attribution-review.json",
+      "sha256": "c856b5ee573f302f2485f2ae587b339124c780bdadc8bd78617ee9563ac6aba2",
+      "bytes": 4800
+    },
+    {
+      "path": "research/coin-source-comparison.json",
+      "sha256": "f7b67551f836796f4f8af096356c545dd8741021b609aed80471cc43bfa1513a",
+      "bytes": 8067
+    },
+    {
+      "path": "research/collection-work-ledger.json",
+      "sha256": "1cc2dec42ce480f6300983c267b91798fdd70f84b00f247098526d8f90eeab81",
+      "bytes": 45678
+    },
+    {
+      "path": "research/disagreement-register.json",
+      "sha256": "4d5b04b7fab3c7ac4fda70629cc0b76176ae1994195f6537733e8e6ab1c3c29d",
+      "bytes": 1171
+    },
+    {
+      "path": "research/evidence-query-profile.json",
+      "sha256": "4be5ba995fc04abbb5b6e986edda4e155fa8c45d7b0bf74fea9698ae8c81355a",
+      "bytes": 5382
+    },
+    {
+      "path": "research/p1-source-followup-2026-10-16.json",
+      "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+      "bytes": 2426
+    },
+    {
+      "path": "research/rights-source-matrix.json",
+      "sha256": "4a9107445ebaa0eda49a70bd7efbfeb3b80c28963df6b08b7f69bddd3f46c36b",
+      "bytes": 1028
+    },
+    {
+      "path": "research/source-concordance-register.json",
+      "sha256": "b542b727cd3839aa03cf909c447e885f3dc79bc9906e477a3135fe2685916eef",
+      "bytes": 37732
+    },
+    {
+      "path": "research/source-lineage-register.json",
+      "sha256": "bd206242027f2a3ed083ff47233c423cd6c8a62b7b0299a9b2afbbca825d57de",
+      "bytes": 1236
+    },
+    {
+      "path": "review/collection-packet.json",
+      "sha256": "7b6062bc835d131b2a497949c60bed5e0d9d96b7be0f1dabe82a48d557553bca",
+      "bytes": 1812
+    },
+    {
+      "path": "scripts/evidence_query.py",
+      "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+      "bytes": 11289
+    },
+    {
+      "path": "scripts/research_delivery.py",
+      "sha256": "2c113043ed51a459b82dc3959b7f56849bf1aa8c2223719ef3fdaa1321decf8d",
+      "bytes": 10075
+    },
+    {
+      "path": "scripts/test_research_delivery.py",
+      "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+      "bytes": 5678
+    }
+  ],
+  "boundary": "Source assertions, hypotheses and review tasks retain their native categories. Retrieval and byte replay establish neither scholarly completeness nor expert acceptance. Missing source attribution, access, permission and independent review remain open where recorded."
+}

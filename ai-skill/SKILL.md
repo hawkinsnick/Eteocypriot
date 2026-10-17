@@ -69,3 +69,18 @@ Read `research/p1-source-followup-2026-10-16.json` and `docs/P1-SOURCE-FOLLOWUP-
 ## Human/source-maintainer decision routing
 
 Read `review/p1-human-request.json` and `docs/P1-HUMAN-VALIDATION.md`. Distinguish source acquisition/editor clarification from epigraphic adjudication and policy controls. Keep the input hash, native case pointer and prerequisites with each question. Prepared requests, software checks and AI responses are never independent human validation; native human-maintainer acceptance remains required.
+
+## Research delivery, evidence answers and feedback
+
+Read `docs/RESEARCH-DELIVERY.md` and verify `analysis/research-delivery.json`
+with `python scripts/research_delivery.py --check` before using delivery claims.
+Use `--dossier ID --collection COLLECTION` for exact evidence-bound answers;
+preserve the complete native payload, citations, categories and limitations.
+Use `--search TEXT` for source-record retrieval. Do not convert file pointers
+into missing primary-edition citations, catalogue rows into unique objects,
+source dependence into independent confirmation, or review forms into acceptance.
+Prepare bounded review drafts with `--review-template`; validate submissions with
+`--validate-review`, then require native human-maintainer acceptance. Treat delivery
+and deterministic answer tests as engineering checks, not empirical LLM validation
+or completion of scholarly/source-permission work. Local packaging grants no new
+redistribution rights. Label any model-generated analysis separately and cite it.

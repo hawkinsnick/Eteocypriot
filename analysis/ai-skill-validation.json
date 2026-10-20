@@ -1,0 +1,71 @@
+{
+  "format": "corpus-ai-skill-function-check-v1",
+  "repository": "hawkinsnick/Eteocypriot",
+  "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+  "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+  "skill_name": "eteocypriot-research",
+  "skill_version": "0.3.1",
+  "skill_sha256": "50c61e7ce1d5f808d438e45bdf8cc55133ddf9acc0fe7639f00212033317a7b0",
+  "bundle_source_commit": "cbb48d3e50ecc107ff35f79dad4c8c0cf7dac298",
+  "bundle_sha256": "5a65d3c15368d459fbfc5fa1675b41f1e3070d0f9f58a043afa3f006d1379990",
+  "indexed_artifact_entries_checked": 57,
+  "unique_indexed_paths_checked": 57,
+  "lookups": [
+    {
+      "collection": "digital-entries",
+      "id": "ETEC-IGXV1-1",
+      "native_unit": "digital edition entry",
+      "provenance": {
+        "path": "data/records.json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+        "pointer": "/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "disagreement-register",
+      "id": "ECY-DIS-001",
+      "native_unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "4d5b04b7fab3c7ac4fda70629cc0b76176ae1994195f6537733e8e6ab1c3c29d",
+        "pointer": "/items/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "attribution-review",
+      "id": "ECY-DIS-001",
+      "native_unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "c856b5ee573f302f2485f2ae587b339124c780bdadc8bd78617ee9563ac6aba2",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "p1-source-followup",
+      "id": "ETE-IG150-QUARANTINE",
+      "native_unit": "bounded source/identity follow-up disposition",
+      "provenance": {
+        "path": "research/p1-source-followup-2026-10-16.json",
+        "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "p1-source-followup",
+        "encoding": "json"
+      }
+    }
+  ],
+  "missing_id_rejected": true,
+  "scholarly_acceptance_granted": false,
+  "empirical_model_accuracy_established": false,
+  "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+}

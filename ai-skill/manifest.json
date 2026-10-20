@@ -10,5 +10,6 @@
   "vendor_neutral": true,
   "version": "0.3.1",
   "authority_profile": "ai-skill/references/authority-profile.json",
-  "bundle_schema": "0.3.1"
+  "bundle_schema": "0.3.1",
+  "function_validation": "scripts/validate_ai_skill.py"
 }

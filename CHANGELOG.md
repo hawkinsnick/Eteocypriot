@@ -1,3 +1,9 @@
+## AI skill validation — 2026-10-20 (contract remains 0.3.1)
+
+- Add executable skill checks, exact native lookup examples and a GitHub check receipt.
+- Fingerprint operational skill files and retain source-specific evidence limits.
+- Return a structured rejection for invalid/missing evidence requests.
+
 # Changelog
 
 ## 1.1.0 — 2026-10-05 UTC

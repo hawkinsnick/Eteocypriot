@@ -1,0 +1,26 @@
+name: AI skill functional checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  skill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test rejection controls
+        run: python -m unittest discover -s scripts -p test_ai_skill_validation.py
+      - name: Build current fingerprints
+        run: python ai-skill/scripts/build_bundle.py
+      - name: Exercise skill against actual native evidence
+        run: python scripts/validate_ai_skill.py --output ai-skill-function.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ai-skill-function
+          path: ai-skill-function.json

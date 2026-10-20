@@ -174,4 +174,11 @@ def main():
         result={'sha256':sha(raw),'bytes':len(raw),'redistribution_permission_granted':False}
     print(json.dumps(result,ensure_ascii=False,indent=2))
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    import sys
+    try:
+        main()
+    except (ValueError, KeyError, IndexError, OSError) as error:
+        print(json.dumps({'status':'EVIDENCE_REQUEST_REJECTED', 'error':str(error),
+                          'scientific_approval_granted':False}, ensure_ascii=False), file=sys.stderr)
+        raise SystemExit(2)

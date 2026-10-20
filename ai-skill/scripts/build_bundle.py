@@ -10,6 +10,8 @@ c += [("p1_source_followup","research/p1-source-followup-2026-10-16.json"),("p1_
 c += [("coin_source_xml", f"research/coin-source-xml/{n}.xml") for n in range(85,93)]
 c += [("cross_corpus_dependencies","research/cross-corpus-dependencies.json"),("sync_publication_guard","ai-skill/scripts/publish_sync.py"),("ai_integrity_guide","docs/AI-INTEGRITY.md")]
 c += [("research_delivery", p) for p in ['scripts/research_delivery.py','scripts/test_research_delivery.py','docs/RESEARCH-DELIVERY.md','analysis/research-delivery.json']]
+c += [("skill_function_validation", p) for p in ['ai-skill/SKILL.md', 'ai-skill/manifest.json', 'scripts/validate_ai_skill.py', 'scripts/test_ai_skill_validation.py', 'docs/AI-SKILL-VALIDATION.md', '.github/workflows/ai-skill-function.yml']]
+c += [('skill_validator_code', p) for p in ['ai-skill/scripts/build_bundle.py', 'ai-skill/scripts/validate_bundle.py', 'ai-skill/scripts/sync_skill.py']]
 a=[]
 for role,rel in c:
  p=R/rel

@@ -4,6 +4,28 @@ description: Evidence-first AI research skill for the Eteocypriot corpus.
 version: 0.3.1
 ---
 
+## Load and validate this repository-bound skill
+
+Use this file as the canonical individual skill. Load the complete matching
+repository checkout or give the AI access to its files; this Markdown file alone
+contains instructions, not the corpus. Do not claim that supplying a GitHub URL
+installs a skill or makes private/local files available to an AI platform.
+Resolve the paths below from the repository root. With Python 3.10+ available,
+run `python scripts/validate_ai_skill.py` before describing this skill as
+operational on the supplied checkout. Read `docs/AI-SKILL-VALIDATION.md` for the
+exact workflow, examples, dependencies, validation scope and limitations.
+If execution or source access is unavailable, say which step was not run and
+make no fresh validation claim. Preserve all native source/rights restrictions.
+
+Discover exact IDs with `python scripts/evidence_query.py --coverage` and
+`python scripts/evidence_query.py --list COLLECTION`. Retrieve evidence with
+`python scripts/evidence_query.py --record ID --collection COLLECTION`;
+use `python scripts/research_delivery.py --dossier ID --collection COLLECTION`
+for its evidence-only answer frame. Return the exact source path/hash/pointer,
+attribution, uncertainty and native evidence unit. A missing ID means absent
+from the selected view; never invent a replacement or infer global absence.
+
+
 # Eteocypriot Research Skill
 
 This skill is an interface to the corpus in this repository. The corpus remains the canonical source of truth. Never maintain an independent scholarly dataset inside the skill.

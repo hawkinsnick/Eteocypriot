@@ -106,3 +106,7 @@ Prepare bounded review drafts with `--review-template`; validate submissions wit
 and deterministic answer tests as engineering checks, not empirical LLM validation
 or completion of scholarly/source-permission work. Local packaging grants no new
 redistribution rights. Label any model-generated analysis separately and cite it.
+
+## Combine Cypriot views without adding duplicate evidence
+
+Read `docs/SOURCE-VIEW-UNION.md` before combining the broader Cypriot and Eteocypriot views. Their 25 shared source-entry IDs are the same digital-edition units, not independent witnesses. Use the master's frozen `scripts/prepare_source_union.py` only for its declared digital-entry source union; preserve both view-specific assertions under shared source-ID groups. It yields 592 groups from 617 incoming view rows and cannot supply Greek/Eteocypriot language frequencies, physical-object totals, sign equivalence or independent corroboration. Other corpus pairings and unit changes require separate admissible evidence.

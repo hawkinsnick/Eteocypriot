@@ -1,5 +1,7 @@
 # Eteocypriot research corpus
 
+[Combining Cypriot source views safely](docs/SOURCE-VIEW-UNION.md): preserve both views and count shared source entries once.
+
 
 ## Use the AI research skill
 

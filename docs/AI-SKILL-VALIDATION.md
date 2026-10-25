@@ -58,3 +58,24 @@ calibration and expert-review gates remain authoritative.
 
 Master corpus skill: [Linear-A/combined-ai-skill/SKILL.md](https://github.com/hawkinsnick/Linear-A/blob/main/combined-ai-skill/SKILL.md).
 Full per-repository audit: [AI-SKILL-VALIDATION-2026-10-20.md](https://github.com/hawkinsnick/Linear-A/blob/main/corpus-factory/AI-SKILL-VALIDATION-2026-10-20.md).
+
+## Adversarial-review follow-up — 25 October 2026
+
+The master [replayable review](https://github.com/hawkinsnick/Master-Corpus-AI-Skill/blob/main/references/hostile-review-2026-10-25.md)
+checked **34 declared view rows across 4 collections**, including 0
+linked records, at native input `53299e6707e35ad1fcfd1690a7c89ae8d2468196`. These are
+retrieval views, including registers and repeated assertions; they are not a
+physical population or independently accepted readings. This member contributes
+one three-operation compact-evidence case to the 54-task development exercise;
+the exercise is not an academic holdout, cross-platform validation or expert review.
+
+The independent source-citation verifier now rejects negative indices, leading-zero
+array aliases, malformed escapes, relative/non-string pointers and traversal
+through scalar values. Valid escaped object keys, false and null are preserved.
+The former verifier accepted Python-style array aliases; the native query adapter
+already rejected them. This repairs verification strictness without altering readings.
+
+Run `python -m unittest discover -s scripts -p test_ai_skill_validation.py` and
+`python scripts/validate_ai_skill.py` after rebuilding the native bundle.
+The master retains raw development outputs, exact source checkpoints and
+separate scholarly closure criteria. Source-access and specialist gates remain open.

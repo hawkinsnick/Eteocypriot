@@ -37,4 +37,28 @@ class SkillValidation(unittest.TestCase):
             self.assertEqual(run.stdout,'')
             self.assertNotIn('Traceback',run.stderr)
             self.assertTrue(run.stderr.strip())
+
+class StrictSourcePointers(unittest.TestCase):
+    def resolve(self, pointer):
+        import json
+        with tempfile.TemporaryDirectory() as folder:
+            raw=json.dumps({'array':['first','last'],'a/b':{'~key':False},'object':{'01':None}}).encode()
+            (Path(folder)/'source.json').write_bytes(raw)
+            return module.source_value(Path(folder),{'path':'source.json','sha256':hashlib.sha256(raw).hexdigest(),'encoding':'json','pointer':pointer})
+    def test_negative_and_leading_zero_array_aliases_are_rejected(self):
+        for pointer in ['/array/-1','/array/01','/array/+1','/array/ 1','/array/-']:
+            with self.subTest(pointer=pointer),self.assertRaises(ValueError):self.resolve(pointer)
+    def test_malformed_escapes_are_rejected(self):
+        for pointer in ['/a~2b','/a~']:
+            with self.subTest(pointer=pointer),self.assertRaises(ValueError):self.resolve(pointer)
+    def test_valid_escapes_preserve_false_and_object_keys(self):
+        self.assertIs(self.resolve('/a~1b/~0key'),False)
+        self.assertIsNone(self.resolve('/object/01'))
+        self.assertEqual(self.resolve('/array/1'),'last')
+    def test_scalar_traversal_is_rejected(self):
+        with self.assertRaises(ValueError):self.resolve('/array/0/child')
+    def test_non_string_and_relative_pointers_are_rejected(self):
+        for pointer in [None,0,'array/1']:
+            with self.subTest(pointer=pointer),self.assertRaises(ValueError):self.resolve(pointer)
+
 if __name__=='__main__':unittest.main()

@@ -110,3 +110,12 @@ redistribution rights. Label any model-generated analysis separately and cite it
 ## Combine Cypriot views without adding duplicate evidence
 
 Read `docs/SOURCE-VIEW-UNION.md` before combining the broader Cypriot and Eteocypriot views. Their 25 shared source-entry IDs are the same digital-edition units, not independent witnesses. Use the master's frozen `scripts/prepare_source_union.py` only for its declared digital-entry source union; preserve both view-specific assertions under shared source-ID groups. It yields 592 groups from 617 incoming view rows and cannot supply Greek/Eteocypriot language frequencies, physical-object totals, sign equivalence or independent corroboration. Other corpus pairings and unit changes require separate admissible evidence.
+
+## Preserve review provenance
+
+Reject malformed JSON-pointer escapes and negative or leading-zero array indices
+when verifying source citations; literal object keys retain their own spelling.
+Read the [master hostile-review report](https://github.com/hawkinsnick/Master-Corpus-AI-Skill/blob/main/references/hostile-review-2026-10-25.md)
+for this member's pinned retrieval scope and the limits of the source-fidelity
+and development checks. Complete retrieval-view traversal does not certify
+corpus completeness, accepted readings, independent witnesses or expert review.

@@ -71,12 +71,21 @@ def source_value(root, provenance):
     else:
         raise ValueError('unsupported source encoding')
     pointer = provenance['pointer']
+    if not isinstance(pointer, str) or (pointer and not pointer.startswith('/')):
+        raise ValueError('invalid source pointer')
     if pointer:
-        if not pointer.startswith('/'):
-            raise ValueError('invalid source pointer')
         for part in pointer[1:].split('/'):
+            if re.search(r'~(?![01])', part):
+                raise ValueError('invalid source pointer escape')
             part = part.replace('~1', '/').replace('~0', '~')
-            value = value[int(part)] if isinstance(value, list) else value[part]
+            if isinstance(value, list):
+                if not re.fullmatch(r'0|[1-9][0-9]*', part):
+                    raise ValueError('noncanonical source array pointer')
+                value = value[int(part)]
+            elif isinstance(value, dict):
+                value = value[part]
+            else:
+                raise ValueError('source pointer traverses a scalar')
     return value
 
 

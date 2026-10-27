@@ -20,6 +20,9 @@ REQUIRED = ['research/evidence-query-profile.json', 'scripts/evidence_query.py',
             'LICENSING.md', 'NOTICE']
 
 
+# Carry the guide referenced by the revised native skill into local research packages.
+REQUIRED += ['docs/NONREVIEW-WORK.md']
+
 def inputs(root=ROOT):
     e = Evidence(root)
     if not e.profile.get('scholarly_limits'):

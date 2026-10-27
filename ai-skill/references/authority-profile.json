@@ -121,6 +121,11 @@
       "path": "tests/test_p1_human_request.py",
       "role": "p1_human_request",
       "required": true
+    },
+    {
+      "role": "nonreview_workflow",
+      "path": "docs/NONREVIEW-WORK.md",
+      "required": true
     }
   ],
   "behavioral_gates": [

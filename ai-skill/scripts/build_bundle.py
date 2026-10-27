@@ -13,6 +13,7 @@ c += [("research_delivery", p) for p in ['scripts/research_delivery.py','scripts
 c += [("skill_function_validation", p) for p in ['ai-skill/SKILL.md', 'ai-skill/manifest.json', 'scripts/validate_ai_skill.py', 'scripts/test_ai_skill_validation.py', 'docs/AI-SKILL-VALIDATION.md', '.github/workflows/ai-skill-function.yml']]
 c += [('skill_validator_code', p) for p in ['ai-skill/scripts/build_bundle.py', 'ai-skill/scripts/validate_bundle.py', 'ai-skill/scripts/sync_skill.py']]
 c += [("source_view_union_guide", "docs/SOURCE-VIEW-UNION.md")]
+c += [('nonreview_workflow', 'docs/NONREVIEW-WORK.md')]
 a=[]
 for role,rel in c:
  p=R/rel

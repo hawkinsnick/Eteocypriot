@@ -119,3 +119,9 @@ Read the [master hostile-review report](https://github.com/hawkinsnick/Master-Co
 for this member's pinned retrieval scope and the limits of the source-fidelity
 and development checks. Complete retrieval-view traversal does not certify
 corpus completeness, accepted readings, independent witnesses or expert review.
+
+## Execute research work without academic review
+
+Read `docs/NONREVIEW-WORK.md` for the frozen source check, full-record development tests, short-text dependence screen, component package audit and executable researcher walkthrough. Separate executable work from the evidence needed to close a scholarly criterion. Preserve native null/false values, editorial notation and linked source assertions. Treat short-string equality as a lead only; require explicit source lineage for shared-source dispositions and never infer physical identity or independence. Treat native research archives as local-research packages until their actual components are cleared. Use the separate noncommercial tools-only export when source payload is not authorized for redistribution. Report digital-source fidelity, deterministic software tests, fresh model development responses and independent academic validation separately. Keep original scholarly gates and frozen study inputs unchanged.
+
+For machine-readable source citations, emit one exact JSON pointer per reference. Do not put ranges, semicolon lists, prose headings or several pointers into a `pointer` field. For text use `locator_type: text_contains` and a literal `locator` instead. Bind each reference to bytes actually present at the stated commit; verify with `git show COMMIT:PATH` and SHA-256. A working-tree file absent from that commit cannot be cited as committed evidence. Disclose uncommitted execution context separately from source evidence. Use the master `scripts/verify_response_refs.py` when available; a passing citation check establishes byte/locus binding, not bibliographic truth.

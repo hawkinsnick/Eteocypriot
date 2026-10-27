@@ -1,9 +1,9 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "47684e0a995d6ad370587c28746677300a9aa215",
+  "source_commit": "3a7a1edcf12c1cd73ed9a9e919071d6bdd4a6587",
   "canonical_repository": true,
-  "generated_at_utc": "2026-10-25T19:29:10+00:00",
+  "generated_at_utc": "2026-10-27T13:08:45+00:00",
   "contract": {
     "corpus_is_authoritative": true,
     "missing_means_unknown": true,
@@ -280,8 +280,8 @@
     {
       "role": "research_delivery",
       "path": "scripts/research_delivery.py",
-      "sha256": "2c82a9f1fdac786da4b9583c3d463002a77d45fcdd604be86e4234b09070d756",
-      "bytes": 10387
+      "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+      "bytes": 10514
     },
     {
       "role": "research_delivery",
@@ -298,14 +298,14 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "e8f49e41e1f244b29693f04c62ce2fb32f3098f0719053d42cd61fb3a4ba5618",
-      "bytes": 7391
+      "sha256": "d92b03ba970f314e42436965481549ea88a3bbee75e6c954e6a09b5612512215",
+      "bytes": 7548
     },
     {
       "role": "skill_function_validation",
       "path": "ai-skill/SKILL.md",
-      "sha256": "a938d7bd0f7c814f1d83798f812440a36fbd6f9c0b44e6d2b9465bbd3ce65226",
-      "bytes": 11487
+      "sha256": "eeadb0e831681221f59b785b795e25ee61fd36e0081307fbb64538dd4b12f373",
+      "bytes": 13134
     },
     {
       "role": "skill_function_validation",
@@ -340,8 +340,8 @@
     {
       "role": "skill_validator_code",
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "77a5e00f7c8e104b6057a3df96357905688935d354a993068d7a8c4f83911c9d",
-      "bytes": 4469
+      "sha256": "2fd4a7cae69f3e401e7eef2f5faa40b2ec1ae96455e5f83175ddb3d1176b1ae7",
+      "bytes": 4525
     },
     {
       "role": "skill_validator_code",
@@ -360,6 +360,12 @@
       "path": "docs/SOURCE-VIEW-UNION.md",
       "sha256": "ed87fc764adc83808906c6fbd04e006ae3f0aed251888b6c5cf1d042221d1802",
       "bytes": 1425
+    },
+    {
+      "role": "nonreview_workflow",
+      "path": "docs/NONREVIEW-WORK.md",
+      "sha256": "4c5d2ba660e9e3850f19af3046b96239798e4042ee0c5fe28b1248ca88839a15",
+      "bytes": 2933
     }
   ]
 }
